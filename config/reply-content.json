@@ -1,0 +1,73 @@
+[
+  {
+    "msgType": "event",
+    "event": "subscribe",
+    "replyType": "text",
+    "tpl": "感谢关注“小凡”公众号\r\n-----------+++-----------\r\n本测试号，会不定期进行推文，推文内容可能上下文不存在联系\r\n-----------+++-----------\r\n如发现侵权行为，请联系本人，QQ：718662552"
+  },
+  {
+    "msgType": "text",
+    "content": "验证码",
+    "replyType": "text",
+    "tpl": "6508"
+  },
+  {
+    "msgType": "text",
+    "content": "news",
+    "replyType": "news",
+    "tpl": [
+      {
+        "title": "谁最帅呢？",
+        "description": "猜猜看！",
+        "picUrl": "http://cdn.luosifan.cn/test.jpg",
+        "url": "https://github.com/xiaofan9/"
+      }
+    ]
+  },
+  {
+    "msgType": "text",
+    "content": "999",
+    "replyType": "news",
+    "tpl": {
+      "mediaId": "EPGIE4NUscStI-x0l2nsm_gw4UpJYqloFbUT4q3S9dA"
+    }
+  },
+  {
+    "msgType": "text",
+    "content": "music",
+    "replyType": "music",
+    "tpl": {
+      "title": "刚好遇见你",
+      "description": "李玉刚",
+      "musicUrl": "http://cdn.luosifan.cn/1.mp3",
+      "hqMusicUrl": "http://cdn.luosifan.cn/1.mp3",
+      "mediaId": "EPGIE4NUscStI-x0l2nsm69Y_A86aVbJo1s3XS7aOvA"
+    }
+  },
+  {
+    "msgType": "text",
+    "content": "video",
+    "replyType": "video",
+    "tpl": {
+      "title": "tste",
+      "description": "this test video",
+      "mediaId": "EPGIE4NUscStI-x0l2nsm_FLHBLPNR1c5iZlfA-kIeE"
+    }
+  },
+  {
+    "msgType": "text",
+    "content": "pic",
+    "replyType": "image",
+    "tpl": {
+      "mediaId": "EPGIE4NUscStI-x0l2nsm69Y_A86aVbJo1s3XS7aOvA"
+    }
+  },
+  {
+    "msgType": "text",
+    "content": "voice",
+    "replyType": "voice",
+    "tpl": {
+      "mediaId": "EPGIE4NUscStI-x0l2nsm21biYCnWBlXttTp2QSfrys"
+    }
+  }
+]

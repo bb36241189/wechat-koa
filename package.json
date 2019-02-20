@@ -1,0 +1,50 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": "./bin/www.js",
+  "author": "sifan <718662552@qq.com>",
+  "scripts": {
+    "test": "mocha test/*.test.js",
+    "start": "pm2 start ecosystem.config.js",
+    "dev": "set debug=wechat:*&& set NODE_ENV=development&& nodemon ./bin/www"
+  },
+  "dependencies": {
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "^3.0.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.3.7",
+    "nunjucks": "^3.1.3",
+    "portfinder": "^1.0.19",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "request-stream": "^1.2.2",
+    "superagent": "^4.0.0-beta.5"
+  },
+  "devDependencies": {
+    "debug": "^4.1.0",
+    "eslint": "^5.8.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-html": "^4.0.6",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "fs-extra": "^7.0.0",
+    "inquirer": "^6.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.6",
+    "power-assert": "^1.6.1",
+    "request": "^2.88.0",
+    "supertest": "^3.3.0",
+    "xml2js": "^0.4.19"
+  },
+  "description": "This is a WeChat public third party backstage project.",
+  "private": true
+}
