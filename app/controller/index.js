@@ -1,5 +1,6 @@
 const proving = require("../service/proving");
 const autoReply = require("../service/auto-reply");
+const config = require('../../config');
 
 module.exports = {
   "get /": async (ctx, next) => {
@@ -11,13 +12,20 @@ module.exports = {
   "post /": async ctx => {
     let body = await autoReply({
       req: ctx.req,
+      url : ctx.url,
       length: ctx.length,
       charset: ctx.charset,
     });
 
     console.log(body);
 
-    ctx.type = "application/xml";
+    if(config.isXML){
+	//ctx.type = "application/xml";
+        ctx.response.set("Content-Type", "application/xml");
+    }else{
+	//ctx.type = "application/json";
+        ctx.response.set("Content-Type", "application/json");
+    }	  
     ctx.body = body;
   },
 };

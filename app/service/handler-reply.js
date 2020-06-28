@@ -1,16 +1,21 @@
 const mp = require("../../config/mp");
+const isXML = require('../../config/index').isXML
 const wxBizMsgCrypt = require("../middleware/wxBizMsgCrypt");
 
 const { autoReplyTpl } = require("./template");
 const replyContent = require("../../config/reply-content");
 const { getMaterial } = require("./material");
+const customerServiceMessage = require("./customerServiceMessage");
+var url=require('url');
+var qs = require("querystring");
 
-const replyRule = async wxMsg => {
+const replyRule = async (wxMsg) => {
   let content = "";
   let msgType = "text";
   let toUserName = wxMsg.FromUserName;
   let fromUserName = wxMsg.ToUserName;
-  let createTime = Date.now();
+  let MsgId = wxMsg.MsgId + 2;
+  let createTime = Math.ceil(Date.now() / 1000);
 
   for (let rc of replyContent) {
     if (rc.msgType.includes(wxMsg.MsgType)) {
@@ -31,15 +36,24 @@ const replyRule = async wxMsg => {
 
   if (content === "") {
     return "success";
+  }else if(isXML){
+    return autoReplyTpl.render({
+        toUserName,
+        fromUserName,
+        createTime,
+        msgType,
+        content,
+      }).replace(/[\r\n\s]/g,"");
+  }else{
+    return JSON.stringify({
+        ToUserName: toUserName,
+        FromUserName:fromUserName,
+        CreateTime: createTime,
+        MsgType: msgType,
+        Content: content,
+	MsgId : MsgId
+    });
   }
-
-  return autoReplyTpl.render({
-    toUserName,
-    fromUserName,
-    createTime,
-    msgType,
-    content,
-  });
 };
 
 async function findMaterial(mediaId, type) {
@@ -65,14 +79,29 @@ async function findMaterial(mediaId, type) {
   return items;
 }
 
-module.exports = async (wxMsg, isEncryption) => {
-  let replyContent = await replyRule(wxMsg);
+module.exports = async (wxMsg, isEncryption,opts) => {
+  let replyContent = await replyRule(wxMsg,opts);
+
+  if(wxMsg.MsgType == 'event' && wxMsg.Event == 'user_enter_tempsession'){
+    if(wxMsg.SessionFrom == 'jyg'){
+        let sendRet = await customerServiceMessage.send(wxMsg.FromUserName,'link',{});
+    }else if(wxMsg.SessionFrom == 'sly'){
+        let sendRet = await customerServiceMessage.sendWxNumber(wxMsg.FromUserName,'link',{});
+    }
+  }
+  console.log('回复的内容是:',replyContent);
 
   if (!isEncryption || replyContent === "success") return replyContent;
 
   let encrypt = wxBizMsgCrypt.encrypt(replyContent);
 
   let dateStr = Date.now().toString();
+
+  let arg = url.parse(opts.url).query;
+  let params = qs.parse(arg);
+
+  //const timestamp = params.timestamp;//Math.ceil(Date.now() / 1000);
+  //const nonce = params.nonce;
 
   let timestamp = dateStr.substr(0, 5) + dateStr.substr(10, 5);
 
@@ -85,10 +114,22 @@ module.exports = async (wxMsg, isEncryption) => {
     encrypt
   );
 
-  return `<xml>
-    <Encrypt><![CDATA[${encrypt}]]></Encrypt>
-    <MsgSignature>${msgSignature}</MsgSignature>
-    <TimeStamp>${timestamp}</TimeStamp>
-    <Nonce>${nonce}</Nonce>
-  </xml>`;
+  //console.log(await wxBizMsgCrypt.decrypt(encrypt));
+
+  if(!isXML){
+    return JSON.stringify({
+        Encrypt: encrypt,
+        MsgSignature: msgSignature,
+        TimeStamp: timestamp,
+        Nonce: nonce
+    });
+  }else{
+    let ret = `<xml>
+        <Encrypt><![CDATA[${encrypt}]]></Encrypt>
+        <MsgSignature>${msgSignature}</MsgSignature>
+        <TimeStamp>${timestamp}</TimeStamp>
+        <Nonce>${nonce}</Nonce>
+    </xml>`;
+    return ret.replace(/[\r\n\s]/g,"");
+  }
 };

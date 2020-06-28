@@ -1,6 +1,7 @@
 module.exports = {
-  "port": 3000,
+  "port": 3002,
   "portHandle": "modify",
-  "host": "localhost",
-  "cors": false
+  "host": "0.0.0.0",
+  "cors": false,
+  "isXML": false,
 }

@@ -5,7 +5,7 @@ module.exports = query => {
   let { signature, echostr, timestamp, nonce } = query;
 
   // 这里的token 要和你表单上面的token一致
-  let token = "mp_xiaofan_test";
+  let token = "MzUwOTA3MDc0Ng==";
 
   // 根文档上面的,我们需要对这三个参数进行字典序排序
   let arr = [token, timestamp, nonce];

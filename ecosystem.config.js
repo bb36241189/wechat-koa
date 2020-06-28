@@ -4,7 +4,7 @@ module.exports = {
   apps: [
     {
       name: pkg.name, // 名称
-      script: "./bin/www", // 脚本地址
+      script: "./bin/www.js", // 脚本地址
       env: {
         // env 配置
         COMMON_VARIABLE: "true",

@@ -4,10 +4,10 @@ const crypto = require("crypto");
 
 class WxBizMsgCrypt {
   constructor() {
-    this.token = "mp_xiaofan_test";
-    this.appid = "wxc3bbc97faacb03d9";
+    this.token = "MzUwOTA3MDc0Ng==";
+    this.appid = "wxf1aa9b99116f1912";
     this.aesKey = new Buffer(
-      "Pz2HGvXAYZbZK18eqSraaQ5toqIFip0a4cdFYwrTNvw" + "=",
+      "7MWUbBQ10MIngJIlXcClN0TahLeGrbhrth8VYKYmHuW" + "=",
       "base64"
     );
     this.IV = this.aesKey.slice(0, 16);
@@ -16,12 +16,13 @@ class WxBizMsgCrypt {
   encrypt(string) {
     let random16 = crypto.pseudoRandomBytes(16);
 
-    let msg = new Buffer(string);
+    let msg = Buffer.from(string);
+    // 获取4B的内容长度的网络字节序
+    let msgLength = Buffer.alloc(4);
 
-    let msgLength = new Buffer(4);
     msgLength.writeUInt32BE(msg.length, 0);
 
-    let corpId = new Buffer(this.appid);
+    let corpId = Buffer.from(this.appid);
 
     let raw_msg = Buffer.concat([random16, msgLength, msg, corpId]);
     // let encoded = this.PKCS7Encode(raw_msg);
@@ -89,7 +90,7 @@ class WxBizMsgCrypt {
     return newBuff;
   }
   getSignature(ToKen, timestamp, nonce, encryptStr) {
-    let raw_signature = [ToKen, timestamp, nonce, encryptStr].sort().join("");
+    let raw_signature = [this.token, timestamp, nonce, encryptStr].sort().join("");
 
     let sha1 = crypto.createHash("sha1");
     sha1.update(raw_signature);
