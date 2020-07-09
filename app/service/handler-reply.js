@@ -34,14 +34,15 @@ const replyRule = async (wxMsg) => {
     }
   }
 
-  if (content === "") {
-    return "success";
-  }else if(isXML){
+  //if (content === "") {
+    //return "success";
+  //}else
+  if(isXML){
     return autoReplyTpl.render({
         toUserName,
         fromUserName,
         createTime,
-        msgType,
+        msgType: 'transfer_customer_service',
         content,
       }).replace(/[\r\n\s]/g,"");
   }else{
@@ -49,7 +50,7 @@ const replyRule = async (wxMsg) => {
         ToUserName: toUserName,
         FromUserName:fromUserName,
         CreateTime: createTime,
-        MsgType: msgType,
+        MsgType: 'transfer_customer_service',
         Content: content,
 	MsgId : MsgId
     });
@@ -82,12 +83,16 @@ async function findMaterial(mediaId, type) {
 module.exports = async (wxMsg, isEncryption,opts) => {
   let replyContent = await replyRule(wxMsg,opts);
 
-  if(wxMsg.MsgType == 'event' && wxMsg.Event == 'user_enter_tempsession'){
+  /*if(wxMsg.MsgType == 'event' && wxMsg.Event == 'user_enter_tempsession'){
     if(wxMsg.SessionFrom == 'jyg'){
         let sendRet = await customerServiceMessage.send(wxMsg.FromUserName,'link',{});
     }else if(wxMsg.SessionFrom == 'sly'){
         let sendRet = await customerServiceMessage.sendWxNumber(wxMsg.FromUserName,'link',{});
     }
+  }*/
+  if(wxMsg.Content == '喵'){
+    let sendRet = await customerServiceMessage.send(wxMsg.FromUserName,'link',{});
+	  await customerServiceMessage.sendWxPic(wxMsg.FromUserName,'link',{});
   }
   console.log('回复的内容是:',replyContent);
 
