@@ -8,17 +8,12 @@ function transformMessageJson(originJson){
   
 }
 
-async function send(openid, type, json ) {
+async function sendLink(openid, type, linkObj ) {
   let accessToken = await acquire();
-  json = {
+  let json = {
    "touser": openid,
    "msgtype": "link",
-   "link": {
-       "title": "欢迎光临喵巫解忧馆",
-       "description": "点击关注，订阅每周运势",
-       "url": "http://t.cn/A6LHQqg4",
-       "thumb_url": "https://img.fenfenriji.com//69/27/03/Image/242B605A-8CB6-24D7-9BC1-5EF83723E2D7.jpeg"
-   }
+   "link": linkObj
   }
 
   let url = 'https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=' + accessToken;
@@ -111,15 +106,15 @@ async function uploadTempMedia(imgUrl){
     });
   })
 }
-async function sendWxNumber(openid,type,json){
+async function sendText(openid,type,text){
   let accessToken = await acquire();
 
-  json = {
+  let json = {
   "touser":openid,
   "msgtype":"text",
   "text":
   {
-    "content":"请添加达人微信:wx36241189"
+    "content":text
   }
 }
   let url = 'https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=' + accessToken;
@@ -150,6 +145,6 @@ async function sendWxNumber(openid,type,json){
     });
 
 }
-exports.send = send;
-exports.sendWxNumber = sendWxNumber;
+exports.sendText = sendText;
+exports.sendLink = sendLink;
 exports.sendWxPic = sendWxPic;
