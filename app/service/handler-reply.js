@@ -42,7 +42,7 @@ const replyRule = async (wxMsg) => {
 			toUserName,
 			fromUserName,
 			createTime,
-			msgType: 'transfer_customer_service',
+			msgType:'transfer_customer_service',
 			content,
 		}).replace(/[\r\n\s]/g,"");
 	}else{
@@ -92,15 +92,14 @@ module.exports = async (wxMsg, isEncryption,opts) => {
   }*/
 	if(wxMsg.Content == '喵')
 	{
-		await customerServiceMessage.sendText(wxMsg.FromUserName,'link','你好呀，我是喵巫，倾诉解忧陪聊点击下方链接哈！');
-                await customerServiceMessage.sendLink(wxMsg.FromUserName,'link',{
-                        "title": "欢迎光临喵巫解忧馆",
-                        "description": "点击关注，订阅每周运势",
+		await customerServiceMessage.sendText(wxMsg.FromUserName,'link','你好呀~喵巫在哦(ฅ´ω`ฅ)');
+                /*await customerServiceMessage.sendLink(wxMsg.FromUserName,'link',{
+                        "title": "里面也有些专业心理测评，希望能帮助到亲爱的你",
+                        "description": "👉👉",
                         "url": "http://t.biyouxinli.com/Fju6Bb",
-                        "thumb_url": "https://img.fenfenriji.com//69/27/03/Image/242B605A-8CB6-24D7-9BC1-5EF83723E2D7.jpeg"
-                });
-                await customerServiceMessage.sendText(wxMsg.FromUserName,'link','里面也有些专业心理测评，希望能帮助到亲爱的你');
-                await customerServiceMessage.sendText(wxMsg.FromUserName,'link','如果想要1对1塔罗解惑，可以长按识别下方添加我微信，喵巫都在哦');
+                        "thumb_url": "https://img.fenfenriji.com//69/27/03/Image/3055A22F-6E05-6663-B326-5F1A4E6DB8AB.png"
+                });*/
+                await customerServiceMessage.sendText(wxMsg.FromUserName,'link','预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~');
                 await customerServiceMessage.sendWxPic(wxMsg.FromUserName,'link',{});
 	}else if(wxMsg.SessionFrom == 'jyg' && wxMsg.Content == '喵'){
 		await customerServiceMessage.sendLink(wxMsg.FromUserName,'link',{

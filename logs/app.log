@@ -1,96 +1,312 @@
 Your application is Listening on port 3002
-  <-- POST /?signature=c948abf2c146c6dbd9c0300a4eabc806b260935c&timestamp=1595558384&nonce=2138219369&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=415beba9847a3c2e6b3c805326097065cf362ed9
-  <-- POST /?signature=cf67c7f898c33b450ce63eb690e9d1063082665f&timestamp=1595558387&nonce=277192146&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=e37387ecf425881a264b30e11cb3afb76b8e9ffe
-  xxx POST /?signature=c948abf2c146c6dbd9c0300a4eabc806b260935c&timestamp=1595558384&nonce=2138219369&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=415beba9847a3c2e6b3c805326097065cf362ed9 400 5,000ms -
-  <-- POST /?signature=c948abf2c146c6dbd9c0300a4eabc806b260935c&timestamp=1595558384&nonce=2138219369&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=415beba9847a3c2e6b3c805326097065cf362ed9
-{"ToUserName":"gh_5907ea276845","Encrypt":"JQC44TWSWH1kAQUH1VDaBtqiJCP/JLZtrJVRc0LJUb9VxjYVfY+duKOb6+mMVvZWSC9pjt1l9JPwNhOUT0NJ6u2KWRcC8m3qDZUcRm/h81m6nZR3vxsfYSggjdWxFQRolH3wkXCH5cM39NAFNsQDgaCeYk5eWWeQbHCPfgSDEOZPWZbPMxw7FF9lOZ9aopFjOzjWIGI5fiVBemzN7Dqm1k8aLKBStvs1cczWuvxycsPx3IDpLyq94kHZbSd/NE9Pfrj4lSi58WAC96kd3LrZBbx7OFKGU/syJB8+ibBIE8I="}
-{
-"ToUserName": "gh_5907ea276845",
-"FromUserName": "oD5b_40ERop3bh_kqHSp8LghYF10",
-"CreateTime": 1595558384,
-"MsgType": "text",
-"Content": "喵",
-"MsgId": 22842899790422839
-}
-
-{
-  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
-  msgtype: 'text',
-  text: { content: '你好呀，我是喵巫，倾诉解忧陪聊点击下方链接哈！' }
-}
-{ errcode: 0, errmsg: 'ok' }
-  xxx POST /?signature=c948abf2c146c6dbd9c0300a4eabc806b260935c&timestamp=1595558384&nonce=2138219369&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=415beba9847a3c2e6b3c805326097065cf362ed9 500 161ms -
-  xxx POST /?signature=cf67c7f898c33b450ce63eb690e9d1063082665f&timestamp=1595558387&nonce=277192146&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=e37387ecf425881a264b30e11cb3afb76b8e9ffe 400 5,001ms -
-  <-- POST /?signature=cf67c7f898c33b450ce63eb690e9d1063082665f&timestamp=1595558387&nonce=277192146&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=e37387ecf425881a264b30e11cb3afb76b8e9ffe
-{"ToUserName":"gh_5907ea276845","Encrypt":"2l04cB1/MqY5uq5UysAszwW0UbxffyFEEDZzxdLUXvO7+BnmPGhDVYqo5Vy9JNU01RugzK9ALcE4b1/4u83O8XimZxJXdxVc1eoBsgmlVBxZRFEDZV0lP4wLBIfB/zDYAxbzBoho593Xfc/wRvw+FMcEmRx4y+jE6hjb2d8d27Gb8Urf7jZfG7tG8+qsWXkh0206+DmjP20CEIi7JwFL3lZr1ApkD2K27MGR+wvDP/7RWF9HvnLLk4VjkRTxgZBpUT4dTJQjOO71HzYY+QypK1GMv7rXXzLczaUyWYQlnO8="}
-{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4yjo-suV6H-iqn0H_rtPUIs","CreateTime":1595558387,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"wxapp"}
-回复的内容是: {"ToUserName":"oD5b_4yjo-suV6H-iqn0H_rtPUIs","FromUserName":"gh_5907ea276845","CreateTime":1595558393,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
-{"Encrypt":"IwcSEtudgic0Mlejk05b+LvYTMA91rCxOMTIllTTkx+It4J/oqdA0Q7Zlw2iY4w1chc+B3dO8/IAUPjjgj/+xhAiCfldnxiSHOZ1sy1ouJnw12E+YGIwMdLxbBZFwwnJ/r89Gno/WD8FY6tBzGK4GMOqyK3FSJSDobsSs9DuFc7PthokFgMGtmaIJqzEF7F4yVcn2b+EZDNld5LtNZCbONq/5DuU4Dm16n3vRIgiUtdnqX6M9GimA82boa5DXsN+1GyrAzXknh25LtP28qfwQNuhhJp34W6uRndEUNkrWVs=","MsgSignature":"e7133a77caefd4a1453f11fad3ddf4698755380e","TimeStamp":"15955519","Nonce":"159555839258392"}
-  --> POST /?signature=cf67c7f898c33b450ce63eb690e9d1063082665f&timestamp=1595558387&nonce=277192146&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=e37387ecf425881a264b30e11cb3afb76b8e9ffe 200 9ms 421b
-  <-- POST /?signature=17c095f97e54ec764d0963d0a10a8ec5b10e9949&timestamp=1595558393&nonce=779144247&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=af180996c79d911340112d488e875c168793f728
-  xxx POST /?signature=17c095f97e54ec764d0963d0a10a8ec5b10e9949&timestamp=1595558393&nonce=779144247&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=af180996c79d911340112d488e875c168793f728 400 5,003ms -
-  <-- POST /?signature=17c095f97e54ec764d0963d0a10a8ec5b10e9949&timestamp=1595558393&nonce=779144247&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=af180996c79d911340112d488e875c168793f728
-{"ToUserName":"gh_5907ea276845","Encrypt":"GEPpFizR+MakLddylZJlT8F5M5iPdBBUJEJNtzzq2nWSWh7BePoSm8tYiHQ0p6So30/pgqrfHGVu4FZngSxzilWmmIE1dBVTK9A4GKnrCmJTTwR6Rqzb3ghtD8GTnmmWi6UCQPPTY8zak31ysMdCKSQzIriH5U+c3YmqDEdlqZoLn3CbCgdo8qnFo9Hn/dF2UDvinfr9SdCSxyEQc18w0LNHkl6HRaxLLTwCZlmn69l/MaLmkzsGlMvEDIQV4qV3thXDW/Jb5xMZrXVR8iQMAn9MazlMzOFkOJ5RLJldsso="}
-{
-"ToUserName": "gh_5907ea276845",
-"FromUserName": "oD5b_4yjo-suV6H-iqn0H_rtPUIs",
-"CreateTime": 1595558393,
-"MsgType": "text",
-"Content": "[吃瓜]",
-"MsgId": 22842901283835283
-}
-
-回复的内容是: {"ToUserName":"oD5b_4yjo-suV6H-iqn0H_rtPUIs","FromUserName":"gh_5907ea276845","CreateTime":1595558399,"MsgType":"transfer_customer_service","Content":"","MsgId":22842901283835290}
-{"Encrypt":"4/21Kd9i1Gg5ivAOT+co27e/UuQhpwDrrA1oV+QXIs0WESMUOe8E1KolYg1ANlp8hqaOEaM8AjYwTOdSrCjzu+m2t9nzh3BLWEPyuTVHxgBDGrp1WehRLmDUmMenZXhaEh4tlMd4wR/Dkx8MCyGcF/DQc5b/V/2WN2HANfP3tTroFv52VdYs0IwyKQCyCc9c7gMOmHtvbwow3/7snHlubW8r74lql+CQc5uuKAb4xp+tIGHnyQCJ50J0QyDTVW0R+32pSMqgmAA34Pfif+537H2euowfepJx+Z4k2C9qTuY=","MsgSignature":"2a6ced472732baf936c82a3b7d175c91a578c34a","TimeStamp":"15955534","Nonce":"159555839858398"}
-  --> POST /?signature=17c095f97e54ec764d0963d0a10a8ec5b10e9949&timestamp=1595558393&nonce=779144247&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=af180996c79d911340112d488e875c168793f728 200 3ms 421b
+  <-- POST /buildOrder
+  --> POST /buildOrder 404 30ms -
 Your application is Listening on port 3002
-  <-- POST /?signature=d00256e3db21ee8d9a16a053a6b33fe8f28677ba&timestamp=1595558518&nonce=840244335&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=37e45397557e45ea6e0cb3db55ec2a4b6975f390
-  xxx POST /?signature=d00256e3db21ee8d9a16a053a6b33fe8f28677ba&timestamp=1595558518&nonce=840244335&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=37e45397557e45ea6e0cb3db55ec2a4b6975f390 400 4,999ms -
-  <-- POST /?signature=d00256e3db21ee8d9a16a053a6b33fe8f28677ba&timestamp=1595558518&nonce=840244335&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=37e45397557e45ea6e0cb3db55ec2a4b6975f390
-{"ToUserName":"gh_5907ea276845","Encrypt":"M/4kdaUJhSlNP18639fFmQbu4dHZ+1xT3DM59UK3pisfoFJDtOWIeJhdp9+/cH0Qd4fWBDakWKfMMOa/eTq3Z2L08d8qA/rJNfVb7evVjHRLfjx2OJPda0wq2V47DWW2cS5Kh2iZ/dhNskOQeyWlyvJKlf5pO6CIMDh8lZW9SXqxJ1Xol/aHJ6dP+OBFyHRGugFPnpHaMsanUrWjlYfFTwFd5RM8/6r3QKTCWN2FSfZ10s5dAW+zVhx2+lp8wWmcfjGyLU3Gr+1h3i0LcVFdKG93MGUL3j6RQ3P1JS2iR3k="}
+  <-- POST /?signature=8efdd152b02632835a16931fb1fbf9f220cb9faa&timestamp=1596505897&nonce=835498911&openid=oD5b_4_F4zrTRO9du8LhSGPKixQw&encrypt_type=aes&msg_signature=05544154a91cbf78111c9da341c431aeaac2aad5
+  --> POST /?signature=8efdd152b02632835a16931fb1fbf9f220cb9faa&timestamp=1596505897&nonce=835498911&openid=oD5b_4_F4zrTRO9du8LhSGPKixQw&encrypt_type=aes&msg_signature=05544154a91cbf78111c9da341c431aeaac2aad5 404 30ms -
+  <-- POST /?signature=265be2e7f7b1521935bab4bba1983d2d05ac27e1&timestamp=1596506096&nonce=760153090&openid=oD5b_443r9RfJ6B3V-Dge-_OGpls&encrypt_type=aes&msg_signature=02ecd1124ead3bb431634714abfe3e68b204d338
+  --> POST /?signature=265be2e7f7b1521935bab4bba1983d2d05ac27e1&timestamp=1596506096&nonce=760153090&openid=oD5b_443r9RfJ6B3V-Dge-_OGpls&encrypt_type=aes&msg_signature=02ecd1124ead3bb431634714abfe3e68b204d338 404 1ms -
+Your application is Listening on port 3002
+  <-- POST /buildOrder
+  --> POST /buildOrder 404 28ms -
+Your application is Listening on port 3002
+  <-- POST /buildOrder
+  --> POST /buildOrder 404 30ms -
+  <-- POST /?signature=400650cd979290fc75547bf6c2beac1c939e47f5&timestamp=1596506599&nonce=344990887&openid=oD5b_4_fOQpQXa4qAb1eb-UaHvrI&encrypt_type=aes&msg_signature=150c33f332c45485c18fd7734fd111b139518879
+  --> POST /?signature=400650cd979290fc75547bf6c2beac1c939e47f5&timestamp=1596506599&nonce=344990887&openid=oD5b_4_fOQpQXa4qAb1eb-UaHvrI&encrypt_type=aes&msg_signature=150c33f332c45485c18fd7734fd111b139518879 404 2ms -
+Your application is Listening on port 3002
+Your application is Listening on port 3002
+  <-- POST /?signature=e9619b40fd50d0241220c8ad6679e943e1cf1302&timestamp=1596506685&nonce=339986715&openid=oD5b_4_fOQpQXa4qAb1eb-UaHvrI&encrypt_type=aes&msg_signature=abfb9a28fa34739bb73fa94e46fd739af7f46c1c
+  --> POST /?signature=e9619b40fd50d0241220c8ad6679e943e1cf1302&timestamp=1596506685&nonce=339986715&openid=oD5b_4_fOQpQXa4qAb1eb-UaHvrI&encrypt_type=aes&msg_signature=abfb9a28fa34739bb73fa94e46fd739af7f46c1c 404 30ms -
+Your application is Listening on port 3002
+  <-- POST /buildOrder
+debug1
+  --> POST /buildOrder 200 30ms 2b
+Your application is Listening on port 3002
+Your application is Listening on port 3002
+  <-- POST /buildOrder
+Your application is Listening on port 3002
+  <-- POST /buildOrder
+  <-- POST /?signature=87541ef70e96f6b4e0f6d1d9e1cc7e7174b00c55&timestamp=1596507159&nonce=668794123&openid=oD5b_4_vCYmMOUBHvhWcrOz8h_ow&encrypt_type=aes&msg_signature=8ee63017807c5bd78ccdcfe7120d57aec7fb4c7f
+  <-- POST /buildOrder
+  xxx POST /?signature=87541ef70e96f6b4e0f6d1d9e1cc7e7174b00c55&timestamp=1596507159&nonce=668794123&openid=oD5b_4_vCYmMOUBHvhWcrOz8h_ow&encrypt_type=aes&msg_signature=8ee63017807c5bd78ccdcfe7120d57aec7fb4c7f 400 5,004ms -
+  <-- POST /?signature=87541ef70e96f6b4e0f6d1d9e1cc7e7174b00c55&timestamp=1596507159&nonce=668794123&openid=oD5b_4_vCYmMOUBHvhWcrOz8h_ow&encrypt_type=aes&msg_signature=8ee63017807c5bd78ccdcfe7120d57aec7fb4c7f
+{"ToUserName":"gh_5907ea276845","Encrypt":"MVlZiaHoYCk/Q1qKj1ZKka/K1CsWM/1AXp9UUHobCy6aqzWwxIOCCXYk1iKcZKItV3i/gQlsLTABntygHihRBmdYbGT9AXOr+JGN4tXDbHIsSEWXr4tJ74oH6XuSgm5oepcZK/qSu8kJw2YhhVij/n4BraJO3lxbb2VCpx3R2iqEzelbFXzr5sDTTnvjB5XRUtTaCc8ZZzBcG0w7I3hiCEjvK/tVwEGPE/PJZatSR531oKNc56u+NKyIraU3VnpaqyFhzJyYpePwBvmJLZB+83X1DjucCf1dFAFMwqrzPvs="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_vCYmMOUBHvhWcrOz8h_ow","CreateTime":1596507159,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"wxapp"}
+回复的内容是: {"ToUserName":"oD5b_4_vCYmMOUBHvhWcrOz8h_ow","FromUserName":"gh_5907ea276845","CreateTime":1596507165,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"vNhnBf8D1/5qfYoV3VKPsre/DcNigE25aAZsxDsaqxecHuqbe1TmXXi5lh4VDR7nBOBpTC4ph9Br9AlbeEhZPcZE2Ejyzk5OUb8SH+qC7LKi6hoHcGhZoG20ZmwYD2aLn9l59jVFPlAza+92I5V1LBk/uKNrNss4wc0LjoL2pXsDefAyacyjGOcv/tntPi9i+t6vt3afVWA/OcH1BVHrWvyNKD+yb+yK2oPG15cDxYlZDajAEERlwNN38QFYM5G2k3hyEoCLhLWWSaiI4qoTEQvLYMUZpBpEn0tWs8abqrE=","MsgSignature":"fb04a7d4b91de949243217efcde75bf472b60d7b","TimeStamp":"15965303","Nonce":"159650716407164"}
+  --> POST /?signature=87541ef70e96f6b4e0f6d1d9e1cc7e7174b00c55&timestamp=1596507159&nonce=668794123&openid=oD5b_4_vCYmMOUBHvhWcrOz8h_ow&encrypt_type=aes&msg_signature=8ee63017807c5bd78ccdcfe7120d57aec7fb4c7f 200 13ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 120s -
+  xxx POST /buildOrder 400 120s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 120s -
+  xxx POST /buildOrder 400 120s -
+Your application is Listening on port 3002
+  <-- POST /?signature=0f22e1e26be4fda81b6fd89092eaf11a70b5264a&timestamp=1596508052&nonce=1257310424&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=a9ed95f10d29601758f3c1cf75ff7df410d14ce9
+  xxx POST /?signature=0f22e1e26be4fda81b6fd89092eaf11a70b5264a&timestamp=1596508052&nonce=1257310424&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=a9ed95f10d29601758f3c1cf75ff7df410d14ce9 400 4,998ms -
+  <-- POST /?signature=0f22e1e26be4fda81b6fd89092eaf11a70b5264a&timestamp=1596508052&nonce=1257310424&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=a9ed95f10d29601758f3c1cf75ff7df410d14ce9
+{"ToUserName":"gh_5907ea276845","Encrypt":"4WUCHLepqE1yR8Tcxt9TIGPA1/E62GGy2p4hnHWRQSE2XNB+UOdSo5IjAtNqTH46N6cH5wsBHyfM1A0Vz20N+F+GrhruNRp5Sn0iRNjpfaa7usbbi0F0WRDow9N2RUAE1KnyHX2ph5Q3EmXwnWmMnWXWrZ5qE6WbEN6H1GZdnLAsiiR9Ok3QsOdd3wgQaKDbDJnV7ik6RCRpP+RIvoi68BjaTJ6lI71k2cwTNo4cCX0K1GgnzTLV9Xd52XTAnwsBflo1EmMj7ZsbcAwUjkbaQxSWU0aTjMs1RnDm8u8w0o0="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_41LDljY2ZHYynyFpy3ERg3w","CreateTime":1596508052,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_41LDljY2ZHYynyFpy3ERg3w","FromUserName":"gh_5907ea276845","CreateTime":1596508058,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"dqNiwy+roOdKRLopIq2M05mhiOcu+CyLN2o0BLSD5iVqkeODka2jmJFv6tzZOZZ+lV1UkJ70lMN5/JheTy6Q9+Y52YGwEw6o9p4txIlL4KyrLEx/Kyj0iOSVuBFVgZiVawVcIzah2s9VYoxHtuKE21VzpNZgxGy4yfxk6LOumQxv6aFNw5i5+FMyIn0EegJN3G4PiTtLBM0OrG2nxpn+trchnQu748IbQAolzCfPhzCg/UghAp2ae+KlHXe4n/A5Pv6H8eO++YSxHLGcP03VxFT185lHYZyKA8WOcWWt/j0=","MsgSignature":"d6f80ade942ecc6686620183d80faa99b1ccc7bb","TimeStamp":"15965594","Nonce":"159650805708057"}
+  --> POST /?signature=0f22e1e26be4fda81b6fd89092eaf11a70b5264a&timestamp=1596508052&nonce=1257310424&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=a9ed95f10d29601758f3c1cf75ff7df410d14ce9 200 14ms 421b
+  <-- POST /?signature=1a123a6f21b90c7a7019a84836772bb6ca7cad6e&timestamp=1596508063&nonce=1575300021&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=261daffa4a79cc56937d97236e7eda45105d47fb
+  xxx POST /?signature=1a123a6f21b90c7a7019a84836772bb6ca7cad6e&timestamp=1596508063&nonce=1575300021&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=261daffa4a79cc56937d97236e7eda45105d47fb 400 5,004ms -
+  <-- POST /?signature=1a123a6f21b90c7a7019a84836772bb6ca7cad6e&timestamp=1596508063&nonce=1575300021&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=261daffa4a79cc56937d97236e7eda45105d47fb
+{"ToUserName":"gh_5907ea276845","Encrypt":"6bUc8E896HmFqvfE24uCOwr6nOjs2p7nC9kJLoKj+yQNYG+4/BCb/ZaKlAOvpgwp4VizSFCnV+6DaSZBCoQvmUACkr89Nmj4apiB85O7mYoT97RgNMjENHdWAxe49KA2sl1+H57/vi5kpvM+COf65d14njxDXI4wM/Sk1q3fCBFo6G+7ra/o2x1emZ8354dLN6NIb2K+9I7k0G9JgrO/jqozsfGFDFITLA3cEDtDH2g+slhmjyzfBtFhasYIyZ3ZcuQucoZlQMx5FnaA/kwLO9K4kMG7IX7SL1KfjDb9qhU="}
 {
 "ToUserName": "gh_5907ea276845",
-"FromUserName": "oD5b_40ERop3bh_kqHSp8LghYF10",
-"CreateTime": 1595558518,
+"FromUserName": "oD5b_41LDljY2ZHYynyFpy3ERg3w",
+"CreateTime": 1596508063,
 "MsgType": "text",
 "Content": "喵",
-"MsgId": 22842905599590142
+"MsgId": 22856499071828382
 }
 
 {
-  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  touser: 'oD5b_41LDljY2ZHYynyFpy3ERg3w',
   msgtype: 'text',
-  text: { content: '你好呀，我是喵巫，倾诉解忧陪聊点击下方链接哈！' }
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
 }
 { errcode: 0, errmsg: 'ok' }
 {
-  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
-  msgtype: 'link',
-  link: {
-    title: '欢迎光临喵巫解忧馆',
-    description: '点击关注，订阅每周运势',
-    url: 'http://t.cn/A6LHQqg4',
-    thumb_url: 'https://img.fenfenriji.com//69/27/03/Image/242B605A-8CB6-24D7-9BC1-5EF83723E2D7.jpeg'
-  }
-}
-{ errcode: 0, errmsg: 'ok' }
-{
-  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  touser: 'oD5b_41LDljY2ZHYynyFpy3ERg3w',
   msgtype: 'text',
-  text: { content: '里面也有些专业心理测评，希望能帮助到亲爱的你' }
-}
-{ errcode: 0, errmsg: 'ok' }
-{
-  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
-  msgtype: 'text',
-  text: { content: '如果想要1对1塔罗解惑，可以长按识别下方添加我微信，喵巫都在哦' }
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
 }
 { errcode: 0, errmsg: 'ok' }
 {
   data: {
     type: 'image',
-    media_id: 'QaQorCa29LsdCu14t7Qe-eRI_1miKIwcSVYqjP0gSXJ8U7uCLF97H-KVmP4KDJjn',
-    created_at: 1595558524,
+    media_id: 'zkOJtEqv-vl_rELourEigG14scJhBH9fZ0-01CPlYj1D_yoP-aDCQtFaUV-QNrVf',
+    created_at: 1596508069,
+    item: []
+  },
+  status: 0,
+  message: 'ok'
+}
+{
+  touser: 'oD5b_41LDljY2ZHYynyFpy3ERg3w',
+  msgtype: 'image',
+  image: {
+    media_id: 'zkOJtEqv-vl_rELourEigG14scJhBH9fZ0-01CPlYj1D_yoP-aDCQtFaUV-QNrVf'
+  }
+}
+{ errcode: 0, errmsg: 'ok' }
+回复的内容是: {"ToUserName":"oD5b_41LDljY2ZHYynyFpy3ERg3w","FromUserName":"gh_5907ea276845","CreateTime":1596508069,"MsgType":"transfer_customer_service","Content":"","MsgId":22856499071828384}
+{"Encrypt":"aA+B5MgBUWdTg7ze83vMreE3df34BJ6/5dxutovxXF+xh9QqW5CBdQpyaf7hTIz/IYamRyb47HK14bT4eHDSej92BqcWRCkcR6VJKmSa1V0D8WoI0Qa9o0JyGtHHifps2ZHHAGxdr6T1wqY0uWPWHf3kh7KL5583DkCkZUrwWW4IOOfU/n02a8oQOCCUKJTWEfUiz1/NiIsJxZ5R8vMZAWaMePDiL5gi9X3xzLUirSqKe+YJ2KpfrPcjXcEPJ/0zswTTuKpdE0iEe/Odly66ZlIrqQLcJ6uY2dvjrTaoOW0=","MsgSignature":"53e8175baec187cf2d4a90098f935db48eaa3f48","TimeStamp":"15965156","Nonce":"159650807008070"}
+  --> POST /?signature=1a123a6f21b90c7a7019a84836772bb6ca7cad6e&timestamp=1596508063&nonce=1575300021&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=261daffa4a79cc56937d97236e7eda45105d47fb 200 1,257ms 421b
+  <-- POST /?signature=663f37294ee7e46c24dc7a9df20ce2a627a5d3f2&timestamp=1596508073&nonce=623704713&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=a102201a04673517acac496883769cba4b7cb19a
+  xxx POST /?signature=663f37294ee7e46c24dc7a9df20ce2a627a5d3f2&timestamp=1596508073&nonce=623704713&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=a102201a04673517acac496883769cba4b7cb19a 400 5,002ms -
+  <-- POST /?signature=663f37294ee7e46c24dc7a9df20ce2a627a5d3f2&timestamp=1596508073&nonce=623704713&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=a102201a04673517acac496883769cba4b7cb19a
+{"ToUserName":"gh_5907ea276845","Encrypt":"OMvSL8GRfswEOVJWbkolNmRqGL9GL8xSh82NeW0aeCog00Mxi7AzNLKYFcXtIsT7SPHZiggPq3PbdLXKVyx8TTUOXy0yMHdIesf1QB5Lnsr8LPbdyAxIpRfF/3xMUDYZOc1z81rp7rlvfvAmMxa6kgJlM8UN1VBWGvNQ1DZwawWKLJ2ryvJjAMU/CbFrBcG/0zpcK+0nAMKV6iczPzbFdJ4+k966VDhtqc3llHS45/3fScV8l7uR9DbAVZNQSipHUKBx24ocJC8K/tD7VsecFMG3JGolxWs5fQRoBG6/rNs="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_41LDljY2ZHYynyFpy3ERg3w","CreateTime":1596508073,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_41LDljY2ZHYynyFpy3ERg3w","FromUserName":"gh_5907ea276845","CreateTime":1596508079,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"Ymgs2ylBj4Ifi4/7CIpnck6tYivr9G7ORMnDqDMyBWgiHcXaSuFJaY27itC28r0NcVqrFKOZbEnX2jrsFVkh9XJKCiSFB6XNfdTEFuCRWAdjIdjV2XOu35+BuCo2K/MapKBIMhz1M+pw5eQpIpepk9yAoQq2/1n+N9Ov3TigTNudiWZm22L/f2gN6k760X+Xzrml5qGm1c4fS77Ar46IXl1vVScIFwUjMjtESyGcyqjlslQTJoXJp5xXlQlRnnhVFEGVYTlKZ1lPlE0Hxl7IXCh4qSWPBwmYSwzwaO0JPSY=","MsgSignature":"d6bf5aa2cb12dc216476da7ecb95c3201dcf709d","TimeStamp":"15965219","Nonce":"159650807808078"}
+  --> POST /?signature=663f37294ee7e46c24dc7a9df20ce2a627a5d3f2&timestamp=1596508073&nonce=623704713&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=a102201a04673517acac496883769cba4b7cb19a 200 3ms 421b
+  <-- POST /?signature=caf0aae86b8e3cc55e269e77166e3986a475da2a&timestamp=1596508084&nonce=769834100&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=7a5339038344ef04d93937abb9ef27b3f36e2d41
+  xxx POST /?signature=caf0aae86b8e3cc55e269e77166e3986a475da2a&timestamp=1596508084&nonce=769834100&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=7a5339038344ef04d93937abb9ef27b3f36e2d41 400 5,001ms -
+  <-- POST /?signature=caf0aae86b8e3cc55e269e77166e3986a475da2a&timestamp=1596508084&nonce=769834100&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=7a5339038344ef04d93937abb9ef27b3f36e2d41
+{"ToUserName":"gh_5907ea276845","Encrypt":"51k80SkNLoOQY/v1MKi8u5NcAGahf0RknKx9c2IFPg0r5OeDKGUZhy2AE1d1vYa0xB1yNIf6BqbYFhK43dOshhh+11xJLjiLUc5fgE9C+/hwQZDYk/veW6ajarYdSISRC+ns2RXQtkVr1HvdZM27gmMGMmB+pV35j21c7fKmBSH+PgKacn7nyH/e1IWQGcbJEaScqvQ5I6IIKNReejtROGNJLKCayqFqRB6ixTFO5NYuKCTxreUSdxo7JFML8O0v7fHfZCnw4jHPCduTNvw2eOe64qVOy7wev1Nnftv0Zs0="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_41LDljY2ZHYynyFpy3ERg3w","CreateTime":1596508084,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_41LDljY2ZHYynyFpy3ERg3w","FromUserName":"gh_5907ea276845","CreateTime":1596508090,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"LcJKV4JNarwkllAcdoIodThB+veC/xmpz85DkjFEqRV1PzK0tMR9is2G3W3huSOgqy1Zyk7y8PsXtht9fIkgP3/FPDoeXmSVSQujKhFVmq1jamcexTaiX97WlnYxEjJhYvfsAlkXMGJ8JE7DmEJOWXWJgByB5n3n3Wxb2uyIBu8pcZaYGWViV2DZb6sdDbYZNB2jY+MRKb8KVanpvt/5dk15clze2/CtNKMx5HzkIyS/u/fkwTiMR1yBxjNiQklW/aohBzg3IjxY+qg/1Rm9yJ/LzbFr3ixzREqqoKinl9A=","MsgSignature":"d76ee4c1302251f2199feeb48f291fd165fb0ace","TimeStamp":"15965721","Nonce":"159650808908089"}
+  --> POST /?signature=caf0aae86b8e3cc55e269e77166e3986a475da2a&timestamp=1596508084&nonce=769834100&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=7a5339038344ef04d93937abb9ef27b3f36e2d41 200 3ms 421b
+  <-- POST /?signature=493621d93d9d4c7fe751e0640c0cd97f46341409&timestamp=1596509387&nonce=1632473441&openid=oD5b_45LbofmUGXv7eO5JRQfzAHA&encrypt_type=aes&msg_signature=78ca0aa857404ac14ef184a9807194c753bd82a6
+  xxx POST /?signature=493621d93d9d4c7fe751e0640c0cd97f46341409&timestamp=1596509387&nonce=1632473441&openid=oD5b_45LbofmUGXv7eO5JRQfzAHA&encrypt_type=aes&msg_signature=78ca0aa857404ac14ef184a9807194c753bd82a6 400 5,002ms -
+  <-- POST /?signature=493621d93d9d4c7fe751e0640c0cd97f46341409&timestamp=1596509387&nonce=1632473441&openid=oD5b_45LbofmUGXv7eO5JRQfzAHA&encrypt_type=aes&msg_signature=78ca0aa857404ac14ef184a9807194c753bd82a6
+{"ToUserName":"gh_5907ea276845","Encrypt":"p8nAb0cf7TNIa6jsXojzcAFzbbBNsAu7kiZI2oPGvRHV+H+AS0kJnbFFxB3Rv01fri2pSuO15G5gE/FYPIORZ2//ox1osd9MrKdIbDJUsaOsQqOQs3MzgyUsikiuxi9rlMZUbfTyWkhKjSSyc6sEf2V5AaQa/4ATTp0jA+GfkPC52PMpCyftID5LSxDGkwW6ukzLjfqCtpzBC3c8KsJf15Ju/e7GwTIQrk+YjNjCVBugHKOZt4eJiFKhEn0L3/TXYSmjikQHoUgjVRZlQDqehMsszwH+ljxOTzPEYy5+pPc="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_45LbofmUGXv7eO5JRQfzAHA","CreateTime":1596509387,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"wxapp"}
+回复的内容是: {"ToUserName":"oD5b_45LbofmUGXv7eO5JRQfzAHA","FromUserName":"gh_5907ea276845","CreateTime":1596509394,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"l/2iM/S843uqTrWl/NZqT27UbA9gm4r6SOlmfwAEd4T+kXx07on7F01v2E2Tb8LuOffSpr52Lzfsg4aGDf1/pE4rl4DH7D1nCNaOGCvuGYSnwZnEnVxYCrgvqwJcxAKJxMChtDee1subAvFIcbSMxSgBH+ihj4+WgUC2WtzS02tDwdhx6kUxZ2W9Fr9ACv/rehwFdf8dyfER2P1c+3yIPPRPTsvzGa/Y0NB7i4KuUPbMcysCwJNK/tRzG0atCjS3I/60hErV5B/NjxXW1sdrxLkdOeHMCIRu13a30UFjSjg=","MsgSignature":"cd1c145d1bfb124c337a1939ae97ba24812f773b","TimeStamp":"15965042","Nonce":"159650939309393"}
+  --> POST /?signature=493621d93d9d4c7fe751e0640c0cd97f46341409&timestamp=1596509387&nonce=1632473441&openid=oD5b_45LbofmUGXv7eO5JRQfzAHA&encrypt_type=aes&msg_signature=78ca0aa857404ac14ef184a9807194c753bd82a6 200 2ms 421b
+  <-- POST /?signature=7c27467c53a41afe79458fce58da5783f89bcdc7&timestamp=1596509949&nonce=73332518&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=91f1e31dee62d1f2d96c22e037d64e673a8c2753
+  xxx POST /?signature=7c27467c53a41afe79458fce58da5783f89bcdc7&timestamp=1596509949&nonce=73332518&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=91f1e31dee62d1f2d96c22e037d64e673a8c2753 400 5,002ms -
+  <-- POST /?signature=7c27467c53a41afe79458fce58da5783f89bcdc7&timestamp=1596509949&nonce=73332518&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=91f1e31dee62d1f2d96c22e037d64e673a8c2753
+{"ToUserName":"gh_5907ea276845","Encrypt":"ZI9Np9TjpBSAoxvoPq+yX0xojQH35pZsOMChACRlGCGk07fKw5qiXARwroCRINh4rJm/RdbIAgdDX1KVTOxv48/5B5OJTxMxUwt/6BjJwOujTY1eo2t3IqOY0k682MoWbwOHgdlhq2aueCLw1w077CttXJaFLUw5B/5Gyevncp4CIlXykAnbn3BFWkXBxfHu9tjYm8bTNQHa0bzy9eYn3l20FeEHFVQ208+TzqI9KDXt4GWYpftS6apgJFpSq4uVDt0YN4E7JmUPDDj20M+sFGSlNy0FfbD5X/W+jf1N2p8aFrTN47v/jfaxyjBcTLEAupuptcjRtTe/oUx3s6jQ7w=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_41LDljY2ZHYynyFpy3ERg3w","CreateTime":1596509949,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_41LDljY2ZHYynyFpy3ERg3w","FromUserName":"gh_5907ea276845","CreateTime":1596509955,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"1BD4FXlX8kcK1hJYVDciIH3aMoQK8aua9QqdnikNfBBNYhbCkDje4RgOjSLybkewe4VZosKcFU29dGbg5FFy3m7lSzsf/rJk+A1eQrWoL9XuhP90hXGoMoCQ1b3t1ebupBqpqR45BoEDM8xeBnBlGXBUkT0fzjosEgM8d6cGdVGbZ7/b61PadTadU8yeh6VtCjv753nNBlekQSkfncW8Zqgsa6imXZuBG7NqHf/9kH4lgH/l7AKTd8EL8ccISOcDygqiGhdyyYEwNfJcozf2hIoYApH66FB0k35ZHavutME=","MsgSignature":"9279b48fc9d86431099b6da534447d5c29b16ce8","TimeStamp":"15965935","Nonce":"159650995409954"}
+  --> POST /?signature=7c27467c53a41afe79458fce58da5783f89bcdc7&timestamp=1596509949&nonce=73332518&openid=oD5b_41LDljY2ZHYynyFpy3ERg3w&encrypt_type=aes&msg_signature=91f1e31dee62d1f2d96c22e037d64e673a8c2753 200 2ms 421b
+  <-- POST /?signature=135371da252f5cd384c21ffa36e4d23215b4230c&timestamp=1596511031&nonce=784005596&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=48457e20e41d3af8eb07d02bdc1e7723880abb56
+  xxx POST /?signature=135371da252f5cd384c21ffa36e4d23215b4230c&timestamp=1596511031&nonce=784005596&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=48457e20e41d3af8eb07d02bdc1e7723880abb56 400 5,002ms -
+  <-- POST /?signature=135371da252f5cd384c21ffa36e4d23215b4230c&timestamp=1596511031&nonce=784005596&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=48457e20e41d3af8eb07d02bdc1e7723880abb56
+{"ToUserName":"gh_5907ea276845","Encrypt":"bEPW+1/viVWjdKSlukoO5dQUqbBmtwANGAVNydcaXkUHHLyQaEV/P/ky4bzcMVrQvfuB7zzJhNyWEvX2iHaAIBCJwevqSlJE6gH/BPXaqF/iQ9jRHsdqLfWGqFl43JEirQkuWai9KhywwyYIU8QdAzvXa4+/SCeqetaERGax0RM6bv/D24rfq3FrS4i0KeNrZ1Cpc15JyaMhVXVCTpVjCVItR1a74CAfHdwx6bbfogOUXL5HeUQUToNonJE36Jce8neLRsy0RHkaJc6WbB1TfPwy4Oux73/7aN8sDIu90i0="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4-oDwhfY6wfvanY8NnpsnqM","CreateTime":1596511031,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_4-oDwhfY6wfvanY8NnpsnqM","FromUserName":"gh_5907ea276845","CreateTime":1596511037,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"V/fMsnkcM4cNnOfH7z6Cp12hrBe39u5GGPahYcSnZ8Vm8erJfGuqZ5Jvp+0cx4GM8O3+5iYlLzy+WM1ClN/LlRfrCDx3a48tbc6F5txgBQ844aig+9pzgCwt54uAQ6DGpCru/QQN7C9dHl7Q+8WjyByDDT56ZPc9TvutoVYWZMBAhh+DZLSHczuM9PiW5VCURSyoXQmjNjocGIIKABBzyllCXWEiAowAtm0X/8uZHIFOUd126Qg83xJwXBfMIiRg3G8VA2adxyuwGCbAiRvNmy3xqJiwjD52NBncYumhTBM=","MsgSignature":"43dcfaf9efeabc222a0ef08cc3fef8a8baf331c8","TimeStamp":"15965591","Nonce":"159651103611036"}
+  --> POST /?signature=135371da252f5cd384c21ffa36e4d23215b4230c&timestamp=1596511031&nonce=784005596&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=48457e20e41d3af8eb07d02bdc1e7723880abb56 200 2ms 421b
+  <-- POST /?signature=d22348819811adcf134499a99e14112c1c0825d8&timestamp=1596511039&nonce=2080587503&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=e8439f1f3a0f5ddd45ea2f9d3143526e7418c927
+  xxx POST /?signature=d22348819811adcf134499a99e14112c1c0825d8&timestamp=1596511039&nonce=2080587503&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=e8439f1f3a0f5ddd45ea2f9d3143526e7418c927 400 5,001ms -
+  <-- POST /?signature=d22348819811adcf134499a99e14112c1c0825d8&timestamp=1596511039&nonce=2080587503&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=e8439f1f3a0f5ddd45ea2f9d3143526e7418c927
+{"ToUserName":"gh_5907ea276845","Encrypt":"m4YmKL07pqgW5R/YDRwF6bj117a/vNFP6rvI7s9v32x3IzvYbd/oqkMl3Jdpg/mKuGpwbcMFxKTM8areVKCtliXU5nsky/tx3+GPkKZIARLT6XBmel+zPVI3ySQmIiiw4z3Np67+e0uqefYQX6x1k7mgp5te+Ze7fO3jk3Dv2bB+THxFcdZHbe1GmKA4jPpuGyebV5g0wJ3HnQ7cMMxSbOZZGfnn7quD+9LYU2c988NJhb33vdkWmX3eheRUgk2+uaVW59Nw8yu9ogzFmu5fb7gI9xXjmRZ8GFAiK+kck9I="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4-oDwhfY6wfvanY8NnpsnqM",
+"CreateTime": 1596511039,
+"MsgType": "text",
+"Content": "喵",
+"MsgId": 22856540939356248
+}
+
+{
+  touser: 'oD5b_4-oDwhfY6wfvanY8NnpsnqM',
+  msgtype: 'text',
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  touser: 'oD5b_4-oDwhfY6wfvanY8NnpsnqM',
+  msgtype: 'text',
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  data: {
+    type: 'image',
+    media_id: 'scbdPRkL9fVH92d1L3Z7OeB9ehRQ2jA9vzmx72PnWZMBpnJkOjyNvfM8Av1-gP7a',
+    created_at: 1596511045,
+    item: []
+  },
+  status: 0,
+  message: 'ok'
+}
+{
+  touser: 'oD5b_4-oDwhfY6wfvanY8NnpsnqM',
+  msgtype: 'image',
+  image: {
+    media_id: 'scbdPRkL9fVH92d1L3Z7OeB9ehRQ2jA9vzmx72PnWZMBpnJkOjyNvfM8Av1-gP7a'
+  }
+}
+{ errcode: 0, errmsg: 'ok' }
+回复的内容是: {"ToUserName":"oD5b_4-oDwhfY6wfvanY8NnpsnqM","FromUserName":"gh_5907ea276845","CreateTime":1596511045,"MsgType":"transfer_customer_service","Content":"","MsgId":22856540939356250}
+{"Encrypt":"JU3Bc6l0B+/Wu33EvJlKRBpzmvHIJmTnmvIu5zCNih/7u4tM4BQHzSAlS4AEzP4C/2yVJkz9cc601UBkIabAS2kt6i8SFezE9DMuqipgL9njUhcYauLZl4W+QQ3m3PYuyzH9U+ewFdJqnrQQhuVDV0GAKAL0tFIeUY7UPL8jmnb6rgHBIu/jQQPajnczf49DdLsSzQzXYsYuQbQCi8Kkh2eHkRaM1jLmu5d8xTW5VyApyNBJa0wzXgRfX0C7bNhAn6VGmrkpPPvdn8rxC8ngEFzyIpMSbhdSWyQJBAaDWXg=","MsgSignature":"4d584be9fdd8ea0d7ce9397be86961b2d4839b1f","TimeStamp":"15965233","Nonce":"159651104511045"}
+  --> POST /?signature=d22348819811adcf134499a99e14112c1c0825d8&timestamp=1596511039&nonce=2080587503&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=e8439f1f3a0f5ddd45ea2f9d3143526e7418c927 200 964ms 421b
+  <-- POST /?signature=f598c2f650a9ec022834c1cfd59c34b7e106a341&timestamp=1596511089&nonce=1375529524&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=3ca553eceefc10cd1f86bb8a13d9018341341bbd
+  xxx POST /?signature=f598c2f650a9ec022834c1cfd59c34b7e106a341&timestamp=1596511089&nonce=1375529524&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=3ca553eceefc10cd1f86bb8a13d9018341341bbd 400 5,000ms -
+  <-- POST /?signature=f598c2f650a9ec022834c1cfd59c34b7e106a341&timestamp=1596511089&nonce=1375529524&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=3ca553eceefc10cd1f86bb8a13d9018341341bbd
+{"ToUserName":"gh_5907ea276845","Encrypt":"Uj+AwiZDa6bz1g5H/T2iIfTEDuNSGxoMqRVkEG64OERXkbXCeBvuMVfmM0p2rU3bS/Oo0bgB1z6Q9n1p1nJpGhl71prhWw4e0DDHHZqsvPYeB4bT5riFVq2Ku5l08Jj0euhYclspTQ+CMp2Kv8JaHjbE32dRGxX4gPgI/iWj7qaX447Yg2HParaye7D69LlCD23Cw23aQpwQisRo2UadnnFOKrkWjhE8tDm1p9f25V1EHJmr+vsSYCprUvD9Uh0j9n8rBzhXb1RVOoFPY4M5QfWR99t+RUC1IJvJBF30GmQ="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4-oDwhfY6wfvanY8NnpsnqM",
+"CreateTime": 1596511089,
+"MsgType": "text",
+"Content": "喵",
+"MsgId": 22856540742655807
+}
+
+{
+  touser: 'oD5b_4-oDwhfY6wfvanY8NnpsnqM',
+  msgtype: 'text',
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  touser: 'oD5b_4-oDwhfY6wfvanY8NnpsnqM',
+  msgtype: 'text',
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  data: {
+    type: 'image',
+    media_id: 'jnumhU-M4E_4nZMJvwPF04ggtF2WLmJW6TTI1E9cQSHLqHHnZZrEYLxeS87vyCYW',
+    created_at: 1596511095,
+    item: []
+  },
+  status: 0,
+  message: 'ok'
+}
+{
+  touser: 'oD5b_4-oDwhfY6wfvanY8NnpsnqM',
+  msgtype: 'image',
+  image: {
+    media_id: 'jnumhU-M4E_4nZMJvwPF04ggtF2WLmJW6TTI1E9cQSHLqHHnZZrEYLxeS87vyCYW'
+  }
+}
+{ errcode: 0, errmsg: 'ok' }
+回复的内容是: {"ToUserName":"oD5b_4-oDwhfY6wfvanY8NnpsnqM","FromUserName":"gh_5907ea276845","CreateTime":1596511095,"MsgType":"transfer_customer_service","Content":"","MsgId":22856540742655810}
+{"Encrypt":"lmi/jifjevx9NBGe2zsYNz6MLGNOFYGf3rCCPSuVpsFtcIrzNWXNjW2OvDb/ybkyCPwbYhc/g3WrxlWMGCgMkqua6TtB/quoc5XZxtDgwVHaE/CtJe8AdUOmGEgEDvuprrFO6I+/qP+IY4Bay/+RV53rOmo68Uvi2x0Q3rlZ6MQ1qiqRhPUAZgZm4v4OubzAKC5Uo4hTcPVRgETlid2Tt/j2lJT7cGrZHQ3q9s5b9M8ddqHZ+wygzLxaRuqzlv+gRHvVtJV63+dW3UC4eyPI33Ixtap/cOr4el8Ny3/255g=","MsgSignature":"d569c07e208dc270680ff4fa2d7c3102961ed416","TimeStamp":"15965516","Nonce":"159651109511095"}
+  --> POST /?signature=f598c2f650a9ec022834c1cfd59c34b7e106a341&timestamp=1596511089&nonce=1375529524&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=3ca553eceefc10cd1f86bb8a13d9018341341bbd 200 1,048ms 421b
+  <-- POST /?signature=94317a7219ec968823f9ab687e1ee80bef58717d&timestamp=1596511113&nonce=104668419&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=6bc96fd59638bd95ca45ec1896ad55e5194e1b1c
+  xxx POST /?signature=94317a7219ec968823f9ab687e1ee80bef58717d&timestamp=1596511113&nonce=104668419&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=6bc96fd59638bd95ca45ec1896ad55e5194e1b1c 400 5,001ms -
+  <-- POST /?signature=94317a7219ec968823f9ab687e1ee80bef58717d&timestamp=1596511113&nonce=104668419&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=6bc96fd59638bd95ca45ec1896ad55e5194e1b1c
+{"ToUserName":"gh_5907ea276845","Encrypt":"7pzbUF9+zZCC9UakPEzPuPi6D5fBIr1EnAVhKYAC/nNBMQvcQWWjUuFXXvbBuRQJbKogwEX3tSQb820vLXe/KSiSQvnKzvhfHcSoUpUQqqID9J4k3kbE/fJMNEO9vDsdXK48XrXwtXOPdBaOVxxosi/2vr82dCzl9DsDo3COtnua7kR+lARALQ9Eo1Js9Q4wyQcOFDPK+ytLv4a1KFFulIyabXJnCnAYQHmSIi0XmY5zFCiINsQxMLWV57RNl+VHnQL/7qEIx7CoUlVahT3JCrF7BV/jj0f/R9vQh9Z79yK83Ml1ikYCsO1Z0EkmFr9XGLw97cP7Hk6kwyJEIQl91Q=="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4-oDwhfY6wfvanY8NnpsnqM",
+"CreateTime": 1596511113,
+"MsgType": "text",
+"Content": "喵，我今天的财运怎么样？",
+"MsgId": 22856542381522807
+}
+
+回复的内容是: {"ToUserName":"oD5b_4-oDwhfY6wfvanY8NnpsnqM","FromUserName":"gh_5907ea276845","CreateTime":1596511119,"MsgType":"transfer_customer_service","Content":"","MsgId":22856542381522810}
+{"Encrypt":"zRpe9qxRvqHRPcwp195GAW0iiII1mi2IB0WuBmzsU6+hx2TBsnYkqj4oFZCrW3FOyIMavitfwOmRaM5GQbBqGHJVDF+D8YIVDPJQ/9Vucek2yHpvUKMBglymiyX6vvts/fzenBy3B//fie2vzIlk0aDPvgv8sTKyRO55NbhDwhECGfQ/b919OyYCW/vBfX5fdrV6+zWmCzM96HlZjH+TiMMxVmR8ZGzzBddX3u10R+yJ+2nXTbEqavvDXAVQ5otoe1VSQbxt3UNn/J6qc8MWgl5aDZxF4J9jqtpL+nRJXKY=","MsgSignature":"2ec63fdeff084ed523e564bc9518920d6d7b5d59","TimeStamp":"15965293","Nonce":"159651111811118"}
+  --> POST /?signature=94317a7219ec968823f9ab687e1ee80bef58717d&timestamp=1596511113&nonce=104668419&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=6bc96fd59638bd95ca45ec1896ad55e5194e1b1c 200 3ms 421b
+  <-- POST /?signature=30b319ebc040305783a551afde04fe858bcc455c&timestamp=1596511241&nonce=1090348113&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=aaab15172ef6ed02db651f7cd55be02132202341
+  xxx POST /?signature=30b319ebc040305783a551afde04fe858bcc455c&timestamp=1596511241&nonce=1090348113&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=aaab15172ef6ed02db651f7cd55be02132202341 400 5,004ms -
+  <-- POST /?signature=30b319ebc040305783a551afde04fe858bcc455c&timestamp=1596511241&nonce=1090348113&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=aaab15172ef6ed02db651f7cd55be02132202341
+{"ToUserName":"gh_5907ea276845","Encrypt":"nFp5FNQZCJY+IZ4gxwzBbmePZXfzAcHYQlxRSZE7JMEtTgfJ3qcr3d1yGlwBdNBO+gmbnd9p90UNMC50Q3nBKfN/PFXzGrxKS/Qa53aKAWHTtvR6+1dryEyms5wwj8YexJEXFLC3WGJvnkCj1fZLwXOylHAQ1NuBsZueVM0GP0P9ShSW1Z/8Ykwbn6c/x4Oo/nXuI4zmkYA8OddrtnvDqQu1o4PAZrWpmx/rNCjekyU+Ro3fusRPGqUiJSeizIfmxhUy4iwrSVluEovLqIiLx9hcRvyQyRqFt4eEInkm5Nw="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4-oDwhfY6wfvanY8NnpsnqM","CreateTime":1596511241,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_4-oDwhfY6wfvanY8NnpsnqM","FromUserName":"gh_5907ea276845","CreateTime":1596511247,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"rZwwgl9xtI7btcLpD++LG0pI8BNjtVneOgyLH4FcskTz4mQ3deCRTEVxrQX5Jn7t6J0wIE2lNByBYtgLK6FIZPSbs8xXfQrrtMUhGQti40gEi+n0Xnn+0C7m7DQ0x53WfbNBfYRBQPt85coNxXE8PAISXCtefvxiUcQb4Bntsek3+1Uyhjatq65IH8ypsUYMO4GhiqZB+xigRLxUSFxxn6g6R4R3gb3C/Kz+sySXzo/DlCRcS4DzSoMl2iLkw0fapZKLNu9Rd06lKz4KhXeoTbNin0NXQBelOwR62/2k2PQ=","MsgSignature":"2fb3c75d8ef17aed49f82b8bc799ff52685c8757","TimeStamp":"15965861","Nonce":"159651124611246"}
+  --> POST /?signature=30b319ebc040305783a551afde04fe858bcc455c&timestamp=1596511241&nonce=1090348113&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=aaab15172ef6ed02db651f7cd55be02132202341 200 2ms 421b
+  <-- POST /?signature=e490b1b32fe0ff6941602ae7bd29b3f338f4ab0a&timestamp=1596511834&nonce=1112150421&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=6747784ab3dac79e15c89d7d55afabb9189b24bb
+  xxx POST /?signature=e490b1b32fe0ff6941602ae7bd29b3f338f4ab0a&timestamp=1596511834&nonce=1112150421&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=6747784ab3dac79e15c89d7d55afabb9189b24bb 400 5,003ms -
+  <-- POST /?signature=e490b1b32fe0ff6941602ae7bd29b3f338f4ab0a&timestamp=1596511834&nonce=1112150421&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=6747784ab3dac79e15c89d7d55afabb9189b24bb
+{"ToUserName":"gh_5907ea276845","Encrypt":"4NoVbabTV/InH0fnIxG3CmfrcY5ez9i/RxAbWbhcozq8zlLTsnLfwJkUbkOj8hwKciFnQ9lPrSuwHPH34lbE1gZSxw6f6nhWBLlGkTa57rxznGonFB2BszAzmOPHBKTggkzhEzFqtsZ5VTMLW091FtqDlR2vZcny0LDgFDbOrkc0MC+hC33MN/cAXO0o283xsh9bzJZjkArDQG4pCLP5zKlqYEhq4vCCBONUHTA0hQvrN5Tvasjg88tGfP0Rc+UKTbejk1Eehqo+nC2Mv/vytsHP5ioUUpaoyiGsA8F5BAI="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1596511834,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1596511840,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"LVWGKP55bMbbudRj4B2Zbij4ob0ovCEm//ESi/zxSaps1CXqX3AAaflIXCYztKHMZgb+oELa96c/PkSi2ukSSU3I6rIl+wazWLJPImRV+0TFOrxxXlwjUtDX+gERLf+TZ4JCCtBXsoWzDOoy2SAS9d5mdnum21sDzp+yWlonHMcQonii4Y111XAopgJ0hEr6ozETez0vaX563umdtMdCaeU6e3jvCHC0hRg9VezdoupRNWSnohcR1MUwQUwy8LjtXZgFlYgNQCXQ6MLa3/PQi6Iyjdwd3xaLf6LGn3E5GOw=","MsgSignature":"7de36d3864b52080eb9c6d70f2aefc6304cad7b1","TimeStamp":"15965416","Nonce":"159651183911839"}
+  --> POST /?signature=e490b1b32fe0ff6941602ae7bd29b3f338f4ab0a&timestamp=1596511834&nonce=1112150421&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=6747784ab3dac79e15c89d7d55afabb9189b24bb 200 3ms 421b
+  <-- POST /?signature=1fa27ff9f8131ce54565b2e1219e3ec9083f076e&timestamp=1596512862&nonce=800852250&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=9b2aa5ef95ad27919e5338f08043ca1041e8fbe0
+  xxx POST /?signature=1fa27ff9f8131ce54565b2e1219e3ec9083f076e&timestamp=1596512862&nonce=800852250&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=9b2aa5ef95ad27919e5338f08043ca1041e8fbe0 400 5,002ms -
+  <-- POST /?signature=1fa27ff9f8131ce54565b2e1219e3ec9083f076e&timestamp=1596512862&nonce=800852250&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=9b2aa5ef95ad27919e5338f08043ca1041e8fbe0
+{"ToUserName":"gh_5907ea276845","Encrypt":"3C0xV5e2EzgRaLadtr3F09zMlENqwdGnvvVjokKjU6Pbq7Mx9CkU0PQdyD8o9x+kOr8JKepuz+CUJQ9p4O1fDk9sVDfh1Ns5e7zkbJHa2Wwhr4WZTgUMni2KOUDvXShf+xQO2ardtMDfd4FxAWiooUCT0Yc72k/AwqyKXQn48BUEIcyGY5eg+1CQg00a5Nw7EWkjEpFIr0f8sXtBu/7tn9kOhL3kQ1GR/eJdZ6PzazbdKDyq25r7zsXRof8lNUI0evO5fmJlYKWgWe2+z20/Eh0eCj6xV67HW4JFPIk4scc="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1596512862,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1596512869,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"NptZs0uOIp8nkHBdkARYXkueROs1yEVD1PKgr1h4vf6u97cafwddFvWF6+++m/ks4x2mPoZFkRQYTdjOPw1b67ksokglVEJT9EZP/S7wgiZwTpO9wZz2RK/sWuDpWhI6ITm3FRRb2RRM9GQ3UDSnIy7kfF1O/+/c7rHX1q7nLbGrCIzJgOb3+oJYN5oK/RvQFzOGhGgMQpiOMHkTzX8GsFR7yNlQW8JRuSTa/FHmxFthsQACn6WyNxhsranxbdyQTb8Ze2Lho3odUA+Ti2oMXY4sRRkEkT1+/wDRzEfU59I=","MsgSignature":"bc1e873a027000da1e916f0682f8adac849c6205","TimeStamp":"15965023","Nonce":"159651286812868"}
+  --> POST /?signature=1fa27ff9f8131ce54565b2e1219e3ec9083f076e&timestamp=1596512862&nonce=800852250&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=9b2aa5ef95ad27919e5338f08043ca1041e8fbe0 200 2ms 421b
+  <-- POST /?signature=6237d5c59dd1bc47c4ddc51c3c33dcdecab4e646&timestamp=1596513136&nonce=1679027136&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=13bacdee9ab76f4fd2f633224921ab05ede215fc
+  xxx POST /?signature=6237d5c59dd1bc47c4ddc51c3c33dcdecab4e646&timestamp=1596513136&nonce=1679027136&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=13bacdee9ab76f4fd2f633224921ab05ede215fc 400 5,001ms -
+  <-- POST /?signature=6237d5c59dd1bc47c4ddc51c3c33dcdecab4e646&timestamp=1596513136&nonce=1679027136&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=13bacdee9ab76f4fd2f633224921ab05ede215fc
+{"ToUserName":"gh_5907ea276845","Encrypt":"/+4ktpJkyvlL1gd4BapkZx4n2cK7lrWL7ylCXU/W/98OYUEanvrki9BbFdG+q/+LYK5mH73oRBn4ng7VgYLoMQkjrlIshYJ/a0+Y7kQCCdzj3XZTmY2GtMWNP77Vmspe9Dj6w9z+hNTfFUQw63IC+obqHN555iKfSUS8SxpYbsg4Cxu/f+AiiCV0egftd78XcZaFSs5XeMuJQlVn7NRl/kkexmsAzyUBchgYNc5ym4/Qmyuiqx+IH1iNB+o9kt3ZgoNf+LiXkjG3zJ8SrcPNc7s2vZ+LxeSaDzPlCRshvZaHQvI4bCpJs5sPVEr/vA9eqD+kMlEg9NyoUoCqFLXfaw=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4-oDwhfY6wfvanY8NnpsnqM","CreateTime":1596513136,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_4-oDwhfY6wfvanY8NnpsnqM","FromUserName":"gh_5907ea276845","CreateTime":1596513142,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"gKYeZm7GIIkkKWas42h59tOj6eJOTxwrFnZOjOKO4Z2PImN+mmZppR0lkola6yxjbcxWq54uscQpJdcFFLhf0huJBh+vQ2nBPBQ+2p1aUx1p9Dk2wc2R4WdwJcIBzlrMZO4+H9tT2AgrChthIM6Pwax2iSHthRaEMo5i5HzLT/bIU+/AnXG+lxxeQ1/jMDXvkVQwUCWK198yd4fc/prGdf+QN/mOcuATYHox0Xm2UoQC5/LMVDW2wWplrYk56Y5e6Hr/VDOsyOY2y/KFRde7rlNpEFyW9IeeXZn3ZoXYPPI=","MsgSignature":"43404e7f63f829035c43ba082591ef67e0e380d9","TimeStamp":"15965830","Nonce":"159651314113141"}
+  --> POST /?signature=6237d5c59dd1bc47c4ddc51c3c33dcdecab4e646&timestamp=1596513136&nonce=1679027136&openid=oD5b_4-oDwhfY6wfvanY8NnpsnqM&encrypt_type=aes&msg_signature=13bacdee9ab76f4fd2f633224921ab05ede215fc 200 2ms 421b
+  <-- POST /?signature=e0eb8773217e42da26bcf754290c8b0698081892&timestamp=1596513173&nonce=824207351&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=85817ae69627ce98a7f8c300d5b15f695a607397
+  xxx POST /?signature=e0eb8773217e42da26bcf754290c8b0698081892&timestamp=1596513173&nonce=824207351&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=85817ae69627ce98a7f8c300d5b15f695a607397 400 5,001ms -
+  <-- POST /?signature=e0eb8773217e42da26bcf754290c8b0698081892&timestamp=1596513173&nonce=824207351&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=85817ae69627ce98a7f8c300d5b15f695a607397
+{"ToUserName":"gh_5907ea276845","Encrypt":"Ixutau4BcGE1T8ldIRjNgipFtulAB/62iNDdLfppNcmPIREyjfqiT9GrEnRhhQbZas3oLtY+X8MR36tCnE/BKscEnxc+9F4wfVMhHnkwlTq89s1ZKQ4vBkztfhaAMtlfS4ooCNcHUlCL34iYzpXiOdE/1uoz3PhcUYJGOQeSahr+5t56vtHNcjP3MEVa9bqMRuIto0Wk+wc2QNZ1i9xpfkQ0tQjaiQ/OTJ+r4mKUnhrPc2hdG4rcmxSHBAKHdE0Fca5DROWcbTvqadunygMgO1fhvrYSnANMKjXRsqz20ZQ="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_40ERop3bh_kqHSp8LghYF10",
+"CreateTime": 1596513173,
+"MsgType": "text",
+"Content": "喵",
+"MsgId": 22856570931419462
+}
+
+{
+  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  msgtype: 'text',
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  msgtype: 'text',
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  data: {
+    type: 'image',
+    media_id: 'scbdPRkL9fVH92d1L3Z7Obs8E95Vr726aSsDaiZA2TH_67Rb4XQ_9M_Pe_1-gBF1',
+    created_at: 1596513179,
     item: []
   },
   status: 0,
@@ -100,90 +316,1329 @@ Your application is Listening on port 3002
   touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
   msgtype: 'image',
   image: {
-    media_id: 'QaQorCa29LsdCu14t7Qe-eRI_1miKIwcSVYqjP0gSXJ8U7uCLF97H-KVmP4KDJjn'
+    media_id: 'scbdPRkL9fVH92d1L3Z7Obs8E95Vr726aSsDaiZA2TH_67Rb4XQ_9M_Pe_1-gBF1'
   }
 }
 { errcode: 0, errmsg: 'ok' }
-回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1595558524,"MsgType":"transfer_customer_service","Content":"","MsgId":22842905599590144}
-{"Encrypt":"QHsHRTXT666n5XDq/JyXKENT59X7Vwd1V0GUioqutYne2KgWHD6Bp8NNKD0kTfuYtODMi/vUuVVyd1tMUD9J4WZZkDSl/IFOFTDYRKGVj8Mjwl1JGHuhrPFLRH84JTegB6M7yMI5ifMpitGw2SeA4/A3nObQEl1y61b9UHmtwDgG78dSbiApJBF2rKlN+3u+DzjyI878G7dmzR74XDIWpC/VXZNWL49xXpL8Kl1t9+Gj+fksdqUBZHxjSj3pC0fKLHEgduFrSsMU+7I1JQq0RCmdejWJTf+FOaCisOKcFLM=","MsgSignature":"edb78bd7317c9dd9e4ad58e305400076d2c40498","TimeStamp":"15955225","Nonce":"159555852558525"}
-  --> POST /?signature=d00256e3db21ee8d9a16a053a6b33fe8f28677ba&timestamp=1595558518&nonce=840244335&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=37e45397557e45ea6e0cb3db55ec2a4b6975f390 200 1,316ms 421b
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1596513179,"MsgType":"transfer_customer_service","Content":"","MsgId":22856570931419464}
+{"Encrypt":"hyq1H/iZSxyZM2LAyGheaGCVRAKjkH+25BY/ZUwzqwM78nIwoM5NV6Fxlz1nMBflrPZX4zqT7V9uI5GD6l1bZo4f5WAb0YLcWA4HtPuqYNOYGUDpxpvV35wtaXVBFyG8brwYsJSGFRCHCv/5M0TwvrCkjK6vkNjx/1K/oN8JXP9z42kkdlnn0YrV1YaHWzGe2FnEJ2StlldWgHYzmr4i74lWUA3l/E09kJc/UWZoRbo1uPzEiqos+bSWBXfImnqgvUqx1o84AIoyYr9nrOX20/H5U/NCldixXEioTCvrRRw=","MsgSignature":"073ce316558349551b5bd98d45cb066d438de2ad","TimeStamp":"15965839","Nonce":"159651317913179"}
+  --> POST /?signature=e0eb8773217e42da26bcf754290c8b0698081892&timestamp=1596513173&nonce=824207351&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=85817ae69627ce98a7f8c300d5b15f695a607397 200 957ms 421b
+  <-- POST /?signature=5218ae6923bd30b2043767e68740e231f3425ea2&timestamp=1596513244&nonce=1251041214&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=1b80274e3e50d2bae13ba6b5ce56a59171c40469
+  xxx POST /?signature=5218ae6923bd30b2043767e68740e231f3425ea2&timestamp=1596513244&nonce=1251041214&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=1b80274e3e50d2bae13ba6b5ce56a59171c40469 400 5,001ms -
+  <-- POST /?signature=5218ae6923bd30b2043767e68740e231f3425ea2&timestamp=1596513244&nonce=1251041214&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=1b80274e3e50d2bae13ba6b5ce56a59171c40469
+{"ToUserName":"gh_5907ea276845","Encrypt":"e+c2KMDh9FjHYkapbgcKRCvBXmI+CC5MlX0EtsDdAfyziK6AKPC3R1eXQcl+MCftKXZ325pS1rgnLoP1KIe6HAWPSf2TvytGR8VRaxkF+S0xZCMnDDwmzSlq9vjxUnmntKzmURm7EFPihPTvbFRySZSpfu9/9q7/8yapsdQWac0MnjdEr6abgntwDjS/ubAY4puaQ3OrISWM4W65W2OksqsSBq+3ukZWAQ8F1m1F1Lnb3+1WQ3uVvAdVNk35XABe+Pz600wietRhy7Uo++OxAYFPDMVAfegXJHaAYfnqAlU="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1596513244,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1596513250,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"FkN8OLP+1JOqZKL7xlej0fzTE3SN7zt0XB/VhF2xkYeVDWTo+jMgz/Xr5PiAvstzcytaEQOVw6gGUqd3AT3RGYoTDYVUFoMU4Ih7BVM5ZVRN8+huL8mHTPnHSydnBtfAxMR83ME4RqPHPrJgleRv9IOq5DFvUVObMV4WEPuGVwAjGeVAwgbYX5qOhht90IjkTbKOHrA5GAeyjZXUBTTL+0GUFgm5zn8pIhOMD7msZXLNX8TosniVtw6guLLvnbKEda6DMQVgpOAJbK7H2hANoaln6ZrSlDoWo/TUePyQOFE=","MsgSignature":"ac9c956046a8b69ee7e772027c0e415b32da385f","TimeStamp":"15965082","Nonce":"159651324913249"}
+  --> POST /?signature=5218ae6923bd30b2043767e68740e231f3425ea2&timestamp=1596513244&nonce=1251041214&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=1b80274e3e50d2bae13ba6b5ce56a59171c40469 200 2ms 421b
+  <-- POST /?signature=08e482c814ad0b04af4dac5cbd2d86d8aa901c58&timestamp=1596513301&nonce=570072166&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=af3e4923678c13ba3c397ad43f41a7fe218994f3
+  xxx POST /?signature=08e482c814ad0b04af4dac5cbd2d86d8aa901c58&timestamp=1596513301&nonce=570072166&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=af3e4923678c13ba3c397ad43f41a7fe218994f3 400 5,002ms -
+  <-- POST /?signature=08e482c814ad0b04af4dac5cbd2d86d8aa901c58&timestamp=1596513301&nonce=570072166&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=af3e4923678c13ba3c397ad43f41a7fe218994f3
+{"ToUserName":"gh_5907ea276845","Encrypt":"t1ucmxIYbB344lGvTQRkPR+UmL4fjki4Hv0Ty967UlndprCaVzWX4pblONj+2LL7kXH7XXyT3Wm1MrvvrN8nAjeQwbjzI+Jag1w4kJj6pLm7qwpzFDvgCnykmNgSjyZujWWcijuoIKV+X4Cjw16khJuVtKlAK46OBR74sdjKhqzP5x8pr1ZUfTVr2QKX7huUWzFWsU1SfemWV6tmQjOlsDN8zaddJVEWriFJS+EFDUOr6aBl+dbbZmqDhX5rXp6zFvq744DWm0M721x7TCqVMOhuceLY+R3zg+MNfAoYZhM="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1596513301,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"wxapp"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1596513307,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"9WwayqvaAYqR0xumejTPrvasslRXM85LNr4MkgbAvuotwLpgTQXEX8VDlB4OPtDwrHPJLQA/I24ES/R42C7P0oS/h0GLr0y5VYhZqo7r3ffRou1IcflN8W3OpfRGVmNuhAfIxERB9Pq7Zh20zcdlflYb+6I98FDcnfJ7Vu58Vlf1xzwmz/okT/Z1wiVddAPXLqDCV2OY01+R8DyA+M7wxAx/ls/4TrLM4RNGT5t4sdTPGs0ZSWqi62eXiPfeWFdvBfxg8ZxGnsm69E1440l1C2wPk0ZrwC0FrmzzcvT83mY=","MsgSignature":"542c05807deca9f133ed02ad8d9ad48736ebb79b","TimeStamp":"15965431","Nonce":"159651330613306"}
+  --> POST /?signature=08e482c814ad0b04af4dac5cbd2d86d8aa901c58&timestamp=1596513301&nonce=570072166&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=af3e4923678c13ba3c397ad43f41a7fe218994f3 200 2ms 421b
 Your application is Listening on port 3002
-  <-- POST /?signature=b21ffdd22df997179e341e70c3a46736bc81c2f8&timestamp=1595558633&nonce=746135028&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=b55a30082a4f125a22aa613236ea404f7c24cc4c
-  xxx POST /?signature=b21ffdd22df997179e341e70c3a46736bc81c2f8&timestamp=1595558633&nonce=746135028&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=b55a30082a4f125a22aa613236ea404f7c24cc4c 400 5,001ms -
-  <-- POST /?signature=b21ffdd22df997179e341e70c3a46736bc81c2f8&timestamp=1595558633&nonce=746135028&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=b55a30082a4f125a22aa613236ea404f7c24cc4c
-{"ToUserName":"gh_5907ea276845","Encrypt":"7V60sYqbhKRHLdMi3st2DRCTdL9Dgd+5uIWzLZ++fqZGJIVXdYxrNQIHchs7CJsphB8qDuBuRVnVeHjMqILVeSjuF8UOFkQfPcprpuawsbphAoqYGkBHQBVTIiWEkAlvth6/pBQDNh6Fu4fX0USIR2/tN6Us3aMBLqsx6Ig77Ya7WxakwwZDVvBVE/18xYTWoTgfCZFfMYD3DozL3q9I+6kZISeIjmB2dkbQXbwrsuDIjE2nfxaWhD8IOAr8JuUd7Hl0ORHyVH3fp1n1iILbJJ+odO77BfaxXivW+shQz2M="}
+  <-- POST /buildOrder
+req IncomingMessage {
+  _readableState: ReadableState {
+    objectMode: false,
+    highWaterMark: 16384,
+    buffer: BufferList { head: null, tail: null, length: 0 },
+    length: 0,
+    pipes: null,
+    pipesCount: 0,
+    flowing: true,
+    ended: true,
+    endEmitted: true,
+    reading: false,
+    sync: false,
+    needReadable: false,
+    emittedReadable: false,
+    readableListening: false,
+    resumeScheduled: false,
+    paused: false,
+    emitClose: true,
+    autoDestroy: false,
+    destroyed: false,
+    defaultEncoding: 'utf8',
+    awaitDrain: 0,
+    readingMore: false,
+    decoder: null,
+    encoding: null
+  },
+  readable: false,
+  _events: [Object: null prototype] {
+    end: [Function: resetHeadersTimeoutOnReqEnd]
+  },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  socket: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '4:0.0.0.0:3002',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 35
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '4:0.0.0.0:3002',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 35
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 1596513385409
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      statusCode: 404,
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    [Symbol(asyncId)]: 41,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 24777,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 42,
+      [Symbol(triggerId)]: 41
+    },
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  connection: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '4:0.0.0.0:3002',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 35
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '4:0.0.0.0:3002',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 35
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 1596513385409
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      statusCode: 404,
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    [Symbol(asyncId)]: 41,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 24777,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 42,
+      [Symbol(triggerId)]: 41
+    },
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: {
+    host: 'www.nqobaxsg.cn:3002',
+    'content-type': 'application/x-www-form-urlencoded',
+    origin: 'http://app.activity.ffrj.net',
+    'accept-encoding': 'gzip, deflate',
+    connection: 'keep-alive',
+    accept: 'application/json',
+    'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+    referer: 'http://app.activity.ffrj.net/tarot-h5/cardGetedEnd.html?prev=%E5%A4%AA%E9%98%B3(%E9%80%86)&now=%E6%81%8B%E4%BA%BA(%E6%AD%A3)&next=%E8%8A%82%E5%88%B6(%E6%AD%A3)&title_text=%E8%B4%A2%E5%8A%A1%E7%8A%B6%E5%86%B5&v=null',
+    'content-length': '382',
+    'accept-language': 'zh-cn'
+  },
+  rawHeaders: [
+    'Host',
+    'www.nqobaxsg.cn:3002',
+    'Content-Type',
+    'application/x-www-form-urlencoded',
+    'Origin',
+    'http://app.activity.ffrj.net',
+    'Accept-Encoding',
+    'gzip, deflate',
+    'Connection',
+    'keep-alive',
+    'Accept',
+    'application/json',
+    'User-Agent',
+    'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+    'Referer',
+    'http://app.activity.ffrj.net/tarot-h5/cardGetedEnd.html?prev=%E5%A4%AA%E9%98%B3(%E9%80%86)&now=%E6%81%8B%E4%BA%BA(%E6%AD%A3)&next=%E8%8A%82%E5%88%B6(%E6%AD%A3)&title_text=%E8%B4%A2%E5%8A%A1%E7%8A%B6%E5%86%B5&v=null',
+    'Content-Length',
+    '382',
+    'Accept-Language',
+    'zh-cn'
+  ],
+  trailers: {},
+  rawTrailers: [],
+  aborted: false,
+  upgrade: false,
+  url: '/buildOrder',
+  method: 'POST',
+  statusCode: null,
+  statusMessage: null,
+  client: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '4:0.0.0.0:3002',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 35
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '4:0.0.0.0:3002',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 35
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 1596513385409
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      statusCode: 404,
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    [Symbol(asyncId)]: 41,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 24777,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 42,
+      [Symbol(triggerId)]: 41
+    },
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  _consuming: true,
+  _dumped: false,
+  _parsedUrl: Url {
+    protocol: null,
+    slashes: null,
+    auth: null,
+    host: null,
+    port: null,
+    hostname: null,
+    hash: null,
+    search: null,
+    query: null,
+    pathname: '/buildOrder',
+    path: '/buildOrder',
+    href: '/buildOrder',
+    _raw: '/buildOrder'
+  }
+}
+  --> POST /buildOrder 200 37ms 2b
+Your application is Listening on port 3002
+  <-- POST /buildOrder
+req http://app.activity.ffrj.net/tarot-h5/cardGetedEnd.html?prev=%E5%A4%AA%E9%98%B3(%E9%80%86)&now=%E6%81%8B%E4%BA%BA(%E6%AD%A3)&next=%E8%8A%82%E5%88%B6(%E6%AD%A3)&title_text=%E8%B4%A2%E5%8A%A1%E7%8A%B6%E5%86%B5&v=null
+  --> POST /buildOrder 200 33ms 2b
+  <-- POST /?signature=cfbee1a089d5c73df6fec8fa9ea21ded1020ed11&timestamp=1596514112&nonce=365870443&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=4f10225fb98f73e6b9a84b9fb1e09c666e86e66c
+  xxx POST /?signature=cfbee1a089d5c73df6fec8fa9ea21ded1020ed11&timestamp=1596514112&nonce=365870443&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=4f10225fb98f73e6b9a84b9fb1e09c666e86e66c 400 5,001ms -
+  <-- POST /?signature=cfbee1a089d5c73df6fec8fa9ea21ded1020ed11&timestamp=1596514112&nonce=365870443&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=4f10225fb98f73e6b9a84b9fb1e09c666e86e66c
+{"ToUserName":"gh_5907ea276845","Encrypt":"1bsNTRV8hLoXF2bG+DuwnZZfxIzzHL7dayGu+suv56c7uczvNb1WJwilvMT7Xd6El6rq0BdSHrBbmbF47pF1wLi7hHApB34BXWSQa8+DdaXyxba4DQYinR/O+1gT9X2UHitTbEwBMyrGA6yjO1wNXB1qTuaOKhxhYbWVP02Qpurq2L61bydUNWNS2lhgs+6UpoEhom8USc3SbWPDKT6j7p//8lusxfevwlJYqLxi/4lOPGuyfWiDNpRuI8HDYKBu9G8osUOVmJU764bbySPG1LJTtAQlcfrA9RNsQGpXfriTgPbD459i5byyX7fh0om1JxaunYfa+y+ZGfeMM7J3fQ=="}
 {
 "ToUserName": "gh_5907ea276845",
-"FromUserName": "oD5b_40ERop3bh_kqHSp8LghYF10",
-"CreateTime": 1595558633,
+"FromUserName": "oD5b_48jv8sovvEXSvw44O2Rke_0",
+"CreateTime": 1596514112,
+"MsgType": "text",
+"Content": "可以预约吗",
+"MsgId": 22856586318173483
+}
+
+回复的内容是: {"ToUserName":"oD5b_48jv8sovvEXSvw44O2Rke_0","FromUserName":"gh_5907ea276845","CreateTime":1596514118,"MsgType":"transfer_customer_service","Content":"","MsgId":22856586318173490}
+{"Encrypt":"bgagZWa5fBCvWExqHiMYBEptVaAnCtpa/d3l7w01G9g5XPlR5PVIU4b8y4t6OtzIB9uE1CaFQFGTVBVkwvFlY5aUhSIT/1u88CVXnnHve3eML/m8WdB35f6GI0zCh2VTwAfcAb9fnVLDRx5pjp512RFd4AJhTFMdi1Em2PuE9MQevPIqhpA6UeqEsHw2x43EIpONcGnBYR5cCtwDLzlN9bbJakyvQehH8dUYAACXy1BIgn1lpYb5U/Xju9RA2OtYsCdMhltYAkumGBY/04B2SbVVCkoWHlE+CcyLQeDyh68=","MsgSignature":"a6bf4af530c65c965e6943e4da77ef1c6c828bbc","TimeStamp":"15965965","Nonce":"159651411714117"}
+  --> POST /?signature=cfbee1a089d5c73df6fec8fa9ea21ded1020ed11&timestamp=1596514112&nonce=365870443&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=4f10225fb98f73e6b9a84b9fb1e09c666e86e66c 200 5ms 421b
+  <-- POST /?signature=8a53b1c4d62c461376ac7304a651caeea5397d91&timestamp=1596514121&nonce=933581028&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=80b240244fee9473a7337fe7a5003599d1ca547f
+  xxx POST /?signature=8a53b1c4d62c461376ac7304a651caeea5397d91&timestamp=1596514121&nonce=933581028&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=80b240244fee9473a7337fe7a5003599d1ca547f 400 5,001ms -
+  <-- POST /?signature=8a53b1c4d62c461376ac7304a651caeea5397d91&timestamp=1596514121&nonce=933581028&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=80b240244fee9473a7337fe7a5003599d1ca547f
+{"ToUserName":"gh_5907ea276845","Encrypt":"fI2IRIvX+2PcmOO6LIiiMMJvRBZMYsjEIoG/hnORPfOWQSQ6k5jCCVk47YKB297WQPv9j7yD+s8sl6GCktyRFCwHnszOqys+XGT1ATldGOiTtBwL1E9k31M3hFlsU6eHJR1txMxBB0rUNGOntM2dnkvGigcPSRfGjGawUxxwTL3n7zeCVdYos6JzVkbwK19lNBZY2k306mdRoAxJgq4fTZRvn8vgrxO2p4IBrdipQ8/oG9+BbiBUo2nOS+Bm38piEc0U5fsA7My5zXdFP12y19Vkzo2F5pC4fJw0TA7rG17jG4wVwcTa8rB//KEwOT2Xmi0KdVECHvH7AYyk6M7yjw=="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_48jv8sovvEXSvw44O2Rke_0",
+"CreateTime": 1596514121,
+"MsgType": "text",
+"Content": "价格大概多少",
+"MsgId": 22856587018125058
+}
+
+回复的内容是: {"ToUserName":"oD5b_48jv8sovvEXSvw44O2Rke_0","FromUserName":"gh_5907ea276845","CreateTime":1596514127,"MsgType":"transfer_customer_service","Content":"","MsgId":22856587018125056}
+{"Encrypt":"3+84BQRNUePFUsBE9j6tjOQHrYBEMlndbc70EjfrivZ5L4eNm0bOS13/oPzmh8ygUpPF+yWS+9pGZPEXh0OoZcceKY5VOiGtv5PZVj4N+1xJWfqs0O89nFmRHXj5rl29xxpv2xRw8phql1+esDr6oGjUWAQ8ZShlYh5leY1ync+0DlVVwl2F1qkSyalTZHpHv6Mm8pEA+D6svZVjUXB/KuesRKaBDCiLooIeOa9p0RwtmmHcUhCMvOxsPfEbN7ZlHlT3CA3erlOMJVMmJ5y/aoQ2IYal0jEYVgu0sNHiJ1U=","MsgSignature":"692a7ee830de99bb73bc73a9c99f7260006e1830","TimeStamp":"15965912","Nonce":"159651412614126"}
+  --> POST /?signature=8a53b1c4d62c461376ac7304a651caeea5397d91&timestamp=1596514121&nonce=933581028&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=80b240244fee9473a7337fe7a5003599d1ca547f 200 3ms 421b
+  <-- POST /?signature=5271b0387bbede68194db87142e7ded863c8de34&timestamp=1596514185&nonce=1556625456&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=b8003a30798fe95aa19c91bacaec2731e5ffd140
+  <-- POST /?signature=8fc2cc29efe39e80e77a88378df0b9194dc75cdd&timestamp=1596514187&nonce=932011480&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=eb1da547d021a376188fbd0258ed44764c3f3c4e
+  xxx POST /?signature=5271b0387bbede68194db87142e7ded863c8de34&timestamp=1596514185&nonce=1556625456&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=b8003a30798fe95aa19c91bacaec2731e5ffd140 400 5,000ms -
+  <-- POST /?signature=5271b0387bbede68194db87142e7ded863c8de34&timestamp=1596514185&nonce=1556625456&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=b8003a30798fe95aa19c91bacaec2731e5ffd140
+{"ToUserName":"gh_5907ea276845","Encrypt":"p3Le6BzoBFl0g1wxbIIdYzl8ZxVkB7oU/F80+fMBjwSDZzzEdfNXeJnFitVCM/7thsIA4jFHqbh3/C/uPTz+XWC5kPfoOosl9rOu8HMLkoDrYoapMfw205So1K67p2N6dWtKIjhmYimIAn1c4PXxhgg2dUg2h2AOQz7alqi4fYi8y7tJ6TIC/gWPmHTEmnmdByO38N9Ww6jRDVGMWsFhUJIlUeavvf3WYL0FfIR6V6PAsT8wTueHcIr9RjJaaH9XbyTTK0HFJGy/7LDa1cFu6JmyJyhE6pZhWAACtybHDWkyxH6XdJgy3QrvsATHuOxCUjQkTPCwyBxpUhTSPn/0dw06jSSUfLaKyGXmRNWGYePmXwRrh2ORw8EZ/SfcYOpT9t2SjVkkUWxr4S3C27mmHqGr6f/Pix59ACt8CQIljnRUAL1ZtJikk4XLAAwFhreJW3slgYTiSCqwfJwCq5gEk0hWb8TWDNrsaMkqSpdTJacGNHDHqIwPQMAd1IR8ZwQJotY05wqnlLe7aZ12WLRrvCHlqJ+DstGDIjvI+egVC5c="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_48jv8sovvEXSvw44O2Rke_0",
+"CreateTime": 1596514185,
+"MsgType": "image",
+"PicUrl": "http://mmbiz.qpic.cn/mmbiz_jpg/AmLicL6n3zQYdzOuBV16Uic1E3DMbFNcsdKVAZQjp8gwKQOxfO6E51iajuosXxBNstX9WAZwNBPIvpZfNDsGxhDyw/0",
+"MsgId": 22856586553854953,
+"MediaId": "TrDwbJhPcggKaYi4UFyVlZrK5ugHnDzpJ4XXtNOiAfwZs8eIXtOe0T8VpBxQhC_C"
+}
+
+回复的内容是: {"ToUserName":"oD5b_48jv8sovvEXSvw44O2Rke_0","FromUserName":"gh_5907ea276845","CreateTime":1596514191,"MsgType":"transfer_customer_service","Content":"","MsgId":22856586553854950}
+{"Encrypt":"myQLrDZAKsIGcayl3FE5PJs0f1XWpY4ppb1444OeL5RAaZCXIYaDzd4TTTTR85oSlBVq2U5r9TNHSh+J70aVJxAE9CY7FNOKIOPTuNSWica8Pt+M5ttq0SCJ/MqPm3ZZUjI4XUiclBYELM6fLyutJovFpm9qWpVLQV8d6jtY/2dc7CGsAG6D/hjj8iZO2aQZEl698LWlbKocOo7OJPM8N1zNTUZGE4WIq5Gn8B2sAbPfZoMXl1vJoR2uGfNmYrc6Av5o6Q08F0ULRnC7rdp0rspvNEl9kQKtVPKDwN8NyRI=","MsgSignature":"6f3704576e79f9b3b1e05780e7979e56874df66f","TimeStamp":"15965653","Nonce":"159651419014190"}
+  --> POST /?signature=5271b0387bbede68194db87142e7ded863c8de34&timestamp=1596514185&nonce=1556625456&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=b8003a30798fe95aa19c91bacaec2731e5ffd140 200 3ms 421b
+  xxx POST /?signature=8fc2cc29efe39e80e77a88378df0b9194dc75cdd&timestamp=1596514187&nonce=932011480&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=eb1da547d021a376188fbd0258ed44764c3f3c4e 400 5,000ms -
+  <-- POST /?signature=8fc2cc29efe39e80e77a88378df0b9194dc75cdd&timestamp=1596514187&nonce=932011480&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=eb1da547d021a376188fbd0258ed44764c3f3c4e
+{"ToUserName":"gh_5907ea276845","Encrypt":"ucJxXAa/21lTxcgkE2AcY4lSdqP5Gy6q0e6nE/iBtelfYpMqt8y6NtkQVoRQZmZBO8qN6QU9UocmZ5sNUqoOUZqoQMxnKyoi8aTxiDlSGeCaTVykk1RAcLMni7sg3kNYEcwlz5cIxogWfnigB6Lr7gkRzbnZkJJKaILHeWqyB4gwONSBH6VK63pLtSXwElyDVJ42myDVdz0ETYgVzypD9GHQKiSClBES5poj5TmR3LX6C1JQpjBJt1EicSI/V/GWXshcno+MvFCEOle2Svs8iKhoUTzxOPSfK01fPrkWpuA="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_48jv8sovvEXSvw44O2Rke_0","CreateTime":1596514187,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_48jv8sovvEXSvw44O2Rke_0","FromUserName":"gh_5907ea276845","CreateTime":1596514193,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"VL9grui/XmMmuQuFAY7QBIjjPg+YhftM6WUMwgFwUKe0sUSqMCQd6OiR0lflvtPPkp9iHPm6TZhgdCPyFhi5B+Z3o5jWYTECqPMApGRGp45qUraLcndSw39RYfbgWBBi4MeIS/cKlMkOX7XGwBxhrmflA8M8sBBSALs4JJDmWWM0+ybhfkUKUe5RNGjWlDNm/WJk6R0ENwzkPQH8Fjj7+8idsctQeLbwRlnrI+UIWZJ71mPnxJcVPW8c3RglvrSbC9TuqD9PBYN/kAwVLNf1PHpmUMQwq7qabpcMyMgg29Q=","MsgSignature":"13dce004e0f9f6868d991611e6920edfa0709cbb","TimeStamp":"15965255","Nonce":"159651419214192"}
+  --> POST /?signature=8fc2cc29efe39e80e77a88378df0b9194dc75cdd&timestamp=1596514187&nonce=932011480&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=eb1da547d021a376188fbd0258ed44764c3f3c4e 200 2ms 421b
+  <-- POST /?signature=b4c21fc371f4da582a6d5714f2fef9dfc4afed5f&timestamp=1596514589&nonce=624235407&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=bac67b8e76e07fb495d4a91710b2e647e55c108b
+  <-- POST /?signature=8c0c5b60a3f7cd735de77fa127a2923300506216&timestamp=1596514594&nonce=1724549868&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=dcb4c8f5e4372ca36476f10f39375040befddda6
+  xxx POST /?signature=b4c21fc371f4da582a6d5714f2fef9dfc4afed5f&timestamp=1596514589&nonce=624235407&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=bac67b8e76e07fb495d4a91710b2e647e55c108b 400 5,004ms -
+  <-- POST /?signature=b4c21fc371f4da582a6d5714f2fef9dfc4afed5f&timestamp=1596514589&nonce=624235407&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=bac67b8e76e07fb495d4a91710b2e647e55c108b
+{"ToUserName":"gh_5907ea276845","Encrypt":"xU5woKA7KDKYeZzzw1P1VHZIvzIdtYtq57MHj9mysLWoqMoGcIlYUe0vAHP89hqi0TEVa2qChrb93//G1SIVF91YcmtCdcAD7E8ITezEzujNC78hkWfv9Cxjo9Y2ZSRlJLsbTY1z/GZR7eLDJjAz9iP9//kRMVwYje3n4YW/zKo5xjDAMsmoV1KNTulT2jy/Yz0zY6bciuV8KdSRH37xkUyRy3BK/GYSVl1x6eAJw8h3hwMKaJBc3rJBuYCJA47pgdqZ+NZ5IE80/zwv5hDiZkWMtFAsvkIojUpUmkogW70="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_45yBt06EIW2N0wv_ZlaekLw","CreateTime":1596514589,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_45yBt06EIW2N0wv_ZlaekLw","FromUserName":"gh_5907ea276845","CreateTime":1596514595,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"NqLnR61E7fPkzmGsMQ3o+cjtgeH+8dUQauiwc75FL3l0/DYnmEpU/MagcTHH5HGy9f7QDprMAIFZiZ0uLe32wOoZXWSGQ3kBE3mK3tH2yZNW4K0xGQqQVHYV9eeTD5McsB155sPDUb1yIMaZtmtBj1dk3H+uGaetMkcqLOTpBuVNzPjxwNv4T6aVrv2O5bJKaJeIsTTMHWgaTjmV4qH9dU0s+Tl7QhIxRmh0au2yXRdIZ+Un7r1JPIR7pT+TdSI9Z5EiWThmBMsPOvivplRsm0alb0vU0zq2mar/GWgRdzg=","MsgSignature":"27dfd7f50d3c64f8080f42f33368de1e7ebcf92d","TimeStamp":"15965195","Nonce":"159651459414594"}
+  --> POST /?signature=b4c21fc371f4da582a6d5714f2fef9dfc4afed5f&timestamp=1596514589&nonce=624235407&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=bac67b8e76e07fb495d4a91710b2e647e55c108b 200 3ms 421b
+  xxx POST /?signature=8c0c5b60a3f7cd735de77fa127a2923300506216&timestamp=1596514594&nonce=1724549868&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=dcb4c8f5e4372ca36476f10f39375040befddda6 400 5,000ms -
+  <-- POST /?signature=8c0c5b60a3f7cd735de77fa127a2923300506216&timestamp=1596514594&nonce=1724549868&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=dcb4c8f5e4372ca36476f10f39375040befddda6
+{"ToUserName":"gh_5907ea276845","Encrypt":"l+BaiZkzOBIStUUR1nTY1y/B/7HMKYq6N1ImeFXVhDsnkpxI7VlcFwoO0esoLT1SjqJ7H9DAMxo/BiMNH7wFHaoIZykru4djyUcLjHQRZAlXMjjmWxWwstwyDEs8HjT+9TL2xhimtsFr7vUbnzWRtqaclKsBYXzepjPmK/ohvJndtBOxrYUO8zxKxk8zQ9pvg/6oXl6FUM1ETcPJNQJAFUX9fdsAO8wqPwbeZWS1MW1XI69DFGG+WjJefpfWM7CGcFmSmsws1kO43BM7S3RqvNaMcl6dP/IH1Jqh2UM9qo0="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_45yBt06EIW2N0wv_ZlaekLw",
+"CreateTime": 1596514593,
 "MsgType": "text",
 "Content": "喵",
-"MsgId": 22842906488338393
+"MsgId": 22856593788143518
 }
 
 {
-  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  touser: 'oD5b_45yBt06EIW2N0wv_ZlaekLw',
   msgtype: 'text',
-  text: { content: '你好呀，我是喵巫，倾诉解忧陪聊点击下方链接哈！' }
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
 }
 { errcode: 0, errmsg: 'ok' }
 {
-  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
-  msgtype: 'link',
-  link: {
-    title: '欢迎光临喵巫解忧馆',
-    description: '点击关注，订阅每周运势',
-    url: 'http://t.biyouxinli.com/Fju6Bb',
-    thumb_url: 'https://img.fenfenriji.com//69/27/03/Image/242B605A-8CB6-24D7-9BC1-5EF83723E2D7.jpeg'
-  }
-}
-{ errcode: 0, errmsg: 'ok' }
-{
-  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  touser: 'oD5b_45yBt06EIW2N0wv_ZlaekLw',
   msgtype: 'text',
-  text: { content: '里面也有些专业心理测评，希望能帮助到亲爱的你' }
-}
-{ errcode: 0, errmsg: 'ok' }
-{
-  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
-  msgtype: 'text',
-  text: { content: '如果想要1对1塔罗解惑，可以长按识别下方添加我微信，喵巫都在哦' }
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
 }
 { errcode: 0, errmsg: 'ok' }
 {
   data: {
     type: 'image',
-    media_id: 'scbdPRkL9fVH92d1L3Z7OSK5KIZOwVRTsN9Q54nWGkgw92kCc85TKs5AMYHhrcGG',
-    created_at: 1595558639,
+    media_id: 'scbdPRkL9fVH92d1L3Z7OcVIPwUlJO7Lql_KMtc-p8jSxxmem1zYn3C-BYzYG9jI',
+    created_at: 1596514599,
     item: []
   },
   status: 0,
   message: 'ok'
 }
 {
-  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  touser: 'oD5b_45yBt06EIW2N0wv_ZlaekLw',
   msgtype: 'image',
   image: {
-    media_id: 'scbdPRkL9fVH92d1L3Z7OSK5KIZOwVRTsN9Q54nWGkgw92kCc85TKs5AMYHhrcGG'
+    media_id: 'scbdPRkL9fVH92d1L3Z7OcVIPwUlJO7Lql_KMtc-p8jSxxmem1zYn3C-BYzYG9jI'
   }
 }
 { errcode: 0, errmsg: 'ok' }
-回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1595558639,"MsgType":"transfer_customer_service","Content":"","MsgId":22842906488338390}
-{"Encrypt":"ZNc+5MwDumOj9SsS/rtfCBMM8OjbJGw00JEL7XfBIIBE5jFOFVB75O63t+Ntel0nT1ZiR3cVd7sxTRcy8Ep6M/Bx73b51HWQuc0V6qlT/bdN4ywXkfdaoj4woIbkmMv9jnMSqkIJkQOIRTVI93zELeFcSE0x43B9g4B1bB3KJjgOwV/cB3waPSx1zZOHGbciRwkFeaiZ+TCaKsZqssvxNFzhFbSj/wvH1NP0PvwwbHd9XvKE+c+GBR2eunDVE98gJ/+uLSeTZNz7u3YmOLICtxk1OhMn1Z61CYD9F/sUmNQ=","MsgSignature":"f9c55f9d1af19831a86902e80acfc714a54fafa4","TimeStamp":"15955638","Nonce":"159555863958639"}
-  --> POST /?signature=b21ffdd22df997179e341e70c3a46736bc81c2f8&timestamp=1595558633&nonce=746135028&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=b55a30082a4f125a22aa613236ea404f7c24cc4c 200 1,322ms 421b
-  <-- POST /?signature=a1ef2344d1f2c61e2eb1d844f8947bbef6011785&timestamp=1595558850&nonce=529703379&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=c7f3274df8df191bee1a7b63b10d710ad00514aa
-  <-- POST /?signature=0aee79ca96c21cb8357eaa99d77e992cff1568b8&timestamp=1595558850&nonce=1025378757&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=a60ef6dc9a0645b0a1d63a82496c3f427eda2e10
-  xxx POST /?signature=a1ef2344d1f2c61e2eb1d844f8947bbef6011785&timestamp=1595558850&nonce=529703379&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=c7f3274df8df191bee1a7b63b10d710ad00514aa 400 5,003ms -
-  xxx POST /?signature=0aee79ca96c21cb8357eaa99d77e992cff1568b8&timestamp=1595558850&nonce=1025378757&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=a60ef6dc9a0645b0a1d63a82496c3f427eda2e10 400 5,001ms -
-  <-- POST /?signature=a1ef2344d1f2c61e2eb1d844f8947bbef6011785&timestamp=1595558850&nonce=529703379&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=c7f3274df8df191bee1a7b63b10d710ad00514aa
-{"ToUserName":"gh_5907ea276845","Encrypt":"5qI9h8WjAu+2IxmNfxElqWtZRr+8Ir4FMfjrVLt04m/nlr5zSTWUn76/pnLwKZBrJpB/DBLGfqAtUzW/GZR4faB6hkKHifDyLarYHX68lQI7COzFi/iZ9STmiKMzhHmrgHIyOgYx8qhlVjJiR58jqQAGWxo3DNst5lIMJyO8XrOusjdmTfhbfcr6VZQ3/pLRwiZUKhkJPWWzg/64S4FGGLY435sxX+8UUIK8z/TlOVUJLPT5CRRZzWewPI+2tlo+gkuR3PWH4Ud82s2HXIf6JoWhMJuYT/X5PsE8CNkS/2I="}
-{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4yjo-suV6H-iqn0H_rtPUIs","CreateTime":1595558850,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2001@gh_5907ea276845"}
-回复的内容是: {"ToUserName":"oD5b_4yjo-suV6H-iqn0H_rtPUIs","FromUserName":"gh_5907ea276845","CreateTime":1595558856,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
-{"Encrypt":"PZTqJfkZq1IJ6KHDzLXb8yrxCDkeJxTEIIZgf8pvXnf6C5v/DbqyNct5DNMnFo1nsAA0QwIT6ONYrxr0WzQbcee5PmaKfWGkDTnY00R+eGkCMOFXye0S5ulRySDwEDEnfGlvsVysbKOG0Es+M84iIBkGU8rQNQZkH3kJ1HP5VYf/7PI2RA5AhhLY8TGdtgO/hZ4rIDjAR/UT1zoIQqMu4Uhfi/TF3hWhy6Bl8d5R9PgLv2dBRL2455jXxumvYWLh9o2MzhKmT6XNK8ueXX/Fh0b9iqmhRwMVKqrlmG7S+DI=","MsgSignature":"8ab23886eac4bcc982641834b7ad2b302bc8334d","TimeStamp":"15955799","Nonce":"159555885558855"}
-  --> POST /?signature=a1ef2344d1f2c61e2eb1d844f8947bbef6011785&timestamp=1595558850&nonce=529703379&openid=oD5b_4yjo-suV6H-iqn0H_rtPUIs&encrypt_type=aes&msg_signature=c7f3274df8df191bee1a7b63b10d710ad00514aa 200 3ms 421b
-  <-- POST /?signature=0aee79ca96c21cb8357eaa99d77e992cff1568b8&timestamp=1595558850&nonce=1025378757&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=a60ef6dc9a0645b0a1d63a82496c3f427eda2e10
-{"ToUserName":"gh_5907ea276845","Encrypt":"bYFcgHODVFtr5aDyzOFpdS2EyaIc8c52qUhJLTmp3DbzTiU6QyrNHMDIXaonXOC8itTDb/JW4rvosxe/ALbYNeGnBDrZNk4xGLMxuiYKCUHb60W8qBLB4BZDnqjRV8HlC5JMSHo/eTcdQvPmIdxHYuWxILn+FyT18duaJkP7wn4Ir7DdjO1KEGLUvpv4LOxmiWZDACmZnF91rGltMCSh4F2rWq0ac0ZXJlYBDw/J04lba35je4NjH7JILdazlkUnTqwxqVIM1wxppIsjYddtG+cU0grZi90PxHq/kFkkNqM="}
-{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1595558850,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2001@gh_5907ea276845"}
-回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1595558856,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
-{"Encrypt":"gTFvFuykiSDxq+buCErmd95QETMeR0dmre8iUd055aVjEH825TF1bHKDVTSvZl6ySwIOBBGiZa6iBbKDpKmyj3+onzrVKDSZ7QQ0m/hMk095YDVZOYGhLX6alYoNQiitestuwkjegJQyFhHM52kDFwgMPiGz9PpVHfAwexabSocKI6U+NspFG/ln/m7ldOtt/b68G19Kd0dwoMnuKW19NdwlQzKp5Fc5GxQdQ5iUV116LTNtv4CQt9S5a4M11CYgDQUUl77DmMB5HlESGaQ1Pv49cM1OMTmmZieWcKdN2uo=","MsgSignature":"5abfcaf1923822e7e113085fd979926e29601818","TimeStamp":"15955802","Nonce":"159555885558855"}
-  --> POST /?signature=0aee79ca96c21cb8357eaa99d77e992cff1568b8&timestamp=1595558850&nonce=1025378757&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=a60ef6dc9a0645b0a1d63a82496c3f427eda2e10 200 2ms 421b
+回复的内容是: {"ToUserName":"oD5b_45yBt06EIW2N0wv_ZlaekLw","FromUserName":"gh_5907ea276845","CreateTime":1596514600,"MsgType":"transfer_customer_service","Content":"","MsgId":22856593788143520}
+{"Encrypt":"NZHIpnVTAEC4XULfrEU4dfLygxLsIal8uYJgOh/WOJq721YqLLyC/b2E3zDBVR5e9+sy1O5azQLeynFQnFzIzuQilpPVn1e9ZFoeXvYnOsSfljzLYd0+1MBGM6ICSyiau9xC32VYgphioQN84xRqbx2aOdJngj00mIFWFzgZ8hnTf2xsZ7gPknNhMAq+S/KDTI5haUD1HCijwjOdh/Nrm2xClgJR8ovFmovYXAt1yZzmm0F2Va4+qXChFdF4DIOEjZJWHvweFE0gAM1n9YIE6Ylb8yQML8zUMTZVmyv7JyQ=","MsgSignature":"4864ad183f8b0ff107747d8713d5157466515b1a","TimeStamp":"15965166","Nonce":"159651460014600"}
+  --> POST /?signature=8c0c5b60a3f7cd735de77fa127a2923300506216&timestamp=1596514594&nonce=1724549868&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=dcb4c8f5e4372ca36476f10f39375040befddda6 200 1,053ms 421b
+  <-- POST /?signature=51d7e1e4319613e97fe1f1ca8586f5e989176253&timestamp=1596514622&nonce=1603633052&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=a88b7f8f6108a4ad1913303f176941848514e49f
+  xxx POST /?signature=51d7e1e4319613e97fe1f1ca8586f5e989176253&timestamp=1596514622&nonce=1603633052&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=a88b7f8f6108a4ad1913303f176941848514e49f 400 5,003ms -
+  <-- POST /?signature=51d7e1e4319613e97fe1f1ca8586f5e989176253&timestamp=1596514622&nonce=1603633052&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=a88b7f8f6108a4ad1913303f176941848514e49f
+{"ToUserName":"gh_5907ea276845","Encrypt":"XQoNWP1WcYWTf7bx5QfzgzbyCvLUbgohpM6N4e/X3/tbEHDPO6x3sVO9/++p6h8Hlg0hcStJp36v0iPgFdlVBUJG7VlldrSP0/iVt4wDglEGrgirs75woARugDqp98Ara2SMn1NPYZGyaEEvoUlal4HkT7GrcB5zeZ6cKgGyJEzMhm8dra789CsCMV3Ok55MgSKaXFpFPXjTmIc84j7t0VUUXGLJGvO3VK+DrDk1iM3viNH1SJj6I4e8WNde7ef18iaCwg3mxj1ET7TTKED+cdzJBtnM8dUKCFGFIeq6NjA="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_45yBt06EIW2N0wv_ZlaekLw","CreateTime":1596514622,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_45yBt06EIW2N0wv_ZlaekLw","FromUserName":"gh_5907ea276845","CreateTime":1596514628,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"l5Ix9cewR2toO4sEpSwUx4Nef6CbRYnZwlZ2nBSOBQjS4+XFDDcsKb0/13A+8moCEPp5ielKFmtwuwVq0a62+BKhKIwZqqv1FbGpZV88n4NvJ8/9Ka2mN7dZcO52gLHis8GSwX856qxJYrQh5cj2Ug1Dzu+7GONeBmgGf72Pqlbe90yX3Q0C7/W22mt41Fqz4BwKOiU345kBtj1v5/tWd96eo0mPL+JOA19eBy0AnNWbBXXiEPjtaA78FSis3E74fzLtwUL73/t8LP5LjqlGlTRAUlZsro4qXx3n+dPZBzA=","MsgSignature":"89fff7c4c6822d119b10db8da3bf5e6b61aa1f51","TimeStamp":"15965286","Nonce":"159651462714627"}
+  --> POST /?signature=51d7e1e4319613e97fe1f1ca8586f5e989176253&timestamp=1596514622&nonce=1603633052&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=a88b7f8f6108a4ad1913303f176941848514e49f 200 3ms 421b
+  <-- POST /?signature=40a5d2c39e2a88b4ee7727b23d0039788c3f8b6e&timestamp=1596514631&nonce=1944360723&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=06279d8b34e04437e6d9e4e47f5cd921fc395fc0
+  xxx POST /?signature=40a5d2c39e2a88b4ee7727b23d0039788c3f8b6e&timestamp=1596514631&nonce=1944360723&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=06279d8b34e04437e6d9e4e47f5cd921fc395fc0 400 5,001ms -
+  <-- POST /?signature=40a5d2c39e2a88b4ee7727b23d0039788c3f8b6e&timestamp=1596514631&nonce=1944360723&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=06279d8b34e04437e6d9e4e47f5cd921fc395fc0
+{"ToUserName":"gh_5907ea276845","Encrypt":"/6ScYu6Aq7JqSt6hcmy9AoARrlRmLDgQM0EJqVzGRwx+0NOkh2397WJGrhtuXtv/c1DJuxiEQEzqK16R3PQTp+QwYFlslQjw4CfSIVXG730574skTJIstMzGqHMqg0nXiLBe5t+Q1AeiH8PKQ3YD5xV5LA3PMiAAaYpDDBgqdxARqNzV+k4FTiycKPVdFc3KtGn9Cd0X88q8eERMNbKDf8M85w9qSXSmSjFhQg84BGLFM8Idfj5t7X38UjuJ+we/Ucf5UyXLSyjUAzuNpMfwPybEYFTExl5xs+64uyMtl88="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_45yBt06EIW2N0wv_ZlaekLw","CreateTime":1596514631,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_45yBt06EIW2N0wv_ZlaekLw","FromUserName":"gh_5907ea276845","CreateTime":1596514637,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"+EeI5IkXzK2lix3bmPHldgxrmmeg6raJeEVs6W4W/oK5Q1CP0xrvNOrF08edjWf7hZYJEmisG7kqseBNw5FrxWMSXRvJ8uksx14OBu7/27RWSKQEAlzoJ6d0HB/Rr4SIFECUar/iaP43wZyGVJeu9VmndQcYnJoVTnwzRA5Spv8Tr7LKgt3ESlyVRBpz+lmYetnI9Yxl6E1MLg9yQ9sVh0qQc02PNJ8DYXJcXkhBeD2w19CFNU8pmpVdFKo6E5fa+jXnWfOux95D+BOcMbx9gP3ByX5zL9VTAoeGTpbNk6w=","MsgSignature":"b79e1634292ec63624d68e4434220c31d560a0a1","TimeStamp":"15965446","Nonce":"159651463614636"}
+  --> POST /?signature=40a5d2c39e2a88b4ee7727b23d0039788c3f8b6e&timestamp=1596514631&nonce=1944360723&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=06279d8b34e04437e6d9e4e47f5cd921fc395fc0 200 2ms 421b
+  <-- POST /?signature=5db0c4e9a9e03dd9bdc884cada48e28b8606104d&timestamp=1596515044&nonce=2105684968&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=28a87d755c08df494dbff18cf075d8cdeb758b35
+  xxx POST /?signature=5db0c4e9a9e03dd9bdc884cada48e28b8606104d&timestamp=1596515044&nonce=2105684968&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=28a87d755c08df494dbff18cf075d8cdeb758b35 400 5,001ms -
+  <-- POST /?signature=5db0c4e9a9e03dd9bdc884cada48e28b8606104d&timestamp=1596515044&nonce=2105684968&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=28a87d755c08df494dbff18cf075d8cdeb758b35
+{"ToUserName":"gh_5907ea276845","Encrypt":"DWuoHg2ccOnT3TFwBVNkYnwe91wsphVTg3wi45ERXSnFTO88N+hGpy+4SQj0HOgVMB0VuWPqwtqfqIqp/D5Vs811e5HmrMhDuXiB9Qn2eYEXJc01qbFT0uQwHw+TDJ8EOOUTpN/T/hS03DoRBZZcmVYv/Ta1G6rRV9ESrd2P84Hsint7GeuKZ4R5OcSDw7R4dk1texvBuK/Jx2A1BSgMCcM9MOU9hvogc4JamFJbbFfWqQkYhifjE0mFC76RqgZkkjIXdMl43oZ/QBK7HHUPHbtbeDLWz8sMr0g+UktV/TekCm24lcgIjX69yoV5QjRcKg52wMpL4RG0ZhaBVDUONg=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1596515044,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1596515050,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"N2x/Aa50BEWpNX6q4CKvcYV+aUSzQd7xw5mvs4I9edaQqXRLreS2cOGdbGENtWUHkWcAPsoPhyPvLZYiBUeQ8bnfAIeK2enWnd3URH0jzDiIWeSk0WLXNxm/ZNC8ozzyRBUdHlzYCtfaiCHLWQgaa8V4xbbN97PrkN9lhi3/8U5bz/5J4Z3zM2KpzcJFSBeVJBUVTBIllvhd/WPUNk8aK+f9pf/gpdcbXtURG8//BCDeQ1XJNvs1bVezGjc3OHtfxp2+1KU6gm/WU8gbtQFzTk6V4nKLtI7g2xtidh+FXNs=","MsgSignature":"ac66b8c4c5a09436015c1f542353f7daee7004fa","TimeStamp":"15965302","Nonce":"159651504915049"}
+  --> POST /?signature=5db0c4e9a9e03dd9bdc884cada48e28b8606104d&timestamp=1596515044&nonce=2105684968&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=28a87d755c08df494dbff18cf075d8cdeb758b35 200 3ms 421b
+  <-- POST /?signature=20e7acf70808069f2a9c326b41781d4714430afa&timestamp=1596515756&nonce=1243705996&openid=oD5b_49RNP_Sff2ff82Ztw_2Mbl0&encrypt_type=aes&msg_signature=d641d1de55c0f5b015e061d07663781a638e9478
+  xxx POST /?signature=20e7acf70808069f2a9c326b41781d4714430afa&timestamp=1596515756&nonce=1243705996&openid=oD5b_49RNP_Sff2ff82Ztw_2Mbl0&encrypt_type=aes&msg_signature=d641d1de55c0f5b015e061d07663781a638e9478 400 5,000ms -
+  <-- POST /?signature=20e7acf70808069f2a9c326b41781d4714430afa&timestamp=1596515756&nonce=1243705996&openid=oD5b_49RNP_Sff2ff82Ztw_2Mbl0&encrypt_type=aes&msg_signature=d641d1de55c0f5b015e061d07663781a638e9478
+{"ToUserName":"gh_5907ea276845","Encrypt":"skIriWhPA/NeCaH/hIILT9sSK4eXkkc5HTW68L/ar5tuZ6llBOz4X0gbJ2EN17bwHcr/ZIZGGKxhvJ5OnkcW4CtuBwe2fxA5CMUksBK0/568dpxbzbzTgMdJEsJERqhWOWORGSzeeQ1/LvpLRQXkcPTxMtjVmBtlz5Q51b1KRrBqhirA29ov92Prz+qGheCMSVRW3bYP/D5ELk6HR+ZoAsyNSrTAaTDYQCrkUanuaGbXtInS9apofBdszoU19HA1fcRHaGuO9f47vAPA5ST90OmFEG5RxuZMVdaEUZlXByQ="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_49RNP_Sff2ff82Ztw_2Mbl0","CreateTime":1596515756,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_49RNP_Sff2ff82Ztw_2Mbl0","FromUserName":"gh_5907ea276845","CreateTime":1596515762,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"U6kRHip1cVErBsBapKYinIVhFBMRqxA4tKdKod10gFQmBt6eke9GlYjgpnSole9RrR/96hpRJyXLMq5prMFrkH6CqDlww6PCCPtrtstfq+1iGDVbGRndiY0ObS1qQFM3QD+QSmceq/KlxDZAG2cTxFjB6YLiXPM5tO04lA1wA/w5tR9EoNzVmKxBuqYO4f2/UGIgYtCsJu/w3XU9BqsDcOMJVWPvXgg1ZMKmWzsJlDs5AerzGywCQEDP+Z31ZWnm8ehvPrzwWUYlECmbQk0lWm4hq0pRjwmmdK/5RZ8gS+o=","MsgSignature":"c21afb2f67fad3ff8c4190f7cb028b1aa5432e34","TimeStamp":"15965307","Nonce":"159651576115761"}
+  --> POST /?signature=20e7acf70808069f2a9c326b41781d4714430afa&timestamp=1596515756&nonce=1243705996&openid=oD5b_49RNP_Sff2ff82Ztw_2Mbl0&encrypt_type=aes&msg_signature=d641d1de55c0f5b015e061d07663781a638e9478 200 2ms 421b
+  <-- POST /?signature=f2da37278d29353392e79a3bda54f0819f06a641&timestamp=1596516279&nonce=645365234&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=0d15fc00b3f9d2197c0720c4c8897a5cd9226757
+  xxx POST /?signature=f2da37278d29353392e79a3bda54f0819f06a641&timestamp=1596516279&nonce=645365234&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=0d15fc00b3f9d2197c0720c4c8897a5cd9226757 400 5,000ms -
+  <-- POST /?signature=f2da37278d29353392e79a3bda54f0819f06a641&timestamp=1596516279&nonce=645365234&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=0d15fc00b3f9d2197c0720c4c8897a5cd9226757
+{"ToUserName":"gh_5907ea276845","Encrypt":"FxyOV3xOq/pCe8mwcGPESbbyVdUkaFj46vAd1tKZQ8JnWi5L/1b6Z8fwW9VYl+HFeSGUjmcygo0AbtnLwjSXuopvjwhAfxH9u5Q/CEg/niYVg4xeOyntxciDnuYlVGohabELLpSoEBjob4N94KmYmlcewXTbqJSYkzI3eTtCPSSvyN+zuOI3w74I/4Q3vi29NmoTDxVPWw+rHCciPLaejgKWJo3A98sbuwr//O5YJMI+34U1tltN3ycPZJIG2AkJ0E2MCgUiYuCRxOn5wvSIflPfQkqPCgsJj/ISop3T4CUIWLVmecW4h8Ct30dVGeTeJyba9B9hqUBdoVlF7kqmWQ=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_48jv8sovvEXSvw44O2Rke_0","CreateTime":1596516279,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_48jv8sovvEXSvw44O2Rke_0","FromUserName":"gh_5907ea276845","CreateTime":1596516285,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"NyKuW0LztdWBv4nxsmaoUiBPdCJwUM0rXyrvqPNjp2cSAuhdgbLAXOhciE2thEilvVPiNLrqUdgDjShppFUnqnwDd+jjonk5QpQAqz0MaPKIsXptLwlhoXqhqgwTmJKSmoEeM4iQG4SSmVvNmV9hNLpiIuraUqR0LlkZFs203gVgy4GFqGYamdpIukysZ1b4tqxYEmfTYX6SwGtPFuXFguVOwR8gbT3mf5SQQxvQQ0WA9Rr23zvedfOzQw5wQjfEu1323uclKLRHz7YUspjPz5lHxx6R/aysEVFMdJy3sF4=","MsgSignature":"2baaba4475ad3858b036067fe219179d63227cd9","TimeStamp":"15965371","Nonce":"159651628416284"}
+  --> POST /?signature=f2da37278d29353392e79a3bda54f0819f06a641&timestamp=1596516279&nonce=645365234&openid=oD5b_48jv8sovvEXSvw44O2Rke_0&encrypt_type=aes&msg_signature=0d15fc00b3f9d2197c0720c4c8897a5cd9226757 200 2ms 421b
+  <-- POST /?signature=5a508f8eba64e8f67d523e5f6f27ab589134487c&timestamp=1596516423&nonce=789596366&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=dcba76f05f06046a544ad778408513d26fb1c933
+  xxx POST /?signature=5a508f8eba64e8f67d523e5f6f27ab589134487c&timestamp=1596516423&nonce=789596366&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=dcba76f05f06046a544ad778408513d26fb1c933 400 5,001ms -
+  <-- POST /?signature=5a508f8eba64e8f67d523e5f6f27ab589134487c&timestamp=1596516423&nonce=789596366&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=dcba76f05f06046a544ad778408513d26fb1c933
+{"ToUserName":"gh_5907ea276845","Encrypt":"41h+33iLHtuqfEBxaKq5i+Q1kvTVBzSvoVwTiY3nrqoObagJ5d1VIx/O6OCBKGpWuHifLkW65fdkwiZaUgUo/atdRWNOsJz7aELhyCYb1mPkhznRVUodSfeuYelcPVNcjEzREo7bjSWBKr7AdKtDwDwH19QlMqpsJz6pjP0Yyr5P/Ppa/Q/0qZcLJyWryBKwJjcQYRcUo0M/+moBI1wONvdq7IiFOWQd0fQDL2h5UmT24e9E3JxeqnKgnq7E7lfgbx3SYDPStWNxmqRFCwiCX/YWhZ9KMN8hcUi5m21/By9Brw3Bj9GRdYCy+003CfA2SEz3NJBKHFNLHn2mdVTJHw=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_45yBt06EIW2N0wv_ZlaekLw","CreateTime":1596516423,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_45yBt06EIW2N0wv_ZlaekLw","FromUserName":"gh_5907ea276845","CreateTime":1596516429,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"LlSepAnUKeLyRefUo++6pAbnRCd8nHfIE0Zgsw9RwrIvgDlLJ6TVSfNXueEdakkhHIR01AWvvKtGsyZZVWLvtWQ9X8iKBJcovxtPkl0KOmrINcmNxuVgz8LrtwpBj3JQEcbnwGoXaAGJ+uqVI5HB/NLczJd4jH569wWKVpJWoGZYn5M0VI6Y1zquWr0/uwPMwmh2VX6rWQTp1FPBYjSZrF5EHldNQWu6z+M3qacY/FuXc2CcFoyj+QsZDDFq0iZCgVywlcuuldG10Et4uPM/900fbNYs55tDMb0M3OWZ8m0=","MsgSignature":"35bf044ac3efcfeeb708ac449dc10402b4840791","TimeStamp":"15965496","Nonce":"159651642816428"}
+  --> POST /?signature=5a508f8eba64e8f67d523e5f6f27ab589134487c&timestamp=1596516423&nonce=789596366&openid=oD5b_45yBt06EIW2N0wv_ZlaekLw&encrypt_type=aes&msg_signature=dcba76f05f06046a544ad778408513d26fb1c933 200 3ms 421b
+  <-- POST /?signature=593715712cea831f02db8b9abcfb4373f83f4f25&timestamp=1596518263&nonce=866640660&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=4aa262d07b7894c761723457093d26b5db1fa25a
+  xxx POST /?signature=593715712cea831f02db8b9abcfb4373f83f4f25&timestamp=1596518263&nonce=866640660&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=4aa262d07b7894c761723457093d26b5db1fa25a 400 5,001ms -
+  <-- POST /?signature=593715712cea831f02db8b9abcfb4373f83f4f25&timestamp=1596518263&nonce=866640660&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=4aa262d07b7894c761723457093d26b5db1fa25a
+{"ToUserName":"gh_5907ea276845","Encrypt":"+JgbtdVNa2cLbgdZuEp5cuZza3X1shFHXpt8VyLXCr7cjgeIHt+n+ngs9uEEY8xEraqBnyJvDYGA7Z9pVeS92XP2YPbmMojthsVvTjoTLs7URaatPtZQfuB6u0ExSE3tlFx7l68KyUT+UFWPdGNo0tDJ1KQ2k+mX46sYWdm9h82/Lxr7z3dbH6PzDRR44sylFQ9sY5FEQAEtHgc63sz5B4XIEJsdhRkj06T9t1tBpl40Xef025kdX6cVi8I9g5P0tV3+n959Lqaaz8PJch2kr3eUnEwjU3zhCNhCr2qLOQ0="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","CreateTime":1596518263,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"wxapp"}
+回复的内容是: {"ToUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","FromUserName":"gh_5907ea276845","CreateTime":1596518269,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"ULrIUqbKAjJYWllkleAYB/hj8a8gI0/OLZqZXiin4v6VHSik24eRoMBSqPaBo4CXcIhodMjevbDDQguvGJiaQ2JUJfIE/dJcSTRYOL2F6JzhZidF6os1waRNNS30wHy7xAqXGO/EHp2dz9CYgxKpnjM3K6OK6e1TvuMLjqWi4ap7hpDgYEhPkb5OsUm18hK34qDlqe5I6I8PZ5tevZB1piQUU1QoznLAytO/kpFO3MlW4vW9yCGbsI9WnIXnXaK6lTx7ItKDDRpje8bWgjqB8/xguVnoxjgbd0lokS4BaiE=","MsgSignature":"65526fe418ea62a49a7572f2a5ccf5d6d7924b38","TimeStamp":"15965265","Nonce":"159651826818268"}
+  --> POST /?signature=593715712cea831f02db8b9abcfb4373f83f4f25&timestamp=1596518263&nonce=866640660&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=4aa262d07b7894c761723457093d26b5db1fa25a 200 2ms 421b
+  <-- POST /?signature=1f9a50cb4378e4e2a4846f239ffd74d3492f115b&timestamp=1596518271&nonce=281885150&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=89cc07dc1573ad09bc4901884e4edeeac1763dec
+  xxx POST /?signature=1f9a50cb4378e4e2a4846f239ffd74d3492f115b&timestamp=1596518271&nonce=281885150&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=89cc07dc1573ad09bc4901884e4edeeac1763dec 400 5,000ms -
+  <-- POST /?signature=1f9a50cb4378e4e2a4846f239ffd74d3492f115b&timestamp=1596518271&nonce=281885150&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=89cc07dc1573ad09bc4901884e4edeeac1763dec
+{"ToUserName":"gh_5907ea276845","Encrypt":"vWZPRYaqO9jat3A/3nNa5gnE88u0itrKjbvhoPQyl1+T0QDLG0FwBcYyom+/NPxxXNBPuQIYRL+G/8+Fe0rhu2G0Ik9E/wlM1Nl4q+SfxIQdslhkpWeuZNFXuznIBSNGkn5S+caOXfJWThLguYHecq9t2X4FIZrJMxJ7GEHt6u4UfL8aZF9FauS3FEt2/24SBEFPK5LPMg7jaxV8jgLa2NBNCJwjOk3Kv/jR8oErRy5DKOXo9z0AQfxr9XrwI5JQ0czlCpSa4ls6D6wzwQVT0nZt7xVY2IFsbLSlJP8Y0Pw="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4_WiLADSnHn1PfEwOn_j3a0",
+"CreateTime": 1596518271,
+"MsgType": "text",
+"Content": "真人？",
+"MsgId": 22856646298051913
+}
+
+回复的内容是: {"ToUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","FromUserName":"gh_5907ea276845","CreateTime":1596518277,"MsgType":"transfer_customer_service","Content":"","MsgId":22856646298051910}
+{"Encrypt":"kCuBNckVU3YRoYZnQkaJLn41eTtMcCFhPselaaAWtYI/zNhWYtVHHOx4Ow4tTbI2x8VmjUSOYqf/BWE/ihCRzTnR/iZ0+vMA2tEMd/82k49+uOhcVItCzxMXY/PfYgu9RBtgfyzLDJZ4uOkOTjZHGOISAaTVn9bxBcHbPBwdiHgq9RqZlNVEel4xNz4ZrPwuxi3WMQpVbu+H/Ng4OLOidNwh4lfxZid6eNTD0u92/+5QnF3sw/sKJGGLI98Mdl2G/CudWNEG5XUdrz4mhebbIqC+J/yQsGuGnUV4HKwYoNI=","MsgSignature":"042f131ff84008a34dcf5de05a9d1542f901efaf","TimeStamp":"15965361","Nonce":"159651827618276"}
+  --> POST /?signature=1f9a50cb4378e4e2a4846f239ffd74d3492f115b&timestamp=1596518271&nonce=281885150&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=89cc07dc1573ad09bc4901884e4edeeac1763dec 200 2ms 421b
+  <-- POST /?signature=f4fcf459ce03978da59cf280e8b7cd4fb7df97e0&timestamp=1596518283&nonce=1198768936&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=52586fb98eb5ed689ed28c78f6642f8e7e0dc8be
+  xxx POST /?signature=f4fcf459ce03978da59cf280e8b7cd4fb7df97e0&timestamp=1596518283&nonce=1198768936&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=52586fb98eb5ed689ed28c78f6642f8e7e0dc8be 400 5,001ms -
+  <-- POST /?signature=f4fcf459ce03978da59cf280e8b7cd4fb7df97e0&timestamp=1596518283&nonce=1198768936&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=52586fb98eb5ed689ed28c78f6642f8e7e0dc8be
+{"ToUserName":"gh_5907ea276845","Encrypt":"f/12pc4fBbbHcvw6DAx/L2kPfHO3czPc7SVKpBqiEADRt+3mNjPQClxfdeFObG1Mo/i4D2zoCx6DBHolprSlRSib5yU8a5KkE3XccChV7+8oIO5w1Wy57D5gplX63reuJi9KjNIXHcFebSdY/E7J7VNxcIkB1gz0kP6N7PLyeu50vb58ObXLmeUJgaNPXYnTJ+ZwxEmYL5VTCloIBWiDqj1DXCTfNAzGrfrsQJ6XK+h+qltHQ6tsFIV1IHVf7gEddbiI2GH7mOmOUXx8TaJv1QG/T1HcIBKLaSy9hk7qbk8="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4_WiLADSnHn1PfEwOn_j3a0",
+"CreateTime": 1596518282,
+"MsgType": "text",
+"Content": "有人吗",
+"MsgId": 22856646539091709
+}
+
+回复的内容是: {"ToUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","FromUserName":"gh_5907ea276845","CreateTime":1596518289,"MsgType":"transfer_customer_service","Content":"","MsgId":22856646539091710}
+{"Encrypt":"cC2yjyf9lzY8MQlKxnDN6n44pzoTH9IAgHQgJyObzkwZD/VRbfNclF0/Ex+GBKfTkmf+Y1d9R17anloFM6K9UB+Hqqa03X9o8WxfHpc3eFRST7IClUM1V9TK5GWfr37gei9CNA7Ao2nMhgr9ZEtSgH7gOnWUqGuajGTTcED6xWK3Ww6f1irpTGSlJgBzArkmguDDE8LXmij5MlUKpvSLUwLW9TUL8uxsw1pmSG35meritLimMMyy3eRGVrnmRVR7IwlJ9V53D7ThQH1c86He+TYsx6cjocgJZx3pPVexDhw=","MsgSignature":"6e7496b6decc65fe905c090f5d5816410fdd1ad9","TimeStamp":"15965126","Nonce":"159651828818288"}
+  --> POST /?signature=f4fcf459ce03978da59cf280e8b7cd4fb7df97e0&timestamp=1596518283&nonce=1198768936&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=52586fb98eb5ed689ed28c78f6642f8e7e0dc8be 200 2ms 421b
+  <-- POST /?signature=72808b10855d9fdb9fc1f91636d7dc2e98b29607&timestamp=1596518302&nonce=1949266985&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=3dfcc364e430e56f4400e78ef93d0a959a20cc2a
+  xxx POST /?signature=72808b10855d9fdb9fc1f91636d7dc2e98b29607&timestamp=1596518302&nonce=1949266985&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=3dfcc364e430e56f4400e78ef93d0a959a20cc2a 400 5,001ms -
+  <-- POST /?signature=72808b10855d9fdb9fc1f91636d7dc2e98b29607&timestamp=1596518302&nonce=1949266985&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=3dfcc364e430e56f4400e78ef93d0a959a20cc2a
+{"ToUserName":"gh_5907ea276845","Encrypt":"578M9uwKC0gvxhi90AWW1n00+8EzSf8gzb98lXMYRVRqIjVYlsaOSvohzmSscqtuMfenyCGjOmEdMgNH3JpQhII4gwYC0S8pCboWHj7zSiKbhiMoBO3288kfgIHOdLitVEssaAiJrD4wlIj2wOtPFB36i7qBtO5haSO27tl9gJKDrGavZvfHHLXTwtpg7OUh3r3YGi2cFN7/9M6gBFE4t/WpvenGanytaz76SnhkFXBRr/FhfBo/z+06eVHGeDNy5AR/7HlEpk9RCfYnIhUH6/6ptQumgaReqlSD68XYjyU="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","CreateTime":1596518302,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","FromUserName":"gh_5907ea276845","CreateTime":1596518308,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"kuHibL/gurJSCGO4cmyvYr4JlfNwvWLEAxVeQi18JXCRA6XsTil/xOuHpV5c6snCWm1GDhuAG8vNb6U2TURLJfFTE2jEwiFk+CkMu/AUtMEixXhzBYkJiep15Yur/7paSE+J9xyxMpyVdvNEXgpSAn4y+X8wM8vzgFmhP4GH3iLPXySaI0T7mjEnGEoluOINtwLMYd9fHqZvLZQx2BH/WWsAuluMkIPsopkFfxPHOoS5DZmrq0QrdSdqNKbZcKb/Z/28b5wcuNcIls0JECtijkSwhKALV/DXInFvuZch6vQ=","MsgSignature":"f86fb838548d98e0fa33665f6c2e3ae1e3252a59","TimeStamp":"15965858","Nonce":"159651830718307"}
+  --> POST /?signature=72808b10855d9fdb9fc1f91636d7dc2e98b29607&timestamp=1596518302&nonce=1949266985&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=3dfcc364e430e56f4400e78ef93d0a959a20cc2a 200 3ms 421b
+  <-- POST /?signature=0e2e78c58d689c9374f5a6f9c3d8015729eb9eda&timestamp=1596518537&nonce=1476628031&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=8ab24df276a30e8213d0a1f47453d1277b7a0d67
+  xxx POST /?signature=0e2e78c58d689c9374f5a6f9c3d8015729eb9eda&timestamp=1596518537&nonce=1476628031&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=8ab24df276a30e8213d0a1f47453d1277b7a0d67 400 5,001ms -
+  <-- POST /?signature=0e2e78c58d689c9374f5a6f9c3d8015729eb9eda&timestamp=1596518537&nonce=1476628031&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=8ab24df276a30e8213d0a1f47453d1277b7a0d67
+{"ToUserName":"gh_5907ea276845","Encrypt":"avYGH4svcFpD6qji1463hZ5JltPYBwtLd7pCLY577j//I43VAcvJVGa/z9VhbOQ2HT5fF1dWg91IhV9idONmUi8O35aCuiSgIhUq8tKSzdHxItkUbEAVxQhAzzPtqBUWuBTynjrFVjrEKEb1gn2YNY6gP+XqMSeJ8A9mAR3LfY6P2vxIZXl96RH8n+vDZnxWUrBl52ojjegQX5OfgMd6fyaAbVEIQo5qMP37B2Ex8ZbzSK3kLIA1AJMY3WJwu4BkAzwWVud7IghUPihMv4jyB7yAcMSQXqeQWcAhfYTx6ZA="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","CreateTime":1596518537,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","FromUserName":"gh_5907ea276845","CreateTime":1596518543,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"CqnSSLGE+cfXc+m0R1N4+Rktk2+Ig83a2ni7v69WEQvZpA3cO405szIv1hSDcEGZFwsLOTyW9NtCAgqTMoUgtyxHMjsb2d8Vh0sUwRlO2tmTInBjmkdPgNc54X5FauBjONpFKXZFugiuUqk+aDRN1DlVO9meVW5o1tz9bu0ic5A0Zr6XRdLUYWM6iu9gdzTON34b7kyw3wzI7i7813Uju+T+I0yKFEiFtRcTmNgOa15l4odMW4jqthdpsItGeQz2+IA/L045sjjJWA6wflDN8fkWoO+rTnJ6jveNyfGk/G4=","MsgSignature":"6e5eb004c516c220d7a4ab8f199c54edea2d577f","TimeStamp":"15965082","Nonce":"159651854218542"}
+  --> POST /?signature=0e2e78c58d689c9374f5a6f9c3d8015729eb9eda&timestamp=1596518537&nonce=1476628031&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=8ab24df276a30e8213d0a1f47453d1277b7a0d67 200 3ms 421b
+  <-- POST /?signature=ef50526d54dc27825a0911d4637b5df605454b0f&timestamp=1596518985&nonce=233452849&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=0b9532ce9578d04aeb089e1dabca80fddca544d1
+  xxx POST /?signature=ef50526d54dc27825a0911d4637b5df605454b0f&timestamp=1596518985&nonce=233452849&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=0b9532ce9578d04aeb089e1dabca80fddca544d1 400 5,004ms -
+  <-- POST /?signature=ef50526d54dc27825a0911d4637b5df605454b0f&timestamp=1596518985&nonce=233452849&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=0b9532ce9578d04aeb089e1dabca80fddca544d1
+{"ToUserName":"gh_5907ea276845","Encrypt":"k20OCX+LtNEZKDYDoHwl/uazvtXI4rpzFQekH5g0CkJ5i9m8PLfrr1EzCVdRZ8uAm8mryuLqdj4Va69knetw0Qcwii0fp9/px0m2FbqPtl1Wqqx4Gu/E7jSzF5VfHQaTmArnNW993tl6BmgE+mdLFsXAVyIwIQB1bAY9bfV/dOHEUHQGFENcGgKLydBneIXkSsdaxOemBOcSSehqJLN8KwxTP2Jf8HnbrqVNujpUl98h5ZdKjqgiWB9pB/kcO5RXigTeuTHwrLAbLCq+paUD2DtrnaYMxUiTIFfbkowhGro="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","CreateTime":1596518985,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","FromUserName":"gh_5907ea276845","CreateTime":1596518991,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"0ghWuKXqvXll3xBog5ZhSLKTLeoDL4jVmKbiGc5r3yCM1AjZlrTKjxKbbeI2TV6qiaFzaVVLZOXU58JLFfpSOJjapxvkyVMTg3FdMmZ9sibC7ezgRa7U/4uDYXHqmN7vbRSwf4IGQygdCI0u+kX3mUZ4esjtVAx9i6ip4kibKj0uNW32gyOwp3rTm2O26sg1VT1/3Elwe0y5n078AU3rlOHfTKSS0sD9jNdyGo6FtGiOg8x+GQYU5aviA3MH7d0i8Bdwu3+PGemwpMhbc0fjMVzqANFGp4vsBANxKXXHdes=","MsgSignature":"61ba49e0e2154f2d6b5edb8c1a45a43e2e5eb6ed","TimeStamp":"15965824","Nonce":"159651899018990"}
+  --> POST /?signature=ef50526d54dc27825a0911d4637b5df605454b0f&timestamp=1596518985&nonce=233452849&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=0b9532ce9578d04aeb089e1dabca80fddca544d1 200 3ms 421b
+  <-- POST /?signature=af535f3758b8329cf23f57b49685d019d3c8e4be&timestamp=1596519014&nonce=200757623&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=00bd1aec741cca16250200f58fb4107a25c14e03
+  xxx POST /?signature=af535f3758b8329cf23f57b49685d019d3c8e4be&timestamp=1596519014&nonce=200757623&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=00bd1aec741cca16250200f58fb4107a25c14e03 400 5,003ms -
+  <-- POST /?signature=af535f3758b8329cf23f57b49685d019d3c8e4be&timestamp=1596519014&nonce=200757623&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=00bd1aec741cca16250200f58fb4107a25c14e03
+{"ToUserName":"gh_5907ea276845","Encrypt":"6azzn88vLRpa8l3duZvMrxDDnpJQyy2SUkA0KIdkJXY/dMWkQhYVbQX4GG0xcXymIHTwIMllWSYzUeckBJVWzrztjaEeO9vW78jL9YFhSXb9Qslazc/I28cE2+l59e4Tr07kBY8Ex6CkLTscYoFU/SDBEqJmJmVXky4QB6A3ojy+AFFJzmVo1oQs8Iho4lF3M15JOTfelMTr7IEKUQcTnvBXzwBeitF/eLEq5J86eyXO7boI5uWjFfauBhBas0XdQ+GpQg5fH57B9BdrWdWRfa0IWgwglt+ss2qwrIaAYRc="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","CreateTime":1596519014,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","FromUserName":"gh_5907ea276845","CreateTime":1596519020,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"XXLllM1ScN66yFhN5JrQv4qjMnpypDgBkDKs6oEzraZ2UzlsdINltT8onaBuHDUHLYo6l46E1b6mLtAWTdXT1cP72o5iimyCMqn2Pn6M4779iaVjOpAYxNZgW8/qTib8zbnWIoQSFmD54KxltqmqdNl4j4ibUMoP5RRkt8ngzVch7VN2UEPoFInxXT+HND50mRbNCPkQnGvDwFIaZvdj/W0jyGjsmohBvxvhtGEv39h9RYy++LsLjY2ggkU3aZoQLZJP30LRq98vSReRiIkG4It8R22bJLsGfZw3LQmxjxk=","MsgSignature":"cb335c0d74c5b2b79e5724616b8e99d3d9511c22","TimeStamp":"15965687","Nonce":"159651901919019"}
+  --> POST /?signature=af535f3758b8329cf23f57b49685d019d3c8e4be&timestamp=1596519014&nonce=200757623&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=00bd1aec741cca16250200f58fb4107a25c14e03 200 3ms 421b
+  <-- POST /?signature=5f733bd779b596b6f4115e40239a7d9a096ba591&timestamp=1596519379&nonce=101872230&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=39b641d915d1280b61a58807a408dd64e26c38ae
+  xxx POST /?signature=5f733bd779b596b6f4115e40239a7d9a096ba591&timestamp=1596519379&nonce=101872230&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=39b641d915d1280b61a58807a408dd64e26c38ae 400 5,001ms -
+  <-- POST /?signature=5f733bd779b596b6f4115e40239a7d9a096ba591&timestamp=1596519379&nonce=101872230&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=39b641d915d1280b61a58807a408dd64e26c38ae
+{"ToUserName":"gh_5907ea276845","Encrypt":"nrjacgf3BbXBY1uTTpGJWwRkCgx1rNAejwngpJxe5QFbucIGbQ17uylkiH8XzNM/AaIdveToccNeY0rUdlTNd6sL5qeYmZXQpHYTC9Gybl9lY5l5JlK4BOxlkCvHRGe7BJjs25XKYQvqnSH7wqwqUJ923iQ2wODyTy5VPjxSkx6oDCaLoPJSQtHn4NpR9P6CdWAQFYzmmPSrFYUAKrIUvUEaZ7sBezWlrZuMk5x4GOWlc0Doc/kU+3jf0MEGDLNQfCU78lZ61msp9s5PZsiE18n0hjwzZ6X9JfqlmRW1TjI="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1596519379,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1596519385,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"O0FLWIvCLcoUCpF/+uLqiTa7RXRtYoRiO/IxXOQX2r16MeP2O7Eo3ruP1S0zAMpBGzdaLdoYDft2rQME46/n4ynJFgkA0QIrSMNO5fuXNs4a/sla9ZYiXpWFIoj+xvKs03pzH/CwP7CQ+VHchdVqjh+bPBdHSFR5nWom8fbKwUSaS19joRgheaqSxozyDCogQXyilmKG7sCovvTZX39dhXjbAUy/g3lXvRZ2dpEknNedJCjWHcbL1h+3VI99fOqWtlq6r63/VIh8YVbfpASI8oPStb2E7yteEcTsNCUInSI=","MsgSignature":"522bb4b437d80cf9532554dea8609f358a14d921","TimeStamp":"15965701","Nonce":"159651938419384"}
+  --> POST /?signature=5f733bd779b596b6f4115e40239a7d9a096ba591&timestamp=1596519379&nonce=101872230&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=39b641d915d1280b61a58807a408dd64e26c38ae 200 2ms 421b
+  <-- POST /?signature=43f6b8494039fd4f6f8445a08256a6e0151665fa&timestamp=1596519397&nonce=125400689&openid=oD5b_475fel5rAq6aVMdrEszcQMA&encrypt_type=aes&msg_signature=cdc78f6304eda5a4c83c80462ccfd2b0dbfc1e1e
+  xxx POST /?signature=43f6b8494039fd4f6f8445a08256a6e0151665fa&timestamp=1596519397&nonce=125400689&openid=oD5b_475fel5rAq6aVMdrEszcQMA&encrypt_type=aes&msg_signature=cdc78f6304eda5a4c83c80462ccfd2b0dbfc1e1e 400 5,003ms -
+  <-- POST /?signature=43f6b8494039fd4f6f8445a08256a6e0151665fa&timestamp=1596519397&nonce=125400689&openid=oD5b_475fel5rAq6aVMdrEszcQMA&encrypt_type=aes&msg_signature=cdc78f6304eda5a4c83c80462ccfd2b0dbfc1e1e
+{"ToUserName":"gh_5907ea276845","Encrypt":"bd1JeyTlSAmTWS/8MvlMXV7jwaqQ7gqD93nsJ3WXi1XT2h4+uWxf9bXWeWcJwIAI4LrVebblVapAci1/0Vr9oV7iosi/LBcdvOGs9LO3RWT0FaQbsHuK1RI04zHZlc0JiBZGqQ53UnZ7cpXdYmio+3Hz2T7TmNNU5jVpIomCFZazFRzQehqGgtgJ3TZZshilsiXMf9aiYr4goPLFYmemRK9horsv1+oEUkUpx1cqiERZR0WZ180NjKsrLW5/pnbmH+PmEaTIkdPmXMAhpoIgu62CO+2ml/yDKoxuu8Nt8JM="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_475fel5rAq6aVMdrEszcQMA","CreateTime":1596519397,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_475fel5rAq6aVMdrEszcQMA","FromUserName":"gh_5907ea276845","CreateTime":1596519403,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"g9pqqG4B5ZNdyNP2O9FihM6GGq5VDL29Udc8QiyOUA3JCaO3h5fqgEkY8CYf9ONrsVoruRsbKukDUYGYd2xCmZAvpvKfr6qHWDHYVmDNO+x1+44+vqZrBnTe8JQfBE6s5Wfje8hGy/hUV9rQ5Jht/+m9bCFCRG/vMbK+vtlXbd3391qq5wpSM1TJeAr+PGdic+xuxVAHNGidcy4kicawOF9d80nW3k87jbUxTMLbm9kJg0G7GMJP/5FLX0k7yuqS819YiNb3XVkyx1D4MxVoJCE/MCSvo+0plmo1PJmbsz4=","MsgSignature":"ee108ee5f0975b55d9d36f65e970773f6612ebcb","TimeStamp":"15965964","Nonce":"159651940219402"}
+  --> POST /?signature=43f6b8494039fd4f6f8445a08256a6e0151665fa&timestamp=1596519397&nonce=125400689&openid=oD5b_475fel5rAq6aVMdrEszcQMA&encrypt_type=aes&msg_signature=cdc78f6304eda5a4c83c80462ccfd2b0dbfc1e1e 200 3ms 421b
+  <-- POST /?signature=6e3699c9653e43a2d8e9d20b76c2970622234ae9&timestamp=1596519919&nonce=481394674&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=9aa2c3751b69eaf66d9982421e51b2b9d1059c1f
+  xxx POST /?signature=6e3699c9653e43a2d8e9d20b76c2970622234ae9&timestamp=1596519919&nonce=481394674&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=9aa2c3751b69eaf66d9982421e51b2b9d1059c1f 400 5,004ms -
+  <-- POST /?signature=6e3699c9653e43a2d8e9d20b76c2970622234ae9&timestamp=1596519919&nonce=481394674&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=9aa2c3751b69eaf66d9982421e51b2b9d1059c1f
+{"ToUserName":"gh_5907ea276845","Encrypt":"5ZH9Xnxe2eKTfUXG6puOwp4JbrohF6p7HH+hhOpgrT+fjO0NqkoJ8oTgb0oycs5va210HrzYlGwzm+DK3qR1VGkLHk/Bm9/yG+o0owb7T7OEBQYN8xzQNTyPmA1FmZ06DpvVr2VmWiFohJERgFTpvJ/g6vx/W4tm8tt8G9PXjgsttrQfaXrxuE/4x8zzN1zN5lNLXNC7Ee9rqoHHu+5yc/VWGXWfqjmlKmyZsxkO+GJUHMEXo5v9TtCHhl0VJeM9IUpGGi9MIUckxrxPBLQ1OAdmA9yNE87Cx8fMOmxktIQ="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1596519919,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"wxapp"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1596519925,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"vk0nMvE7KMz6nDWFLL6ZiaNLO9S4jzolre0YtwmTGO742cuYUkxAwEBbRMC7xd2DnfF6000DhsHa9AgEbticbr/4+vUaySDnHmBbjNEfT+QwvFh8b4FTcbyRZskv4iLwc/YhveGhYcyNAv5EXTaaqPDFF03IRFtGqicB84HBTT6j5yXtef7mm6tp6yW9V10+nQbDXd+tFADWPUujg3TibYd7dFKkg/8dWl8hfkSSetSvA/7ZSSsUYoM9jlMI3UfYnLD7c6vVyYY6qfl4xIE1Ao1WLwfDDo9U+r6uARpPTaQ=","MsgSignature":"c3f30209fefe006eee6fe101671915361cd69f8f","TimeStamp":"15965682","Nonce":"159651992419924"}
+  --> POST /?signature=6e3699c9653e43a2d8e9d20b76c2970622234ae9&timestamp=1596519919&nonce=481394674&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=9aa2c3751b69eaf66d9982421e51b2b9d1059c1f 200 3ms 421b
+Your application is Listening on port 3002
+  <-- POST /buildOrder
+[Function: getRawBody]
+req http://app.activity.ffrj.net/tarot-h5/cardGetedEnd.html?prev=%E6%AD%A3%E4%B9%89(%E9%80%86)&now=%E5%A5%B3%E7%A5%AD%E5%8F%B8(%E9%80%86)&next=%E6%95%99%E7%9A%87(%E9%80%86)&title_text=%E5%A6%82%E4%BD%95%E5%8C%96%E8%A7%A3%E4%BA%89%E5%90%B5&v=null
+  --> POST /buildOrder 200 32ms 2b
+  <-- POST /?signature=674e71a8dc037bb53214b323417537d4b562b79e&timestamp=1596521179&nonce=1134689901&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=7d9100a3b8c73a3edfc4b010fa308bf9200effc0
+  xxx POST /?signature=674e71a8dc037bb53214b323417537d4b562b79e&timestamp=1596521179&nonce=1134689901&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=7d9100a3b8c73a3edfc4b010fa308bf9200effc0 400 5,001ms -
+  <-- POST /?signature=674e71a8dc037bb53214b323417537d4b562b79e&timestamp=1596521179&nonce=1134689901&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=7d9100a3b8c73a3edfc4b010fa308bf9200effc0
+{"ToUserName":"gh_5907ea276845","Encrypt":"gKlF+ImtiqOWozUzMplLDrWuxi0lcWnreLyY9G/n8bQkGOhPUrJF+ZwtnyAooYmFq9iuXxpTVddwAWZMlHerrCIy+g7Uv6ksxLDK1/l2dAYbZL4mLFyniI2Xb6XhfY38iC+kDoKuyWcZDL1M0EKTMaPyhUAbyuffeOoWFDF0uEGbD1UJQ7lqNGyS+ThqYII3XSly8MsQq76KTSzokqESmHWvqXLa+13Bsl9U81TFQAWjrxWfALHkW9TeYLUHPjhLJllKLXKhq+ZFKN5+EhTJeZzSVKkWd0/ysNLIQ4K+3PEON9A3TvlLJ26lWxhmusOHKv/0LMa83nQOPyBnCJOXKg=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1596521179,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1596521185,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"X+1BNS+yl0TNzX0KhAr2rDgp7lXbWENEx9KDWS4iSxGx0FtwVm5Xv1J5XZnPOMq+h3Lzx57XSkC/gwXDtVeAxaWLmAxXSsIwnpet9tLq8po49e3fE8RGfm06k0kigNiuIKnKFm0QixVg4dv8kvM+YNntghZdw4aOudusgvgSGxEjPe5/SJuLFYynWRDBn2Wst7Yh1ufdIplhhhy2k+gj9t4kkJUCeseeuFPaQ7SGlb0X9On+9A7/KaPMzYzzrA+RZ5tVb7k6ITnhfrF0EsN0/v9Mybn74eWCZO1ZHAtgVz4=","MsgSignature":"68ee90a29dbc05e6cf9fc6483462019d43db3f8f","TimeStamp":"15965828","Nonce":"159652118421184"}
+  --> POST /?signature=674e71a8dc037bb53214b323417537d4b562b79e&timestamp=1596521179&nonce=1134689901&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=7d9100a3b8c73a3edfc4b010fa308bf9200effc0 200 6ms 421b
+  <-- POST /?signature=edce62914317ee5182906750263bf2d6468b040c&timestamp=1596521566&nonce=2052401165&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=3f3601c264dd981ead9b671d408dad10f1e26015
+  xxx POST /?signature=edce62914317ee5182906750263bf2d6468b040c&timestamp=1596521566&nonce=2052401165&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=3f3601c264dd981ead9b671d408dad10f1e26015 400 5,000ms -
+  <-- POST /?signature=edce62914317ee5182906750263bf2d6468b040c&timestamp=1596521566&nonce=2052401165&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=3f3601c264dd981ead9b671d408dad10f1e26015
+{"ToUserName":"gh_5907ea276845","Encrypt":"7q87t4NXFBiEaZmxbHumKJzqeg2JveB0rB5PkfsjIiF+bU8N3mP21DXvEKusTNApgUZgQMyaH3nCZZJHfsbgW4SfE/xacmeXM1kftHCDYilrl6b6Boa7gDu7N5PM6FWw/vQQrC7VquI4aOTMfsxrYsExk9IBZdZcUDwhNuYNLw65PjNZXG3djARO6YEpZs+WYGFN5eHL6oi6QzYv1JbA9DSioarj+1mZ+mse7t+ayv6/Hn+b/evFzbSCl4cZziM6UQ9LwZPLCJvBEE9vEgP1a3fza8H4wfN+399kOzSfsUI="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_48ygOnYIjmJNYvBqXy1uZoQ","CreateTime":1596521566,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_48ygOnYIjmJNYvBqXy1uZoQ","FromUserName":"gh_5907ea276845","CreateTime":1596521572,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"QWZIpD4hvvZ+33ekkjzycGg+MPXA8a9OHVnMEo7Qamu8yKBNEOJMUAskHsZLuutEZMwgRw9aX6J9oHaZ2QG5lIzg9zCjlMSEbhhnOYpIaMuLB/HHl05RJHQGFl/GoHFrw1VKw5YXqgKrMZDhjbSxMEuNeIUP8XloUhiFC2QFBBV+qt2MXD8n/3+b//UH83sbaB45f+X5SYE4LDfuwQVf3noapsb0/XlNAAGyKmpXwkomFYphvgw5o7J1iDcnnARIdFbaHhLLTEsHujF1skbhw89oqrCUdr/ldYWOyOUEYr8=","MsgSignature":"98548bd06e06f05554e222e553296591dd669564","TimeStamp":"15965558","Nonce":"159652157121571"}
+  --> POST /?signature=edce62914317ee5182906750263bf2d6468b040c&timestamp=1596521566&nonce=2052401165&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=3f3601c264dd981ead9b671d408dad10f1e26015 200 3ms 421b
+  <-- POST /?signature=5652aceac545fedb62086259d274cfd45f49a032&timestamp=1596521578&nonce=545379648&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=5d5b18a7d861360645fcdf83ef3026c93dfed19f
+  xxx POST /?signature=5652aceac545fedb62086259d274cfd45f49a032&timestamp=1596521578&nonce=545379648&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=5d5b18a7d861360645fcdf83ef3026c93dfed19f 400 5,001ms -
+  <-- POST /?signature=5652aceac545fedb62086259d274cfd45f49a032&timestamp=1596521578&nonce=545379648&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=5d5b18a7d861360645fcdf83ef3026c93dfed19f
+{"ToUserName":"gh_5907ea276845","Encrypt":"/a4timEw3zORFP8U3I0c63sjiM/rLYjRyejo1xKe3U50btb4EabnZU7qs8ZvvZyPaRJAAfEzkI5wHDvpeTOjcuvsH0aRkrOT/eAk+pfq/EoPDTBvjI+bdA23dBRS9N8LyPAk2fVFDbxaTSLWWwfLlQhIEto0+MgMQicesoXcDS70HXLhq0So8lluY+01GvThEmdPujwahmSz/A+HVUsoR9DHqyu4NF74BHF1kDfv5ET4cpsRiTxUcsGS6kw1rxCWBEDnpuxRia/r+eJ+UF7dUYQ1xVVCZimPuGfcRnvCod0="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_48ygOnYIjmJNYvBqXy1uZoQ",
+"CreateTime": 1596521578,
+"MsgType": "text",
+"Content": "喵",
+"MsgId": 22856693740769052
+}
+
+{
+  touser: 'oD5b_48ygOnYIjmJNYvBqXy1uZoQ',
+  msgtype: 'text',
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  touser: 'oD5b_48ygOnYIjmJNYvBqXy1uZoQ',
+  msgtype: 'text',
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  data: {
+    type: 'image',
+    media_id: 'scbdPRkL9fVH92d1L3Z7Odo6QOyHIL5NXbGsmpwfS3kt6sSFmrKDj0uT2ePQEf5r',
+    created_at: 1596521584,
+    item: []
+  },
+  status: 0,
+  message: 'ok'
+}
+{
+  touser: 'oD5b_48ygOnYIjmJNYvBqXy1uZoQ',
+  msgtype: 'image',
+  image: {
+    media_id: 'scbdPRkL9fVH92d1L3Z7Odo6QOyHIL5NXbGsmpwfS3kt6sSFmrKDj0uT2ePQEf5r'
+  }
+}
+{ errcode: 0, errmsg: 'ok' }
+回复的内容是: {"ToUserName":"oD5b_48ygOnYIjmJNYvBqXy1uZoQ","FromUserName":"gh_5907ea276845","CreateTime":1596521584,"MsgType":"transfer_customer_service","Content":"","MsgId":22856693740769056}
+{"Encrypt":"z8SDojVg5HplfBenooRFVPNa17YkNJlE/M1LisiOZFK5i1M6nxTGuG9YhOnJzaxXjgSV1t/GGkhDxyYmQOc6PaRyWnVyO2/zHQdoq86iZIt22uz0c0NAcAnVNkRpB0LrkqR+U6+9jK1Hn+H2whH4ePWO8TiMxazS4UOlL+spbxcP0y9GxEKCr8WqieybZM8ieJ5xa2eMsnM8HkCc9TNc3GN+nbzYFDEOvw5FC1lqlrfzwTuYa8xAZZ9tUXI2f5X74KUKMAqw336wO39VVC+pY9m9SrS4XVihmXnGyKnwLyM=","MsgSignature":"8bfe0088a3f7ccd50e759d4457db20e68ba6aeb9","TimeStamp":"15965535","Nonce":"159652158421584"}
+  --> POST /?signature=5652aceac545fedb62086259d274cfd45f49a032&timestamp=1596521578&nonce=545379648&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=5d5b18a7d861360645fcdf83ef3026c93dfed19f 200 1,225ms 421b
+  <-- POST /?signature=d4778a5903caf72448169dede7de30a82828118f&timestamp=1596521635&nonce=216918846&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=4083e7dd2d7b1775c42a2a383f7d35035fa1f26a
+  xxx POST /?signature=d4778a5903caf72448169dede7de30a82828118f&timestamp=1596521635&nonce=216918846&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=4083e7dd2d7b1775c42a2a383f7d35035fa1f26a 400 5,002ms -
+  <-- POST /?signature=d4778a5903caf72448169dede7de30a82828118f&timestamp=1596521635&nonce=216918846&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=4083e7dd2d7b1775c42a2a383f7d35035fa1f26a
+{"ToUserName":"gh_5907ea276845","Encrypt":"eeospaqlvFIc7WGIFpcTndWkmzJ8iOoeSvQHLLH3jEfdVssKgjM+46IAgWonIyVwG2GktFxq1mcgMqIo7+odwyfhQnibfc5xHC8bAkuJbTHuLp8u5GfTvuQnQMAUwNZwtMyUc6mmw/mveECGI1F1wJPC3j6e57OnERZxK+TGwoRW9y+o99YzDqKkZHjYMi46H7U/Z1ezvDLtdeJU1Qv3NdDN9XsA1JaPNUKs81PcRofpyq1u2Qyo28IUMuFxdpLCS5HVS6VD4AMml61vliFirJTR0v/Z+HgYzdO/vPGxJhA="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_48ygOnYIjmJNYvBqXy1uZoQ","CreateTime":1596521635,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_48ygOnYIjmJNYvBqXy1uZoQ","FromUserName":"gh_5907ea276845","CreateTime":1596521642,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"6nXm4IrKh4JgpkRXd6hN7R68TV0AUXUGJNia9P7gtnZRJouNvXy6HnAZJZ3/ilnIi/v6mMxKJWoHZkLf225Mu/9BGd0UBIo+4xBOdW7KD3yeRT56p0KkeS+A5NbUKwIEGsP0Ub09PqQVF/N0p0LLNpQn82ArXKnK2/EzjkmxHkupugeSKc4rIjbgH5EGjg5tGAdRoeSObSZa7TKxTmQCEe3e+AR3wITdUUwr6wHOIFD2FKTRBTerOZFEHd2bq+ZSA70YY0mr0YZo6WXcpllfLFROOk4OOG4wvMufZCxnC6M=","MsgSignature":"15383eba14f51f52baa84d2d7d17478885589d04","TimeStamp":"15965025","Nonce":"159652164121641"}
+  --> POST /?signature=d4778a5903caf72448169dede7de30a82828118f&timestamp=1596521635&nonce=216918846&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=4083e7dd2d7b1775c42a2a383f7d35035fa1f26a 200 2ms 421b
+  <-- POST /?signature=04f426201f8bc0d23dcd987400358bb711602683&timestamp=1596522021&nonce=1800598663&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=70321e0aa8db0555137843e9b487b178e09ff7aa
+  xxx POST /?signature=04f426201f8bc0d23dcd987400358bb711602683&timestamp=1596522021&nonce=1800598663&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=70321e0aa8db0555137843e9b487b178e09ff7aa 400 5,001ms -
+  <-- POST /?signature=04f426201f8bc0d23dcd987400358bb711602683&timestamp=1596522021&nonce=1800598663&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=70321e0aa8db0555137843e9b487b178e09ff7aa
+{"ToUserName":"gh_5907ea276845","Encrypt":"3d2Wa3jDQNPZEi8zVsIFHzaQAkV8HL45ExnDykhdPfGDQ+PvXAxWbFYajakdte+L61yK2gIE0CMn6PoFUEWKQQqp07nuPTeJYMQheJHy9AdZriWvf3kvm3xanGqlGHBbQNCr16hnD+DrYV5MnPgeVUsNnHHkM5b71IFMOFG8gNTu2W9gKARb/XrwvkOLbafK2OtwqWUiOir64/om9NlOZPjzS4hJgV72O10FCmuzG+UK1xbwnQ5WjhXJpUwkJ3UHWDvUa8mrS11pzioGywCF/mAz/K7/EDSFcmfOpxI37Ac="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4_UysPRaaduMR3fwsYDtnYE",
+"CreateTime": 1596522020,
+"MsgType": "text",
+"Content": "你好",
+"MsgId": 22856699452833032
+}
+
+回复的内容是: {"ToUserName":"oD5b_4_UysPRaaduMR3fwsYDtnYE","FromUserName":"gh_5907ea276845","CreateTime":1596522027,"MsgType":"transfer_customer_service","Content":"","MsgId":22856699452833030}
+{"Encrypt":"8uG9rwv62VQjY59BSWSIykn0jhKXEl0LZelM258cXZz/hDWVGtMn7CSCT4iJ17lbOI3bE8UeChm6vu7OKyWbqhK66NuAa+Hn0jr6H+PP4Q+NwQ6FvjGB18mGW3tha6aozLI5TfWqh8kAKsMU1Lfbf94Yt6tuiVxXfa5IyLaqYtGlZuXB7LLd2bhE6KrBtZZDY7tTq0io44ebda5U1YCNEoL3gFYvf6/1I8ToSd81YP2Axb9ieLbno0pzUS6KzGVvDY2NM6JqOTW3wasKH/TZaB4vk1W5pYv7Q2PQcTlW1Dk=","MsgSignature":"4cc2ab8c8f193cc3ef3ddeb75f841a939da294eb","TimeStamp":"15965199","Nonce":"159652202622026"}
+  --> POST /?signature=04f426201f8bc0d23dcd987400358bb711602683&timestamp=1596522021&nonce=1800598663&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=70321e0aa8db0555137843e9b487b178e09ff7aa 200 2ms 421b
+  <-- POST /?signature=0db9206264b6ecd847235d66d1e5dc0298187cc6&timestamp=1596522252&nonce=1530195508&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=4a32c46676326ab80f23b95f27f723cebe789550
+  xxx POST /?signature=0db9206264b6ecd847235d66d1e5dc0298187cc6&timestamp=1596522252&nonce=1530195508&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=4a32c46676326ab80f23b95f27f723cebe789550 400 5,001ms -
+  <-- POST /?signature=0db9206264b6ecd847235d66d1e5dc0298187cc6&timestamp=1596522252&nonce=1530195508&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=4a32c46676326ab80f23b95f27f723cebe789550
+{"ToUserName":"gh_5907ea276845","Encrypt":"H1SpBBS7Bsbct/7xBvSax8/WrIrhSE35uVmhGENAaMPnE9HRWgbp32hakShlIAetcgW/vHaifCNRVlFFdSEEdtAipEINSXOgDa0UBaPiQHSIVzUmwDyfKPpL6WKvKKUCMVXANLqCSoRs2HTdysK0ZFgFiT39wMQk9bK5z3B+AopQOPEr0lwfMCbUrNu1SH7W8MX+i2Uhi6M1IPiUcTs3RuGi2z1Krg0EdG67g3IFhJBl1yj8icpLf+7EM1twRCUl5cI6aIlsAgSnGo+2KGocC6RWdbvqi0EFm+2ftwbCP8M="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_yUYgn5-cBEetm7mIeVzPc","CreateTime":1596522252,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"wxapp"}
+回复的内容是: {"ToUserName":"oD5b_4_yUYgn5-cBEetm7mIeVzPc","FromUserName":"gh_5907ea276845","CreateTime":1596522258,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"8wWlyHibi9me0mPBqSbZ2xabwpDtfywKJUWPksNsBN05VUy/BY730HNdygBsEgf/lyhd7qKonjaLJIyC+9I0cw/iC5EBIj0OUKSpxuRgJyqSNrxEhlNhGp2PCySIbQ+IsQaEqLIMtQ+HuEOgFgYCngonEePmvsnN05mSwBn+GOUjk0usweNFCJZ3x8eS41MQkby+5Tgf3VGbqMWlSnmiIjRqYE0LE3E6rlVmxxksU2adgOO0CEPcl9NewjCpLeQxsU6UECy6hpwfUtOkRWcAZkF5DyWZhpNsWvta9Rt5ZQ0=","MsgSignature":"75f07fac6f3344a24f5ea1192e229a1cdedaed6f","TimeStamp":"15965550","Nonce":"159652225722257"}
+  --> POST /?signature=0db9206264b6ecd847235d66d1e5dc0298187cc6&timestamp=1596522252&nonce=1530195508&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=4a32c46676326ab80f23b95f27f723cebe789550 200 3ms 421b
+  <-- POST /?signature=ecceff2cf17b78a289b41645629f5a9719ab442c&timestamp=1596522283&nonce=1105134690&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=6084b3bac19f18b62f1159253e29fd2026b1b651
+  xxx POST /?signature=ecceff2cf17b78a289b41645629f5a9719ab442c&timestamp=1596522283&nonce=1105134690&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=6084b3bac19f18b62f1159253e29fd2026b1b651 400 5,001ms -
+  <-- POST /?signature=ecceff2cf17b78a289b41645629f5a9719ab442c&timestamp=1596522283&nonce=1105134690&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=6084b3bac19f18b62f1159253e29fd2026b1b651
+{"ToUserName":"gh_5907ea276845","Encrypt":"p0+y9718OlMTnLG4UoDmD3+/5Y0mRjVAt6pLmqWkodi60G9hVmqVqbWIo0r2ViR/7TkK9+r1xDIx5eAiQwuF/2IQyCHqzSyOlUdeC7GT0Tztx+4Ld/lYrRPfGhIZ2HVIZe9Uzk0I3TqkCLoZbICxb2n9UeaEGKBRrJ54dsU7+jkFyv16tYkPhZWcgopYC71Abyfe/wBInfcEpPLDSd/oAFxeF6L8KEbVggyjtKDIqym6bjNgvRph/PjRY/frTwBsTqCHz82tqWD73HfSz6CFIIvwbchS+geUOJnoqBaU7Qmr9kfK3UpJUn5iWydC+GsZgUGY0MxHbM4p7SfW35aQow=="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4_yUYgn5-cBEetm7mIeVzPc",
+"CreateTime": 1596522282,
+"MsgType": "text",
+"Content": "[Packet][Packet]",
+"MsgId": 22856702413956742
+}
+
+回复的内容是: {"ToUserName":"oD5b_4_yUYgn5-cBEetm7mIeVzPc","FromUserName":"gh_5907ea276845","CreateTime":1596522289,"MsgType":"transfer_customer_service","Content":"","MsgId":22856702413956744}
+{"Encrypt":"7xJ5dyQq7Klw0WYIiyO1o5Aa39b5GVoi+BAwRecLEhrDpQagR1Tk+uK4E+XMvfUXWv9U8Jb0yi3v4PiN7zVFxk7nfaueF9wyWhMPrgudXKz38LWyEItjVqtIdgo1BV8N3cFbikZlcghJvbpOpEt4Y+bQnlrZq+JNnElO+jtdcejHK/7MaPHAYt03CsMrtnhrhciIRqBbgVjZrb0IWD7SwlGlBgCGWLJZjEg9pdxVH5JbjFQxyHZYDakZF3ItAWv8XvjXrtm62tRzzxcKP7BwKTzpwaqDCbHFDdYW2UWGCbc=","MsgSignature":"14803e27e152459058433b6e15373d3f0d4ace3a","TimeStamp":"15965113","Nonce":"159652228822288"}
+  --> POST /?signature=ecceff2cf17b78a289b41645629f5a9719ab442c&timestamp=1596522283&nonce=1105134690&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=6084b3bac19f18b62f1159253e29fd2026b1b651 200 2ms 421b
+  <-- POST /?signature=c7f57b99af2650df5b6578d5b02ceb749bf6ecc1&timestamp=1596522308&nonce=47531838&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=a8f4304b110b9018eab5595d8c76b0cbca570f51
+  xxx POST /?signature=c7f57b99af2650df5b6578d5b02ceb749bf6ecc1&timestamp=1596522308&nonce=47531838&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=a8f4304b110b9018eab5595d8c76b0cbca570f51 400 5,002ms -
+  <-- POST /?signature=c7f57b99af2650df5b6578d5b02ceb749bf6ecc1&timestamp=1596522308&nonce=47531838&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=a8f4304b110b9018eab5595d8c76b0cbca570f51
+{"ToUserName":"gh_5907ea276845","Encrypt":"9Svs28ZUKwHMJHs/xqn8s7ESqfyyP1USU5/9pNo5xiJtcJpMTGOxP4XtiiuzHrpNLVA5F4FKA34elASjc+6XjRdJgYg1ODXpe0jF5qFviCqW9cPdWUBiEX5EhmZnP0RZOZUyfr0wmkUBXZS96hFkCfxZ7Ww0Ga5YbHxvTXdSijMHIHA4zqosryIQS39t5cLIUtT5eNVSA3VyPrLkvTWXTvR87SWSkEw2lyod18NV07hkb2ov8oE9RHPtnWRVObPMwMxlLmvSXedXL1ZWl8vF3r7QdwvIR/01EbSFIVgYohc="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_UysPRaaduMR3fwsYDtnYE","CreateTime":1596522308,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_4_UysPRaaduMR3fwsYDtnYE","FromUserName":"gh_5907ea276845","CreateTime":1596522314,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"dx3vmM705CsivS5svaZPcdCUxMvn7f/IGBZfKtBX9zhbYNqzHAtrX/JA8DG8Te8zVJ9O5Qvvs4514e9EZcCdEmNQkPEksFEbExLJcdzk5ZjFwrrBeVQN4pcIOpXB6oezCxKG7ajPviZw4TodgMBmN4EauVwd4OXScK44Gfotgpq5nxOx1P+eR/+mOPPwI3af6hOXLFi4LI3w/tp/oa9//IK9io8+bbDmvQLkrS6OWeaXKLE/x81RLf1nydpB9vMeClznX/c8JFZwJF1ZBatJSAIAc1u8ijYyPiqJ1dxjAN0=","MsgSignature":"5b6e41f1b6b1bae53473e1173d7445b69618ad51","TimeStamp":"15965443","Nonce":"159652231322313"}
+  --> POST /?signature=c7f57b99af2650df5b6578d5b02ceb749bf6ecc1&timestamp=1596522308&nonce=47531838&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=a8f4304b110b9018eab5595d8c76b0cbca570f51 200 3ms 421b
+  <-- POST /?signature=02cb00bd92360668fe5eba1d6aeab2a01a9b4aad&timestamp=1596522335&nonce=908031448&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=cb9d646a775207aa00f475dd5daeeefa4f2a4315
+  xxx POST /?signature=02cb00bd92360668fe5eba1d6aeab2a01a9b4aad&timestamp=1596522335&nonce=908031448&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=cb9d646a775207aa00f475dd5daeeefa4f2a4315 400 5,001ms -
+  <-- POST /?signature=02cb00bd92360668fe5eba1d6aeab2a01a9b4aad&timestamp=1596522335&nonce=908031448&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=cb9d646a775207aa00f475dd5daeeefa4f2a4315
+{"ToUserName":"gh_5907ea276845","Encrypt":"LQHAPYursg00yr4BBQh/xjOIMSA6TglrqMjFAGnhJw2RNIv+tVeGsHwIm7U1Nat1sVbXLH0yTWyMYG4t2Lk6+wWGg2Oxx9ZhKymZnxgD2wg90EnVcZv4+Qw5lCtAl+O7UFFg9D9lETHUt5tSOIHWHLCFpckv23mFTSPX4rFTuIT+WfZIRH1BCJK44Ovbycw37oA5Sn/odtHd3w02w7ZeIlm/N59skIDh1eKi/e5gP4qaSiMTBzSpm2aXukVTFnnW4J6A4NQQ08TCk9gl1YV4QM+SnyP30asmjvd1WIREi/Q="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_yUYgn5-cBEetm7mIeVzPc","CreateTime":1596522335,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_4_yUYgn5-cBEetm7mIeVzPc","FromUserName":"gh_5907ea276845","CreateTime":1596522341,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"NJaLB4hq2qBsJGbz5kFSboUr8Cp3rTp7tsTY39mv4Hp5lkDM+SPMh8w0G+O2L7D/cODI7niZc98vla6TyyK+SWiEVDd5BginjYwNWkj3hCAjhBkhAOb8ZvWLdTp1HJEmd7PuqiFH5OktYk+Okb+jaZHFLFHPJoudDgzCIdI3/MftHMbqY8Lg66u0l8zzQRL4gkobw57bnKbwQgkbw1X2ozU+3h+BfQDtZulnM+lvhVGvdac161+hl/9EXupvZvbxUc2lQdzXnteAg3WyEDmUkbI58Rq9OgPd7z4IRSFK+HM=","MsgSignature":"24548ef205d7fbdb9484fc090b5e7edc67c99096","TimeStamp":"15965320","Nonce":"159652234022340"}
+  --> POST /?signature=02cb00bd92360668fe5eba1d6aeab2a01a9b4aad&timestamp=1596522335&nonce=908031448&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=cb9d646a775207aa00f475dd5daeeefa4f2a4315 200 3ms 421b
+  <-- POST /?signature=3711986dd5833a98469e827faff25a97348958c2&timestamp=1596523293&nonce=1321122610&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=547765a1aed42dc35685bf26c7a4a1e7c1b8aec6
+  xxx POST /?signature=3711986dd5833a98469e827faff25a97348958c2&timestamp=1596523293&nonce=1321122610&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=547765a1aed42dc35685bf26c7a4a1e7c1b8aec6 400 5,001ms -
+  <-- POST /?signature=3711986dd5833a98469e827faff25a97348958c2&timestamp=1596523293&nonce=1321122610&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=547765a1aed42dc35685bf26c7a4a1e7c1b8aec6
+{"ToUserName":"gh_5907ea276845","Encrypt":"efPBHl0d66+de9/RxYXupakGqJQVHbUY124DTviIEUD9JMMkTe+xOMQkUNQVOsMMOowq+DMGLyqju98nW5Th4vcwZSFClLWmwhYFa4cg6E6Ix7tpE/VW/5RdWxZPUdMJ8yBdOS8CXQOiTvRCL/cI8T0LPibZaV6u+2V48j8pEdzX3cZGmC1gBZcYQupQFUAuD/caoCpGQtVIGslA7Y7y4SRIX+/VJOVUH/Tc36U3DdYXPVtRUd9ThWTIB1DxB66upFZ5tLreStniyf3mzOTFmOoMxr1lSOZhdOguv/feDnnoAAehtaaF7ntxKnAm5LxGk5MJA80vclqwPSQByRoqZA=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","CreateTime":1596523293,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_4_WiLADSnHn1PfEwOn_j3a0","FromUserName":"gh_5907ea276845","CreateTime":1596523300,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"qlLXpV7lLv9GaZcYPcQLBqq+xjWNqLeWqU0scaLQun7Quo0zI3uEsuQt0OqN+bET9flL0N2GVw8MHwzoOpEXhpcyzwcDeQSKmjao2xFTIHZJj0iOsz8egBGD7rUmlDTBUD8VtDkCHLAhsStZfFMMyWVBkfVy1c6w8W/4B4ugDhldD0zYgSHPfAFQsXVEsk0PEQrCZ4JguyRn48KKlV2z09Wo2vDvqhmMMg9rvUG+KgYPvfAan6KitfCbYx2mGUZtyJrk0On91noHvode9KKXE95NMBmIgMcorVYXM2Wp3xM=","MsgSignature":"509ac0ab81f00857a87a474a56ccd0baca1d65c0","TimeStamp":"15965177","Nonce":"159652329923299"}
+  --> POST /?signature=3711986dd5833a98469e827faff25a97348958c2&timestamp=1596523293&nonce=1321122610&openid=oD5b_4_WiLADSnHn1PfEwOn_j3a0&encrypt_type=aes&msg_signature=547765a1aed42dc35685bf26c7a4a1e7c1b8aec6 200 2ms 421b
+  <-- POST /?signature=42977d1c74d4a0ef2121a134105c0fdeaad5d3f8&timestamp=1596524109&nonce=327620753&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=9d84b16b19c5a47574a57f85d08b36fdd6752bc7
+  xxx POST /?signature=42977d1c74d4a0ef2121a134105c0fdeaad5d3f8&timestamp=1596524109&nonce=327620753&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=9d84b16b19c5a47574a57f85d08b36fdd6752bc7 400 5,003ms -
+  <-- POST /?signature=42977d1c74d4a0ef2121a134105c0fdeaad5d3f8&timestamp=1596524109&nonce=327620753&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=9d84b16b19c5a47574a57f85d08b36fdd6752bc7
+{"ToUserName":"gh_5907ea276845","Encrypt":"D35yzqYej3EjIQq5cTObDKkY9y9yQGN/skYjJhHUEaPBWH1kRYDTSaXtVC9nfXAZswjPWKOUAwl2NNOuTFtxglJJ/1hIbB3sYhJk9SK6xN+9PIIccgrE/exWNuS8zD1n8amaL2W8s+WroM+4dgAa4g/bDx5HIi0iLVJW/rR1La663fLXWO6CycwtWtYG/5R63PaYIXDBbYrEjsf9yJ/K5Im9w1pDPszVO4NGhM4aDUR73GhpiNqc71yOi23visa3QZOk43ksS0U7dQ+TrAI/hZhbkjpryhbVl6j0lNv0223Q9J2EIps9VGlqWeKsW9pCoFpniClPzvSSFUPetJ2o2w=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_UysPRaaduMR3fwsYDtnYE","CreateTime":1596524109,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_4_UysPRaaduMR3fwsYDtnYE","FromUserName":"gh_5907ea276845","CreateTime":1596524115,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"bY6L0B8j9CEFguDImDegeVNaCuFSCNiAjM8e9gsY1+Ylp56tciIhgNz7uavZEp4qMHaaCHcuTQOk/rtPmQ7MpFydfLgiNe2hJUWb5TrOHbqaftIh0cjNJac4MWYcMw/pFZukqf6GhehcKQdD4p8G9I+xuiqfZu3m5W1dENcYU8u0gJnkmhD/66n7nzChpSKJw9zojerUDKldt1Knpcrh4SXdGotDTa/LOHQY4+bxn5sPHCuSEBFmF8tt7ht7NDjGZfd35fIsU4S/oxzkl0V10g9IeBsUV2Sa0rtT5uM6Al4=","MsgSignature":"48b65fa8eecbefccedc95a3d19bb67042bd176ee","TimeStamp":"15965234","Nonce":"159652411424114"}
+  --> POST /?signature=42977d1c74d4a0ef2121a134105c0fdeaad5d3f8&timestamp=1596524109&nonce=327620753&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=9d84b16b19c5a47574a57f85d08b36fdd6752bc7 200 3ms 421b
+  <-- POST /?signature=e9add1a624528daf1cd7b52664b3451fe1be6317&timestamp=1596524131&nonce=1167584068&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=108eb971d1b155e7c9db753de32dec7dc6b1d84f
+  xxx POST /?signature=e9add1a624528daf1cd7b52664b3451fe1be6317&timestamp=1596524131&nonce=1167584068&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=108eb971d1b155e7c9db753de32dec7dc6b1d84f 400 5,001ms -
+  <-- POST /?signature=e9add1a624528daf1cd7b52664b3451fe1be6317&timestamp=1596524131&nonce=1167584068&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=108eb971d1b155e7c9db753de32dec7dc6b1d84f
+{"ToUserName":"gh_5907ea276845","Encrypt":"JdinUxReaIF7ZL3NGBRxQ4lWAv47HGWJAhajZ+vKUIh+noDKdScKt9MRQssW2OXkHip8GEw1zFHgE/VKHTMfq3OSJcuWGSyVuE5Tct2/auLp2UA3aUg2GgS89ADCv0ABc2IhZzfgH9N4gBNixwlZ8xogLYqAWaFGY8B9dxLBAdf6GzbPGJKGcFb5FiVu98gjTcouINo2dROuy6/uPS7MMOjdVhTv0ehDottoKv9vf37piF8JEiu+Djzfu/6jA4WVk3L4XKRrgnUl301bkkopOlMBzpxAVwfj3xBp7xK2C+B2qJYZ2QVR/roSPqzlTtlzLpn7UA6J00pQmE2ffzmXQQ=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_48ygOnYIjmJNYvBqXy1uZoQ","CreateTime":1596524131,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_48ygOnYIjmJNYvBqXy1uZoQ","FromUserName":"gh_5907ea276845","CreateTime":1596524137,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"F01hXmxXYUV4aul1Sb9bdIqVpmMjk1OMtlUzFm4QmOOlUvf1FodOEAWLEINseY4xznyarAbwS0lniZvePRaErQp+yjbW1vz0X1iJeVnmpawqeU841Ezr8VAAYBCtUepJt8myO7fKtvP4WtLDPVxuCjaY5xuN6uxg6uhuZGkdxGKjPAxO8bqCdb5c79KZcM0YpfNk1ArOFWSpgxhRt+/OODDCeSATM6NFq2gXOgE0fqmE/1nMZ2sg6Qqho5KK0k7Wqs4YMaQ6jyEsPNML+qyLVtz5B6EFVQq7NJkl1Zp/Iyk=","MsgSignature":"35c24efd006ad0b5355efb4296459b8f50e3b2c7","TimeStamp":"15965471","Nonce":"159652413624136"}
+  --> POST /?signature=e9add1a624528daf1cd7b52664b3451fe1be6317&timestamp=1596524131&nonce=1167584068&openid=oD5b_48ygOnYIjmJNYvBqXy1uZoQ&encrypt_type=aes&msg_signature=108eb971d1b155e7c9db753de32dec7dc6b1d84f 200 3ms 421b
+  <-- POST /?signature=009ddbbe05ff60f5a4a2b3048783905db6f5994a&timestamp=1596525236&nonce=887030758&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=464923606eaaf0787259f56775873e0def3478cb
+  xxx POST /?signature=009ddbbe05ff60f5a4a2b3048783905db6f5994a&timestamp=1596525236&nonce=887030758&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=464923606eaaf0787259f56775873e0def3478cb 400 5,001ms -
+  <-- POST /?signature=009ddbbe05ff60f5a4a2b3048783905db6f5994a&timestamp=1596525236&nonce=887030758&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=464923606eaaf0787259f56775873e0def3478cb
+{"ToUserName":"gh_5907ea276845","Encrypt":"ezESkpWMFRGIc7pD0YkGco8Jtslyi5N9WWuSAeQY2zFIENz6nCo4dJsZy9AKx+RGINQPuMHyEWIgnbRTtZ8MDBduPRi8G8F59EX4M41zD474ojzMxwG9GpL0uSwxr5SHxd1dDSg8fEWxlT1JO1hAfyO4XAZn8ihqj2LKouiaT38UNZakijONI122bbYTrko88b4AC0m25Y9TGCKf02ELWZVRJXdCM3MDBPVz1eRq/8IsdS3Crhxn0YkVDmV9aHUrD8oPyD0OYiy0oq/X9IiWZnqK/KyQfNFVG23zTM5eHY4="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_yUYgn5-cBEetm7mIeVzPc","CreateTime":1596525236,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"wxapp"}
+回复的内容是: {"ToUserName":"oD5b_4_yUYgn5-cBEetm7mIeVzPc","FromUserName":"gh_5907ea276845","CreateTime":1596525242,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"Od37EquLwFU/ReAx+gUf+zoiVDSD4jJMvjGiBdOegqxNpH0Bnv3xxijUHGmeSEef5z+PfmA6NpD1OPVv/5CsgueC/L4/ZDE+6ecAfiZVx4dZO08d5t5NVxEIdUqVeMcRwrC2ELJxNWmEfxyw6wj19osgtBtVm/dyXQJM8Y/OAeNZtIepNtVXhJo5XzNUgGl0KUyn+Q8hw7qSsnH5Lk3U6SuIdKX+MCmSGvsncdzWMUUVDUIkdGgSRFGQKPrIEbY56IxohUyihlu+T23yXRpgyEmVkrdxQS4PzpKiPWz+M1Y=","MsgSignature":"77571af1ebfe8c28173558b490adcf3b0b440258","TimeStamp":"15965350","Nonce":"159652524125241"}
+  --> POST /?signature=009ddbbe05ff60f5a4a2b3048783905db6f5994a&timestamp=1596525236&nonce=887030758&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=464923606eaaf0787259f56775873e0def3478cb 200 3ms 421b
+  <-- POST /?signature=203d109aee49c0f33c498131ce126842c64d0b9c&timestamp=1596525429&nonce=120837752&openid=oD5b_4_ZaDAsvSUhYR8xGlC_DE2Y&encrypt_type=aes&msg_signature=813513e284011038f4a82a71a19db7496ecf06fc
+  xxx POST /?signature=203d109aee49c0f33c498131ce126842c64d0b9c&timestamp=1596525429&nonce=120837752&openid=oD5b_4_ZaDAsvSUhYR8xGlC_DE2Y&encrypt_type=aes&msg_signature=813513e284011038f4a82a71a19db7496ecf06fc 400 5,002ms -
+  <-- POST /?signature=203d109aee49c0f33c498131ce126842c64d0b9c&timestamp=1596525429&nonce=120837752&openid=oD5b_4_ZaDAsvSUhYR8xGlC_DE2Y&encrypt_type=aes&msg_signature=813513e284011038f4a82a71a19db7496ecf06fc
+{"ToUserName":"gh_5907ea276845","Encrypt":"sW49XW6CUmy4kcz5MBK/D3W3UGIZ/yVQr6p3x97ZFaK2IyU71DQnvg8jYtEr1evlaLkOp/ZwHwCK4JpJqZJqLjak0aBVupPsfjVU4xh1SNn6Cf8dXISdRCdSpWJPhKPuqcgkD/EHOziXiZ2ATcCfauAsjK+G3+6r55kAg7OHYyAgECSnIqSyBEP+rpB7laj61d5m27ijDRaAzMvaNp9D/4yWklHfJiMG+DPpOku/Nk327rhgiYoWfFV/voWaXq23Y6H/T1/bBn/hW4HrksYrFnw28uwA1qArQubaOOhEzVg="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_ZaDAsvSUhYR8xGlC_DE2Y","CreateTime":1596525429,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_4_ZaDAsvSUhYR8xGlC_DE2Y","FromUserName":"gh_5907ea276845","CreateTime":1596525436,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"xVqOIPjUKkJBwg86VGzxzLHvulSsiutwUADBhrs3KRqKeOtCMB5Ly+E/+i1iU2td+7DnWoGk63S3Jrst8ibhv6yM6Gq+FYPYp3y7knwHx+Z1MCuysLD9DW/ed9MInBr5Q0Ix6mBj0DhOdDBZ6jF7902HxwpwmCRfZtRY+xwEtaaNA7ToEKMXWfUi7Ek604r3HI5FphMHWQqaA57zajrOwkrfED2Quq/M9tKJv8d2qVGCQHBXkN5uBFkaA6wFJ/5Owv+i5U7QbE1TBX45ucHgHhd3mklmYMddvqxsBAiGUak=","MsgSignature":"c85b8aa83c1667a46d2c83134abee9562953c2c1","TimeStamp":"15965191","Nonce":"159652543525435"}
+  --> POST /?signature=203d109aee49c0f33c498131ce126842c64d0b9c&timestamp=1596525429&nonce=120837752&openid=oD5b_4_ZaDAsvSUhYR8xGlC_DE2Y&encrypt_type=aes&msg_signature=813513e284011038f4a82a71a19db7496ecf06fc 200 3ms 421b
+  <-- POST /?signature=0b805b23f6d4cb5afc85c4b04227b8d1be75b194&timestamp=1596527054&nonce=1793884103&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=fb99247ac7ab1175951fe22bcb1c4c4c40385f45
+  xxx POST /?signature=0b805b23f6d4cb5afc85c4b04227b8d1be75b194&timestamp=1596527054&nonce=1793884103&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=fb99247ac7ab1175951fe22bcb1c4c4c40385f45 400 5,001ms -
+  <-- POST /?signature=0b805b23f6d4cb5afc85c4b04227b8d1be75b194&timestamp=1596527054&nonce=1793884103&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=fb99247ac7ab1175951fe22bcb1c4c4c40385f45
+{"ToUserName":"gh_5907ea276845","Encrypt":"Iqrbt6cyfbaKNqMRHvdN+TPICPblQWwaJnYfuNrh6JBpTwmSMGKnjYxVheoa9GFvCoZKSp/u9Lm/k/XRGc8gDuKpTRStDv+nxlggJj5iADIhi1bOgAS1fUnGKiBqxNaiLBvLU9ry/ZlG0UL1jPbiwHf6YX4KaCa/+6b3HSTp2MdtV/NEKSKlR7KmVTBIlCmUK4wLnqoC+B4j1SE+CsYExNLK/V3yHQnfPlgMk0PkiKL0YZW05Sv/4x+gXvBjJl1XVhFweaYenL3XOa+2DaM6r0ODTBLp6RiUF+KPxC/5dMUuB/0f+Rk8+SFbdC83IrY1AbQIGvnXKWUQSgt3exl27g=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_yUYgn5-cBEetm7mIeVzPc","CreateTime":1596527054,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_4_yUYgn5-cBEetm7mIeVzPc","FromUserName":"gh_5907ea276845","CreateTime":1596527060,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"8SzolYtmVElF5H8JbuI/9Z9llvmivmdzT0wNGsze4Wdv+AkNTSSSKIfT15zOo7MRdBIX5nh7MjOs6+WYczADEepXbZhMyhoDNxT1t916GBGalKvGy7LueKRQ3VLW6r2zzyz9IVdeo3BBkiNW+UbdxDSn07StYaaIzT8e5O1PPbqP7vnKxgbSQbm2r76CwYJOG1xno25p13l88AcFNcbaKlv0mrpO/u/hzjnpFYtCBacMhH69MpsBTXzC7/YlQjl3CBxoqYL9FDSPuZAuHHip97KQCaYTMsPjlBaj1ftJ2Iw=","MsgSignature":"590e62b3023911d778042a332b82d5ab7ffc6603","TimeStamp":"15965852","Nonce":"159652705927059"}
+  --> POST /?signature=0b805b23f6d4cb5afc85c4b04227b8d1be75b194&timestamp=1596527054&nonce=1793884103&openid=oD5b_4_yUYgn5-cBEetm7mIeVzPc&encrypt_type=aes&msg_signature=fb99247ac7ab1175951fe22bcb1c4c4c40385f45 200 2ms 421b
+  <-- POST /?signature=f19e2f9d889436c82c6670dbc70c26cb7657b1f5&timestamp=1596527476&nonce=1589600235&openid=oD5b_49VORD9B0ykj9hi2A-dZhxc&encrypt_type=aes&msg_signature=17f20268354b91d5f0708c1c833382552b5f5511
+  xxx POST /?signature=f19e2f9d889436c82c6670dbc70c26cb7657b1f5&timestamp=1596527476&nonce=1589600235&openid=oD5b_49VORD9B0ykj9hi2A-dZhxc&encrypt_type=aes&msg_signature=17f20268354b91d5f0708c1c833382552b5f5511 400 5,001ms -
+  <-- POST /?signature=f19e2f9d889436c82c6670dbc70c26cb7657b1f5&timestamp=1596527476&nonce=1589600235&openid=oD5b_49VORD9B0ykj9hi2A-dZhxc&encrypt_type=aes&msg_signature=17f20268354b91d5f0708c1c833382552b5f5511
+{"ToUserName":"gh_5907ea276845","Encrypt":"ye9sLduItw9TPEpxLpnb5Mo/ZPEUuXcCCKAprWBNRGyebAI1j0ljTaMYiw4QS0cln7muwLqmiKdFFu+Hm5INMWbmkKc9VN/6ETfpZT4A6bz+PelL589R6imXa2bZF6nWdfDyYJb9N97VYNQX2nD3ecdW/9+XXYVS5rei0ZghIOv3dnvRCD2RUVhrcCW59ut3d+DnJ6ezwyIweOjxcD6H6zFM9E5ReSMyLzMPTBW0skjV/2mW2W/+BwIPMLCdFwFT6AhFdUj+V8sMP3i2AcyHOTmxZiCF3k0mSLwEBqqGzjE="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_49VORD9B0ykj9hi2A-dZhxc","CreateTime":1596527476,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"wxapp"}
+回复的内容是: {"ToUserName":"oD5b_49VORD9B0ykj9hi2A-dZhxc","FromUserName":"gh_5907ea276845","CreateTime":1596527482,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"tSD8UG+3CflHzQi2CRrpRfJa3KCiXCutFKeXxrPJwnvd8tO3URxY4JYAG3z3pb/tP9pEcgthM6uDalc1R3rw+Dk74Lfop3G0eCQUSWHekWnZW3TAmwfFrCCUkuBfLXREG95rdD+mk240weOyho+6XalGw6adYGQ6jv4SyfA6cln52L0/4luF5OQKID31FTHACI12IYB0LhBH+8h1xRx2tGDrcUhVruGT3sEZfa5NsYSkWro9LIF1LWMMTLIDTkB2JITSjWuD1qU4YZDzQIlx8LH9tpB1T38eWgZQASkF70A=","MsgSignature":"2f60f04ba074d371f8c6a09359e6a636eb2aaddb","TimeStamp":"15965890","Nonce":"159652748127481"}
+  --> POST /?signature=f19e2f9d889436c82c6670dbc70c26cb7657b1f5&timestamp=1596527476&nonce=1589600235&openid=oD5b_49VORD9B0ykj9hi2A-dZhxc&encrypt_type=aes&msg_signature=17f20268354b91d5f0708c1c833382552b5f5511 200 9ms 421b
+  <-- POST /?signature=6456f94bffa0052055256b5e8fe35edd00735864&timestamp=1596527938&nonce=1027779978&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=3fdc436bc5faddb7af41726977a1b07a4a44dc3a
+  xxx POST /?signature=6456f94bffa0052055256b5e8fe35edd00735864&timestamp=1596527938&nonce=1027779978&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=3fdc436bc5faddb7af41726977a1b07a4a44dc3a 400 5,002ms -
+  <-- POST /?signature=6456f94bffa0052055256b5e8fe35edd00735864&timestamp=1596527938&nonce=1027779978&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=3fdc436bc5faddb7af41726977a1b07a4a44dc3a
+{"ToUserName":"gh_5907ea276845","Encrypt":"6X2KLh0qHBgtuz1sFAWr5Zu0QgRERjgIdmff4h/r39itSkevCE7f5RKOyE8PDHJGu1MnSRgddC8XFZL3W95L5kImr+MON330SkL9nlTt/60U0t64RM/98okxAnN3S4/ODOZwUEMMFN7R5PVYfG1+kJH+qFe9Y75xc/QfnXVNCpxCoUlNG+0YELYzGeFs7ADIXzCkN909vxjWOBoXO62WcD8IokGfmNsio4zgQwEnNop8YH1zZFM5/pHhqeXkx/eoRJrF16AyIwgHdgXrv05fQNqrpOKBn5DFtFopWxMWHIs="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4_UysPRaaduMR3fwsYDtnYE",
+"CreateTime": 1596527938,
+"MsgType": "text",
+"Content": "好",
+"MsgId": 22856782511270485
+}
+
+回复的内容是: {"ToUserName":"oD5b_4_UysPRaaduMR3fwsYDtnYE","FromUserName":"gh_5907ea276845","CreateTime":1596527944,"MsgType":"transfer_customer_service","Content":"","MsgId":22856782511270490}
+{"Encrypt":"68Mxeh0OW07IMMRDAk/Wsy0qmh8yY77dIPQotj8yu3WM864ABl8ETXDd4fe1ZIkcVz92ey09Kykxp2WDSGHUTrmPrjjyN+9t3ZZdNGSGeB8TJD6CaKk/pKTL1vD7ix3ZeniQ29pLRxI4YXGI3ulSxaWCZghgwkGv4XAlg0C7fJscNEXISlXlDIrwWWyu2PBpeXwuZ2Dx2vw6OxydF0M3dq4qhkBABaUHiAfpTNF5b2SaRkMMsWXuBBWgkYur7qI94AwQSCn81tQe8nsm+lu/GoTrv990JuoBqHj9pq+voW4=","MsgSignature":"b833fabc96bd8be424b0c99d01ecb104965d7ca0","TimeStamp":"15965605","Nonce":"159652794327943"}
+  --> POST /?signature=6456f94bffa0052055256b5e8fe35edd00735864&timestamp=1596527938&nonce=1027779978&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=3fdc436bc5faddb7af41726977a1b07a4a44dc3a 200 4ms 421b
+Your application is Listening on port 3002
+  <-- POST /?signature=fe9e4b01b08f324834eb14c2948d6669a08796ea&timestamp=1596528353&nonce=1521471201&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=ccb956a9f05641f4b97133fd399f7040b0e9d67e
+  xxx POST /?signature=fe9e4b01b08f324834eb14c2948d6669a08796ea&timestamp=1596528353&nonce=1521471201&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=ccb956a9f05641f4b97133fd399f7040b0e9d67e 400 5,000ms -
+  <-- POST /?signature=fe9e4b01b08f324834eb14c2948d6669a08796ea&timestamp=1596528353&nonce=1521471201&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=ccb956a9f05641f4b97133fd399f7040b0e9d67e
+{"ToUserName":"gh_5907ea276845","Encrypt":"x9hm5IhGa4bWXaB5LSLX+3VuRB4Ik2l/t66fGvmtQAPeJg4anxpPa8wjMsKDws0qvjNNNwmMemPgVJRIFGFyHUf7bBDa8Tf5B185JVsQJZkrJocrkiCLz9VFsHsxvumz20/+kFKHyer0RLT7XDVEQ9mH0Iy7R1pOIqFB7J84IJp4XZHS6EnQpggbx3GcsBLrmTBPs6UJjb9EG1AG8XvHziCab1lAzrrAcxR5O4fk/aFbha0jk2RDr7TzVd3WC+WxMIxodC43TX7QWgI3K6wdYNz6lGuWdBbqYWNkt2Oobro="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_UysPRaaduMR3fwsYDtnYE","CreateTime":1596528353,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2001@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_4_UysPRaaduMR3fwsYDtnYE","FromUserName":"gh_5907ea276845","CreateTime":1596528359,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"3DY/BcQHMMmNrEMThLZbXp4uubIa1APHWy/MwiWoqQSrwJ2UE9elv3wx/Ner0MTQ7BouOnwQqgglxR+YurpTzdVqr6zWiMyxQDD1ilXYUZ/La8fbUDHsNm4HY9RSsjFcsyB8vSVdsZqOVXJsW5vZ4u12RCXpWqdFQ/qVovwYBzZXLZn3MVscWKSYLoWPJwgC7TMTv3AhUUM/AnzzwbI/H2GfuHgXG7MeL1qDmT8uwykJvr0BBY/SAjLl0ivAY7m85FNgVxo49affg6Xr+UP0uylKGxVHrqLdZ+iFhRcFRBk=","MsgSignature":"b98489da0e7dcc77d2f6309512fa7fd39df83042","TimeStamp":"15965847","Nonce":"159652835828358"}
+  --> POST /?signature=fe9e4b01b08f324834eb14c2948d6669a08796ea&timestamp=1596528353&nonce=1521471201&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=ccb956a9f05641f4b97133fd399f7040b0e9d67e 200 12ms 421b
+Your application is Listening on port 3002
+  <-- POST /?signature=7d1fc0bc0280e2d2cbc77c76e337d4e50b273e1e&timestamp=1596528967&nonce=176908583&openid=oD5b_46WWQtdgBnJ3nGU3gav3JIk&encrypt_type=aes&msg_signature=a11e32b6318943d5233fe0e0459185f9b87c2861
+  xxx POST /?signature=7d1fc0bc0280e2d2cbc77c76e337d4e50b273e1e&timestamp=1596528967&nonce=176908583&openid=oD5b_46WWQtdgBnJ3nGU3gav3JIk&encrypt_type=aes&msg_signature=a11e32b6318943d5233fe0e0459185f9b87c2861 400 5,001ms -
+  <-- POST /?signature=7d1fc0bc0280e2d2cbc77c76e337d4e50b273e1e&timestamp=1596528967&nonce=176908583&openid=oD5b_46WWQtdgBnJ3nGU3gav3JIk&encrypt_type=aes&msg_signature=a11e32b6318943d5233fe0e0459185f9b87c2861
+{"ToUserName":"gh_5907ea276845","Encrypt":"5mQRb66ePwuOlxOgfHjUOiGt7uupkofCbwNi4GlnZuOTYuFdb/yu8aO8d5yOILdFDAf8+cTTTgs+hqI82z0d9AJ+lChEdfelazbNxtCy2Bgc0a5nyBMRxvGBXKjbGqLWIemncMoFtOSq071QVRpDzMqIhS1zFXk7ZrsPD8BOaiWoZ+quWHLdq3xoIu8ZaPh8Zi74F6qPBWKXfTSonGtrUL7oblJCVKeprzLdmV5KU5mZ0rIeMFQ3QiZr3pd9ZHGPW4JrxAKR9Dtq6gNjSJZhhIbKihf/SlqNf4yIHcEUe88="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_46WWQtdgBnJ3nGU3gav3JIk","CreateTime":1596528967,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"wxapp"}
+回复的内容是: {"ToUserName":"oD5b_46WWQtdgBnJ3nGU3gav3JIk","FromUserName":"gh_5907ea276845","CreateTime":1596528973,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"O6Q/RTigWKrB9AQiayxYhbOCQr8hdfLHJ+YtI9t/4eypUZNNQTUzIWoeAPpdYSGJ00jik6eKuK7qr007dW/RzRzL/0iw/RlEDTrkMp1vLCKSZFcivEfJXayTt5ibAcsE6/hwZb0HQ+GjniQ3sbMSx8Rf/Puop7qjD+Al+fW5FaZnlnk/H8a9QYDAWio+4LYnlJ4TpaznGpjHGZpG8jaVos3GGxTr+GvHrC6Sa7K806mwdK0y2PrkuDVHH5Umx7e7fjGUoLemv4kp2VBUMyQXVjmxFa/km0MCEKC+v7ypxbs=","MsgSignature":"604be56d9782fbd9476eb88ddf9b6c347a8a1ca0","TimeStamp":"15965609","Nonce":"159652897228972"}
+  --> POST /?signature=7d1fc0bc0280e2d2cbc77c76e337d4e50b273e1e&timestamp=1596528967&nonce=176908583&openid=oD5b_46WWQtdgBnJ3nGU3gav3JIk&encrypt_type=aes&msg_signature=a11e32b6318943d5233fe0e0459185f9b87c2861 200 12ms 421b
+  <-- POST /?signature=ba038215779d47a301d1bbd4045eff32a88b5381&timestamp=1596528999&nonce=1693039371&openid=oD5b_4zUGRuRci-SWoyoZ0uIGiRw&encrypt_type=aes&msg_signature=4f540be7438c208a808e9c9247f6dfc1c378ec60
+  xxx POST /?signature=ba038215779d47a301d1bbd4045eff32a88b5381&timestamp=1596528999&nonce=1693039371&openid=oD5b_4zUGRuRci-SWoyoZ0uIGiRw&encrypt_type=aes&msg_signature=4f540be7438c208a808e9c9247f6dfc1c378ec60 400 5,000ms -
+  <-- POST /?signature=ba038215779d47a301d1bbd4045eff32a88b5381&timestamp=1596528999&nonce=1693039371&openid=oD5b_4zUGRuRci-SWoyoZ0uIGiRw&encrypt_type=aes&msg_signature=4f540be7438c208a808e9c9247f6dfc1c378ec60
+{"ToUserName":"gh_5907ea276845","Encrypt":"vf53j2RbMmHrbSOrZD5kk2eZyjHKq+w6rIrtrFUHIsIubMdRLrWya46L3N4QjoroOm3QxNutzqhJqmDTvDENyZSQNfpnb1xzjANtKzYtml52/cnTVQEUV+Kzmg22O6A2qSjR3zJfiyKmLL5HYLLHQ9PQ+Ejo/HSoydJoDpsDl9D7l7AD1jgyeKig70HwR1iuddSRFXlgnZ5DzBTcvVDjpIYiURl5pMWNWn9/AxAUqLLDbcmwTE16YNaYLRZg4tC+jeLo3A1tN/UKWHPYGJn/H6Gvw/j2XBP6+Nhy/+fepPY="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4zUGRuRci-SWoyoZ0uIGiRw","CreateTime":1596528999,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_4zUGRuRci-SWoyoZ0uIGiRw","FromUserName":"gh_5907ea276845","CreateTime":1596529005,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"gKmz5ZfIYHiaAucInxBRafhqmB+eN+FzvByQN5t/ze8NUdO6TjbJvUVnA7IVR3tfTBGvFoIAKYQJcuDFFrl/Dc3MwmDdLGkbPP2u3n0mds+28UFNbsS9l11q1OffROiL6QK/ncp5aSuIRgqPPj6QjI4FJzOTDVFlLRkv3tGAZmNhGXoFipzdQSmQ/u1PQQKdTMiH0OQD0Y+v9gk6IZhZGMjzwGB7/djeNbOIE45RL+Fx5tkIJRqKoOg9EHPpuVKVvZ33P6fT53OOJMpluptVwknjasDgQK/7RbFNrEb/bmk=","MsgSignature":"2422aa0f3d2e1f6545183ad1e55485f7694451a6","TimeStamp":"15965491","Nonce":"159652900429004"}
+  --> POST /?signature=ba038215779d47a301d1bbd4045eff32a88b5381&timestamp=1596528999&nonce=1693039371&openid=oD5b_4zUGRuRci-SWoyoZ0uIGiRw&encrypt_type=aes&msg_signature=4f540be7438c208a808e9c9247f6dfc1c378ec60 200 3ms 421b
+  <-- POST /?signature=887ca9d9ed3f6240522abe53a09de01c242d3afe&timestamp=1596530141&nonce=1678176688&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=eda1e95ed4d6ed6dc7f9ba8d4e7f0f84993b21d8
+  xxx POST /?signature=887ca9d9ed3f6240522abe53a09de01c242d3afe&timestamp=1596530141&nonce=1678176688&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=eda1e95ed4d6ed6dc7f9ba8d4e7f0f84993b21d8 400 5,002ms -
+  <-- POST /?signature=887ca9d9ed3f6240522abe53a09de01c242d3afe&timestamp=1596530141&nonce=1678176688&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=eda1e95ed4d6ed6dc7f9ba8d4e7f0f84993b21d8
+{"ToUserName":"gh_5907ea276845","Encrypt":"Ck/SpuwVGHDMy1rctuEeMTmDVsA1PRHdyh2HeyI1T6RJdRxTONPxel99I3sg94zjFhNFERWB0AfGlTjDTcIqzwHcE2toXrmG1zCnM4WvKLwnfZMZFBpAiLkAiJ75na4mBPL+DT4LuKY3VzoOB0O1fafickc76XmZja/RODJVcF94XY1fN5hjcDbvg5tayt7RIjJOCPvrd/d8H681Rjoo5q/i1Csfo+eCvQqsvq/MfqKOw9+tlqKbt1igkeUbJCVRVD4f5Zbugr7amKtT4+qJilWTBB5aYdStnFG9qh6Fthg="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","CreateTime":1596530141,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","FromUserName":"gh_5907ea276845","CreateTime":1596530147,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"FkXvligtLveRIhFkODYHebLWSY/2yjI5+hUJX+Zi8wMKASysk5i+eGln0aMwjPuVUV3cUvWl4u8f/4+80SfZIZybkjnRuHfTnTkJdASOJ93M9tOTGZqN/cN9VQm/So3cZEI4jZwt95GZ6jupFplHMhQf0IsMqz0QI5U+Sb5K9ye1A+K8RKD/sl27xm8zywAJXjojsDt/R7NdBVMfRw7L80u0i7YKOqlaVyNhs93Sbgy8SdLjpdkRGrB5a7oQWf1KUlejd5ZBG3dR6K46GVWAGeEuk0WuhRNlwWMmNLExSdo=","MsgSignature":"48c2bcea810911f7e7b65ef66f9c058ee2c4a1f8","TimeStamp":"15965698","Nonce":"159653014630146"}
+  --> POST /?signature=887ca9d9ed3f6240522abe53a09de01c242d3afe&timestamp=1596530141&nonce=1678176688&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=eda1e95ed4d6ed6dc7f9ba8d4e7f0f84993b21d8 200 3ms 421b
+  <-- POST /?signature=491dac60393f965154ba46bfd3efbc9884d5ca32&timestamp=1596530153&nonce=1219896788&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=a0cda775284c861e03cad4ce0d7f65b5044a6f94
+  xxx POST /?signature=491dac60393f965154ba46bfd3efbc9884d5ca32&timestamp=1596530153&nonce=1219896788&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=a0cda775284c861e03cad4ce0d7f65b5044a6f94 400 5,001ms -
+  <-- POST /?signature=491dac60393f965154ba46bfd3efbc9884d5ca32&timestamp=1596530153&nonce=1219896788&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=a0cda775284c861e03cad4ce0d7f65b5044a6f94
+{"ToUserName":"gh_5907ea276845","Encrypt":"GHQHr4hOsvQh36Zg6G2Zr1VEIytMyejsbASwbGk9mm9GRqKALb2cf9l1ayFaJ1a3l6GO6S7UAwkiXSnZ1n0suscndbL3k2VNWxZJwYuS9NDP/ZS+F2aU6qZ+sLsvsa1rRvuZR5PuIcCk4Ly1Bl7JNPomjSLhW2d826LJ6HaBRfmOSTe2go7Ub3RyPKbsG7OfcZLPpo5vo547J5crBCwbFZQMuYOVdKWDt9lVGM+K/N3ctzuoBd0LjUHsqDLrUkJ5fVwRdbK1XnjgOg32Xj7Hyy4Det0Ck2wpVE17HQ4zjXdB1No3f+Wxla/4BGuzz+Aka+w+R1x/dBf0paGWQDg6EA=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4_UysPRaaduMR3fwsYDtnYE","CreateTime":1596530153,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2001@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_4_UysPRaaduMR3fwsYDtnYE","FromUserName":"gh_5907ea276845","CreateTime":1596530159,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"2DXjIQ2KzqP0YjTRFABfzqRQU4Jc36y6TrpYknT4XCxtzvDwajmCFL1h85QVqzda/1H4KnqIcamLyNc3gs6jbdY+mnFPZevEoYhuDiwukbpjzteq6D/64jH+z7vomyxsZbqT4zKWUHwL3yt4ZpXMy/ZJ3+YfaUjLod0HYWcjoiJ+XCG4rd4qYivfkEX1wYNOIFgIsSgDa0Ghvh4fwtgP9XJNRPNdF/Zf1woTPqwQ4NW4NVgUNwhJrW8nXnIyL20HIvjKvDGwGHi7nbi/2GiqN/IQ1skx+nCXv5148MBUQDE=","MsgSignature":"a6a05da994c1c5823469384f537b2dd774970a8e","TimeStamp":"15965646","Nonce":"159653015830158"}
+  --> POST /?signature=491dac60393f965154ba46bfd3efbc9884d5ca32&timestamp=1596530153&nonce=1219896788&openid=oD5b_4_UysPRaaduMR3fwsYDtnYE&encrypt_type=aes&msg_signature=a0cda775284c861e03cad4ce0d7f65b5044a6f94 200 2ms 421b
+  <-- POST /?signature=929be54b657ca083c885a8eaecef1293383f9626&timestamp=1596530180&nonce=396915744&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=ec38b8a6311c643c5430fda8e4dc831727951faf
+  xxx POST /?signature=929be54b657ca083c885a8eaecef1293383f9626&timestamp=1596530180&nonce=396915744&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=ec38b8a6311c643c5430fda8e4dc831727951faf 400 5,001ms -
+  <-- POST /?signature=929be54b657ca083c885a8eaecef1293383f9626&timestamp=1596530180&nonce=396915744&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=ec38b8a6311c643c5430fda8e4dc831727951faf
+{"ToUserName":"gh_5907ea276845","Encrypt":"rulKAw3ihCXeCuR2NFZzxJ8pvHq1EIZO+3LUpDA2nzPATtW8Q6h2fYaCKrnGk9aeXES8us7LgiTGNZX2yJ3xIK+RqS8/kVRQYvQB4qmxI+UMhR3jvUQJz+n+13BosWyyW4wyxzUQR9nfwM8HNWKyCWIuhZn8QkaoOGg9e1V1hZjr8BYsf+o3SzEY9b4dasnToSmm4YgC++YgAbDBtc9Xy1TFtn44ucWHieDpniZhYYAe7cNp1j9h/mrsLKgWzLiaDBKWglPD3xeurVINx2LeS5RY5BSQZdHBxECwTT4qowu8lRGgD93L9cH3zkg81WXdxOLajLxtJif4PZBWEpx4NocwAe1FD2s0fnH2q8Jhtp/k7ex+noAqbrr5hnNqPzLl"}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_448-HDEXuoy9JhQBqm59Wnk",
+"CreateTime": 1596530180,
+"MsgType": "text",
+"Content": "我总感觉我师傅和我可以成男女朋友关系。",
+"MsgId": 22856818199970296
+}
+
+回复的内容是: {"ToUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","FromUserName":"gh_5907ea276845","CreateTime":1596530186,"MsgType":"transfer_customer_service","Content":"","MsgId":22856818199970296}
+{"Encrypt":"2dmwZzsroDzQxAKovgxPlALNhOIiRD8uwnKXnXqdTXZthK8EUMS8yMlbWQoTISrWBxbyTevzJ4pUngbr5De6Ree2zvNl2Z5ZdM0LmTmGwGR/8RPFXMyUh0Qt4SzmVIf5PzgN8Y2Ts2HaJ4cRwIuEZ/MukSEKD5ttkAz7eu2lnf6BZIhduZn1cH9lYGMPeJbfIZrJEhlqGkPVR6w+dizZNmVA+ZU6w2xvrBXcKxMo2fF+ldvtQn3cqbF+VxYfCB24XNJsi80KP70ghVReOYEfG5aCp8cuYzN9uibZaC/wlnw=","MsgSignature":"af1d7813eea0fba3ad24d1c9a915b9f71d51dfda","TimeStamp":"15965497","Nonce":"159653018530185"}
+  --> POST /?signature=929be54b657ca083c885a8eaecef1293383f9626&timestamp=1596530180&nonce=396915744&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=ec38b8a6311c643c5430fda8e4dc831727951faf 200 3ms 421b
+  <-- POST /?signature=0539cee33d19a1327f5644d38e33761cc5fecd76&timestamp=1596530197&nonce=1943622683&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=df5951e27cf0bb0b6fb3a691cb487b47d5882211
+  xxx POST /?signature=0539cee33d19a1327f5644d38e33761cc5fecd76&timestamp=1596530197&nonce=1943622683&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=df5951e27cf0bb0b6fb3a691cb487b47d5882211 400 5,003ms -
+  <-- POST /?signature=0539cee33d19a1327f5644d38e33761cc5fecd76&timestamp=1596530197&nonce=1943622683&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=df5951e27cf0bb0b6fb3a691cb487b47d5882211
+{"ToUserName":"gh_5907ea276845","Encrypt":"8We7+anC9cNDd3QlAVCe/EA2qX4G5EdK/kbCfSfaLzT4EUyXWV+9wErMn6iztk4RNdYCPwKOfF7xNFN/XT48mF98qPn2Rk1WyiPjqa/du6FOKcfRcdGCB4uSBZp88PcxkOfaxjTbWc7rSaq/pMq5FovFUJqlCHDFx+rJ7PgNshq5hc4AVS4alDUiUbkraIPa5nml4UamZqmXar+DdUh5idM61/PuvdqnpPFfsFayIAcWZFU6gUI8cJoJLJbl20sPTAeMfnbxwjnB+QVshjUaPXuvNtPlzZeRp6FmbPoyctg="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","CreateTime":1596530197,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","FromUserName":"gh_5907ea276845","CreateTime":1596530203,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"alG+NELEf+TDTQJXeaoUhrnZ5FyxLBmng6JgWwFb2c9b2F/mSEm3jPwMbUgIhjDcHLQOtyjeoD9WE5NxN0MgVglDJrppyMbEfbuca9qBOkBZEyHHQaauhmlQyrWsH9L2X0XARsOND3xQYbyiNlbWZ+Xa0ZXHURAZ6deiBMxY9xNLsWv8fOQpROVTZHo/WIJVqDwaZaRDWd6N2ASAVyIYGHnE5Ng3zG6z6meYU8v31G/XYuuFU64UpXfPJAU+qZamrH+e6dtepUj+EuEhpcr0nODgYe4uNw1ejKEp2kF0qdQ=","MsgSignature":"f3abce2a2d1a44215ffad837c2e68cc511134381","TimeStamp":"15965383","Nonce":"159653020230202"}
+  --> POST /?signature=0539cee33d19a1327f5644d38e33761cc5fecd76&timestamp=1596530197&nonce=1943622683&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=df5951e27cf0bb0b6fb3a691cb487b47d5882211 200 3ms 421b
+  <-- POST /?signature=ab949b23ac7eacedaeb36f11edb38acae143440d&timestamp=1596530207&nonce=2083621650&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=37ed455afe67c43a7066d247855eebe297c8dc02
+  xxx POST /?signature=ab949b23ac7eacedaeb36f11edb38acae143440d&timestamp=1596530207&nonce=2083621650&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=37ed455afe67c43a7066d247855eebe297c8dc02 400 5,002ms -
+  <-- POST /?signature=ab949b23ac7eacedaeb36f11edb38acae143440d&timestamp=1596530207&nonce=2083621650&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=37ed455afe67c43a7066d247855eebe297c8dc02
+{"ToUserName":"gh_5907ea276845","Encrypt":"CkAHnBH4Hm3QvKM1t9eRqRp8USymQNO2bwEhH1yupZWfsfArLoRQv6Qcd2raB7qhyXa6KXqJ77V5ZOn8ZzjH629CzZHSfsRgtYqnNpQk7v8lM8786Bf8M6DDlM0kUBTZqR270FKlyGlxoMPgpR46K43K214xc2A5xb8FHiWGFwi61JNk6xPBmQcTa8GsxKaVK/NTMtYtg2VNskJ0Dv2mOJEnar6ZHVwmrOHA8OJRnhXtdCK5JPMQ+c9/3sVrQ6JDtcHwvk9YJR/gV2kzb+lAJZDbdKcKI2io4AzrID11Rmk="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_448-HDEXuoy9JhQBqm59Wnk",
+"CreateTime": 1596530207,
+"MsgType": "text",
+"Content": "嗯你好！",
+"MsgId": 22856815260820110
+}
+
+回复的内容是: {"ToUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","FromUserName":"gh_5907ea276845","CreateTime":1596530213,"MsgType":"transfer_customer_service","Content":"","MsgId":22856815260820110}
+{"Encrypt":"OEX+lclxI4f0PuYUnW29TDCLTYFlTjJemRASrmfCjfDe0NemID4htav5Vvp+FOxSQcIv2pD8GDFTVMUH7NCOcb0lifO1P7s5nz6B6JBQeVFshwKGYdVsZNtmxsKT0zJphg8Q5qn63eXpbn0WVtmCSM7Ylc3ZI835Ds2uHQLi0lYO8bK3CpLXpQyfjSXIobPmp/EFe1XyodAUDlvYANthnE6Lp+MWVTxMup+yAlKbQgdKvjiuebbo9HBltDc7CTmR099WaA6CNYMgnKZ5OEiTEPrV7XYadLi++CS02JreXmg=","MsgSignature":"7577ff0837c00c1cd601d514f8ee983cd41c8e8a","TimeStamp":"15965545","Nonce":"159653021230212"}
+  --> POST /?signature=ab949b23ac7eacedaeb36f11edb38acae143440d&timestamp=1596530207&nonce=2083621650&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=37ed455afe67c43a7066d247855eebe297c8dc02 200 3ms 421b
+  <-- POST /?signature=4e497319cc55f2ee6074c3c05f02b57c7b52c767&timestamp=1596530237&nonce=1504818437&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=f2d544328dadb031c4f7e08ff7106616047476d9
+  xxx POST /?signature=4e497319cc55f2ee6074c3c05f02b57c7b52c767&timestamp=1596530237&nonce=1504818437&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=f2d544328dadb031c4f7e08ff7106616047476d9 400 5,001ms -
+  <-- POST /?signature=4e497319cc55f2ee6074c3c05f02b57c7b52c767&timestamp=1596530237&nonce=1504818437&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=f2d544328dadb031c4f7e08ff7106616047476d9
+{"ToUserName":"gh_5907ea276845","Encrypt":"TdP3QXptl5kmNBQL3NfXyT1CuAvYOV90RCW5tUi/rxWNDmqpewKfl7zS0UmejdmwVZocqXSBgAjgxOQMiEma0W7AeTAfGoWanzm6jfC+7jEwWhXCxq9STuAXDZTvC7sv1VjpDT59jGyVOtPUMWivyxN7JEGlNKz6vcUeMhgXhjUgb4Fj0ykM0cTqmt1z6rdn6mzeRrVrK6KWJr7gGSd/lYdgo6ev0H+x4OC5MaVREMdr+Fb/mdkt4HgOu7X0NZjN5CPO8djaK2Tp7PvxhRr4gcarycTkGqrVkWYtUm47/BnSeoS6fxPbd7fZfML6ju/N5/xdvfVxkygp3dtevoRJGRQys0lJc+F9keat5RY2pgkjALd42Zjw+dOhUvUXoxZA"}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_448-HDEXuoy9JhQBqm59Wnk",
+"CreateTime": 1596530237,
+"MsgType": "text",
+"Content": "我是小学生我，我妈妈吵架了，我不想理她。",
+"MsgId": 22856816507629869
+}
+
+回复的内容是: {"ToUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","FromUserName":"gh_5907ea276845","CreateTime":1596530243,"MsgType":"transfer_customer_service","Content":"","MsgId":22856816507629870}
+{"Encrypt":"HMdm38dKlu531xO9+Q42HlKJjffdAdrkM6RroYSnQNrdHlVzYDS0uN+9OswNbvoq+uJPY0XEXhFDk+qxGuL6Lm7vfoQk9SB+IjKne63Btjb/5qDhIN1hsRgFkeOywjB6MnmWPEIB6YiCsM7gMRrU4OB5jiKf1m8tW8hR96KbdcnRMS/lScmwhybnaB26WIqG0ZWpQzW17vRq8oPwR+BaI5ijNjB0VBeUXjwfwUL+i0J/5m2TNSIAZ0HRFhX/TP0RBB/0WJNOyRrrRrrOsANFwALmsa8JDlVJynXC4IJ8R74=","MsgSignature":"12829edefd5f0160419155eb75202799bfb20ae8","TimeStamp":"15965580","Nonce":"159653024230242"}
+  --> POST /?signature=4e497319cc55f2ee6074c3c05f02b57c7b52c767&timestamp=1596530237&nonce=1504818437&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=f2d544328dadb031c4f7e08ff7106616047476d9 200 2ms 421b
+  <-- POST /?signature=d202b865a7e61e2b6c43d8f0dc81ce6e80ef70ec&timestamp=1596530247&nonce=731420435&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=efc22c134e11afef51aa2bf5f2dd53fe9207bf14
+  xxx POST /?signature=d202b865a7e61e2b6c43d8f0dc81ce6e80ef70ec&timestamp=1596530247&nonce=731420435&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=efc22c134e11afef51aa2bf5f2dd53fe9207bf14 400 5,001ms -
+  <-- POST /?signature=d202b865a7e61e2b6c43d8f0dc81ce6e80ef70ec&timestamp=1596530247&nonce=731420435&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=efc22c134e11afef51aa2bf5f2dd53fe9207bf14
+{"ToUserName":"gh_5907ea276845","Encrypt":"CPZ6xCr9NxMAN5N/pqDQkD8bVHCakHiz8n1XUuUAsIOVC4j6GlCGs+gVefi4mTpWmk7qs4y6sCF0rsE7R2Vu62iAlAU5+JwVJvwrbQVkKOenFFnHkiWJlVTwKzzvwEgLNvOlyR//KSpcT0AlMR3T5fKRuNrbhOVYs4KfCF7K1OKEsWeTyhcJhCTvJZj1R6/de9oIsZOhfJHKk9piohpI/qL3HHv+tVXuo81N5qG60bTeId5V5P7dPLm2R/hUkWNtcG/Ef4HVoNm8YouOLdL2t+bi+doycy76a9m/fhaTgUigT8oC9d/P6EzaF/uXOzt0M6Pwuuk2DmOOnvAE8K0roQ=="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_448-HDEXuoy9JhQBqm59Wnk",
+"CreateTime": 1596530247,
+"MsgType": "text",
+"Content": "我和我妈吵架了。",
+"MsgId": 22856817637970802
+}
+
+回复的内容是: {"ToUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","FromUserName":"gh_5907ea276845","CreateTime":1596530253,"MsgType":"transfer_customer_service","Content":"","MsgId":22856817637970800}
+{"Encrypt":"CzaMGzbKn08+GndFxWG309DAU7NnNCmQ/RfuHtkH9rPJ99b8Eo6COiOY/YAdFgZEqV9Lqwo49u6yN8nMElyfT+3vKRvs3Ii9jOrhkswHzzuGoZaIJupXs2O+OuhCbJPjx77yBIIEtOUEgYCoA8N5zkqZwHqHdxjGYDRhegFQH+KD3qRsWj/Y4CdHJE4ymdL/MUleBUICulNKVphVDNBsHhFBrs/BGhRFmGdUEi5tZC2mJJiJ2WaGybvJny+FOm0GLL3jiAya2SxjrM9df4oswQDrYu38dfNuN+uA0C9R4RY=","MsgSignature":"f9fa5dc21929cc2d0ae28052d98dabc37eed931e","TimeStamp":"15965323","Nonce":"159653025230252"}
+  --> POST /?signature=d202b865a7e61e2b6c43d8f0dc81ce6e80ef70ec&timestamp=1596530247&nonce=731420435&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=efc22c134e11afef51aa2bf5f2dd53fe9207bf14 200 3ms 421b
+  <-- POST /?signature=496d40b16a08df76050d9b20c6508783cdf24e0e&timestamp=1596530256&nonce=1169803437&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=c3115e0cfa2039ca427076b5088583a48f93e384
+  xxx POST /?signature=496d40b16a08df76050d9b20c6508783cdf24e0e&timestamp=1596530256&nonce=1169803437&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=c3115e0cfa2039ca427076b5088583a48f93e384 400 5,004ms -
+  <-- POST /?signature=496d40b16a08df76050d9b20c6508783cdf24e0e&timestamp=1596530256&nonce=1169803437&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=c3115e0cfa2039ca427076b5088583a48f93e384
+{"ToUserName":"gh_5907ea276845","Encrypt":"UCV50Z4jBYCUL6wi4tyObAK2X7/IsEIgS5jB3iCIWrFCVbuVRhSsF/xfBdCXQpZuJsTKQL2J2pD4vk+KH8otgDaS5FYJ0CiuwXvcqGzUirlmBEDDtQuKkXJU2tlvpNODFkrqiOyFCap33KbRp6tkR0j7oOYPjm7cv/p7OMfwQ3K1L8egzNEDGe0u63XDgDV/ogbned235im9Tb0D7yC0l9NWJJckpsFhVCTv8oZ8xteTCG1Hqy/prxyAC8TSJwS/Rriaz+QfaMfHbzwXe2oibmjI/JLGsdbQygSIAOMzVOOaHBoOkGQukPYPsuc7lOuHVyYbD3YOMtwK+m4wt/R4pw=="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_448-HDEXuoy9JhQBqm59Wnk",
+"CreateTime": 1596530256,
+"MsgType": "text",
+"Content": "嗯，看得见吗？",
+"MsgId": 22856815622142075
+}
+
+回复的内容是: {"ToUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","FromUserName":"gh_5907ea276845","CreateTime":1596530262,"MsgType":"transfer_customer_service","Content":"","MsgId":22856815622142080}
+{"Encrypt":"55BMLmD1al//euMPFJRC47rFVvDwN33GTlIF5/9WVhF1FqB6dqLYfWZnD1Yr+Sro/HK2MrA1iRiWSIF41D4PUQ8O2Shmp/Qg7oN78Mgfkxbp0WImmkWLT1spbhzB5Aui+yiZQvcuV3+Lf6uSoMAxhxzLT+O4ZnIEhskUnykUht2++MVjjcAhhA3OvI1rEX5KWX0lbhUvm/Ko2yuiiwo5rR0InUrmJt8bx9mrWkGYx3YTeWR1qZBm97jo+wJrmeO1bIHHMpbzoR4r1sdnFZWDHdc9bTTCCmBLRslyXR6JeZY=","MsgSignature":"3171bc05c52cfc085a62265c910d92d2000153e9","TimeStamp":"15965763","Nonce":"159653026130261"}
+  --> POST /?signature=496d40b16a08df76050d9b20c6508783cdf24e0e&timestamp=1596530256&nonce=1169803437&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=c3115e0cfa2039ca427076b5088583a48f93e384 200 3ms 421b
+  <-- POST /?signature=1330462f6e7c5cd0ec8877b1f1dbb8bf1cc90905&timestamp=1596530570&nonce=1946952794&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=a51e0db529e20fb8aff1018f69ecd6633430607f
+  xxx POST /?signature=1330462f6e7c5cd0ec8877b1f1dbb8bf1cc90905&timestamp=1596530570&nonce=1946952794&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=a51e0db529e20fb8aff1018f69ecd6633430607f 400 5,001ms -
+  <-- POST /?signature=1330462f6e7c5cd0ec8877b1f1dbb8bf1cc90905&timestamp=1596530570&nonce=1946952794&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=a51e0db529e20fb8aff1018f69ecd6633430607f
+{"ToUserName":"gh_5907ea276845","Encrypt":"JnIabhHQIYxOuPvOOpSgYFkOd3pWTvmHQVRqHez1rnYxuFp51FAHbgcZFxAo3d0lFunk9uLNkW/14Gkw8Ydg5ifB+t9Il85XEpzW++HeG2+4+OWP/GNvUpBA+kQ9qQJTDWT42RKSDpdrOXYqK9Fa1shSLi9MiQ58YCj4YZUQrtOzRurRWsZCWGseTuz7xxkWxVteobSlf/1kYD1NrBkImWOMcA+FpxjtvLoCF25lUgyDWst5X2x0SJBrUKEooi7OTF9zokjvw52pw40/SjG1Bk8IHAi7FKwSM0Zvl+yFqNE="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","CreateTime":1596530570,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_448-HDEXuoy9JhQBqm59Wnk","FromUserName":"gh_5907ea276845","CreateTime":1596530576,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"kgw/4Tp+cvA0cjVAcvYgWgm/h0UJvJRRz8a1GYD7oa/y3pYAFDuy/CCV0boryIIx9sQhu24EDcymRNYWiZEHMD6WNy7Fo1z/voL/pdG53EpgYRvEYfRVarx2TFUyl3IwyyCO8tUH4CYGj2eEse8i1/f4SU2z9PT8975/4zWw4b//hwYXNA4g4t/N2kwbv7GSrzj45OcO64z3/5UCUuXnndDi6B555wUQL/1ns8fSqQ4O6hc0glX22IAe9yf3BEwaUrfdrPWruUD0/oifN+npYI4xOlis4xfV9mvkyomdW/M=","MsgSignature":"d804356006e2c4c3dd387e81c4473784a86feeaf","TimeStamp":"15965440","Nonce":"159653057530575"}
+  --> POST /?signature=1330462f6e7c5cd0ec8877b1f1dbb8bf1cc90905&timestamp=1596530570&nonce=1946952794&openid=oD5b_448-HDEXuoy9JhQBqm59Wnk&encrypt_type=aes&msg_signature=a51e0db529e20fb8aff1018f69ecd6633430607f 200 3ms 421b
