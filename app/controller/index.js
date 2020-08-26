@@ -30,11 +30,11 @@ module.exports = {
 		ctx.body = body;
 	},
 	"post /buildOrder": async ctx => {
-		/*let rawBody = await getRawBody(ctx.req, {
+		let rawBody = await getRawBody(ctx.req, {
 			length: ctx.length,
 			limit: "1mb",
 			encoding: ctx.charset,
-		});*/
+		});
 		console.log('req',ctx.req.headers.referer);
 		//console.log(rawBody.toString());
 		ctx.response.set("Content-Type", "application/json");
