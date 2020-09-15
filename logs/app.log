@@ -41428,3 +41428,2430 @@ Your application is Listening on port 3002
   <-- POST /buildOrder
   xxx POST /buildOrder 400 13s -
   xxx POST /buildOrder 400 120s -
+  <-- POST /?signature=01a750b25fecac82375ac7e939c2edd5dabdc3c4&timestamp=1599821502&nonce=232064147&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=7f5509748eb1d10845fbb42317a09f024813dab0
+  xxx POST /?signature=01a750b25fecac82375ac7e939c2edd5dabdc3c4&timestamp=1599821502&nonce=232064147&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=7f5509748eb1d10845fbb42317a09f024813dab0 400 5,001ms -
+  <-- POST /?signature=01a750b25fecac82375ac7e939c2edd5dabdc3c4&timestamp=1599821502&nonce=232064147&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=7f5509748eb1d10845fbb42317a09f024813dab0
+{"ToUserName":"gh_5907ea276845","Encrypt":"C9PqA2ofRlW3FaZ6vq573DLGz0ldgJTwSr6Jp7qmGR9oMB0p3aRNf/HukggLUnz2uVJi2EKiSagL3TCUM3JtHLOl76uLbUuzD6RRQ9T0h3bXtWBjFFjAFE28me+vhQ/dXi0H7A246+N0WbGcQyiyPU8EWdTuj5MaFxX5MLLlUvdFC9pIbKvkktX8jPfZ1lCd3uNlo2trRtptKPC/7mSRJ0O2cI35N04MSPN6pD8pxfUPViido9hIGzxtCTi5h1O4KWt7i326qZCP5BRA/XyseYajQ9jsks7r4VQbsHh7+5s="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1599821502,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1599821509,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"jkoKSlm4bJwYG/OJ3qsifj4dXK8lJ6txtRIXtjenL1et6aZyMTQMLQUFFx09jqhRfnR3iiTaL9LdmlWPuWA+gW6VmrHlca04xcupCk/2XF5u0nYnRd7XoFwvC+dul2J/gpgmUJOQ2nB7cSM/Dic6UfXdhgF3UtbqTvxU1e87md5eBaEe0Xty7vcTiDWyrQrMg/mDN+4a74IhCFvG3mI3/zXgqG9vukyWwRjXKd2kAQ4rlfc+NR1Tp+Dci8SSb0Ats7PiVLYXfeLjWq1YiNEO+Ti7ziDHlj7awfTGfjjY0rk=","MsgSignature":"f147b3deb92ce7402ae23a49b1bed902056f7dd9","TimeStamp":"15998010","Nonce":"159982150821508"}
+  --> POST /?signature=01a750b25fecac82375ac7e939c2edd5dabdc3c4&timestamp=1599821502&nonce=232064147&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=7f5509748eb1d10845fbb42317a09f024813dab0 200 3ms 421b
+  <-- POST /?signature=e193aa5c20561e74d36e3471132889e36e2071fb&timestamp=1599821508&nonce=1364076480&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=6ced2b947af26453f5345fe560e86df7992249f5
+  xxx POST /?signature=e193aa5c20561e74d36e3471132889e36e2071fb&timestamp=1599821508&nonce=1364076480&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=6ced2b947af26453f5345fe560e86df7992249f5 400 5,001ms -
+  <-- POST /?signature=e193aa5c20561e74d36e3471132889e36e2071fb&timestamp=1599821508&nonce=1364076480&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=6ced2b947af26453f5345fe560e86df7992249f5
+{"ToUserName":"gh_5907ea276845","Encrypt":"g9K9U9rT4WdfGv+Uw7wCwYYbKiZ9l68qrkosAm8+louMkKTYYaeIqs33Wd2jz2JoSkvanVn4n4sxve5YI4srH3dIZKS3FdhfreHQXfYoM54O++zMogAajUBTpzcUjIduiTr2Bg0Glij9BGeNzvZ7HKRkxgsDszQWz9gXVbbT5s8Ugu/tKh46ps7ay4Ro53vWHKzsSEPftRQ5GX3mWIb1fqBipq2jlKKpkb2F1t0MnYoGUTHMr+qPlpTduEAdc+loYlAU/kMydubEWyvFBFC/AsaeXivZaMDDO/8eq76mCVU="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_40ERop3bh_kqHSp8LghYF10",
+"CreateTime": 1599821507,
+"MsgType": "text",
+"Content": "喵",
+"MsgId": 22903938886778727
+}
+
+{
+  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  msgtype: 'text',
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  msgtype: 'text',
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  data: {
+    type: 'image',
+    media_id: 'QaQorCa29LsdCu14t7Qe-U5AWdxmgUfE859-dNMVgHNQnGCf4bKHYZmccVnjeLuW',
+    created_at: 1599821513,
+    item: []
+  },
+  status: 0,
+  message: 'ok'
+}
+{
+  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  msgtype: 'image',
+  image: {
+    media_id: 'QaQorCa29LsdCu14t7Qe-U5AWdxmgUfE859-dNMVgHNQnGCf4bKHYZmccVnjeLuW'
+  }
+}
+{ errcode: 0, errmsg: 'ok' }
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1599821514,"MsgType":"transfer_customer_service","Content":"","MsgId":22903938886778730}
+{"Encrypt":"OTorZb7LXzh6PFru3zbD2QzI9b84VOeMlUFp5ilHTCsxoLlM+EgHeOauO3sN6lcbgSonTUICHf0U+5BTtE7vq6WI/ZMfw9ZgdxlJS6iaSdDEoVAHG2JwNpoHD7LbiWHJbCXcV7mFcu3lE1nQ88qsRRJy0Nzcy2KWx+Hmxy+BHTs3kKJDAIGxgEC5/5adU0LD6ZgwUPwhqgdMnXJAPCAi78iIBlahDmxUDjd1AKyk+/TLf0vjC/SRBso1Dxcw/G0/doctYI6ed9tMKG5s25wUj3/8iJ5Ei54Skzl7r1w4CMk=","MsgSignature":"8b9728f05aca51bda3c7a18113872c2ca938478d","TimeStamp":"15998193","Nonce":"159982151421514"}
+  --> POST /?signature=e193aa5c20561e74d36e3471132889e36e2071fb&timestamp=1599821508&nonce=1364076480&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=6ced2b947af26453f5345fe560e86df7992249f5 200 1,052ms 421b
+  <-- POST /?signature=bf70486f673a6ec72b916fa4fc5623abfeb8f903&timestamp=1599821535&nonce=239479552&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=64bb6b33cf44bbc54a5581fb0e599e02a5a3f7d9
+  <-- POST /?signature=7a90e925e7a5924ea6a4e7427020383a6af2efa5&timestamp=1599821535&nonce=2059743978&openid=oD5b_466Ieo--CyaiEVgOp_osPJE&encrypt_type=aes&msg_signature=f87f22ed968dee89736e11f29d8c0193cfc9c0e4
+  xxx POST /?signature=7a90e925e7a5924ea6a4e7427020383a6af2efa5&timestamp=1599821535&nonce=2059743978&openid=oD5b_466Ieo--CyaiEVgOp_osPJE&encrypt_type=aes&msg_signature=f87f22ed968dee89736e11f29d8c0193cfc9c0e4 400 5,003ms -
+  <-- POST /?signature=7a90e925e7a5924ea6a4e7427020383a6af2efa5&timestamp=1599821535&nonce=2059743978&openid=oD5b_466Ieo--CyaiEVgOp_osPJE&encrypt_type=aes&msg_signature=f87f22ed968dee89736e11f29d8c0193cfc9c0e4
+{"ToUserName":"gh_5907ea276845","Encrypt":"DaDRV18xuvcaTOxLpI8tWQ1m3QWhvBOr+MON2PxQp2ii73HnD3hmf6FF4YsJO4SRaPsJESFGU+GmSacUYk9MTpF7dh08Hs3a4pkeGmZ18v37L2qBA6ruRcOoSgDqR1MEWJBUPE2UPmzQKXw+LHUohSMMKsehnf2A3WMBs8mLgR36c3MHJRq957z95dAkr8kVamT2u56A3p5pixR0yE3T3YjtlCsqJajw1yFVW/MpE1Lx4sZw67rSfQgkW3IqUdxmLSY/jsknP6lfCvd3RsAqC0ioLhZuCz8tHSDU99FXRyQ="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_466Ieo--CyaiEVgOp_osPJE","CreateTime":1599821535,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_466Ieo--CyaiEVgOp_osPJE","FromUserName":"gh_5907ea276845","CreateTime":1599821541,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"yrB7r18/G/YrieHJG5RKQICgvsG9sVD+1RnJlZWCZZVhUI2jimkc9SE5WlyX4gdsws072zX9W8jFOgd/r3MLnrzlluyfS2oMx9Eu9vVReZdLgXduR/RcNKq7AHNMv6TTTlND1WoMNamxWk3iYFXSkc5lV5bmgav548Z+PDGTIFzmGzTvo+4Coe0mwIySwpGErHj3/L2OSV0lHzJTHXeALrOaG9K9LVrvD/IAiqjK+sE6YU3dvGRIq6I+vQ37otBUmFOpY97yECJC8RlDIhUwL3E73Ky1WYCVMmdbGdjZ8/U=","MsgSignature":"6558d15fbd84fb33b2a72bdf447023e9a659a82c","TimeStamp":"15998536","Nonce":"159982154021540"}
+  --> POST /?signature=7a90e925e7a5924ea6a4e7427020383a6af2efa5&timestamp=1599821535&nonce=2059743978&openid=oD5b_466Ieo--CyaiEVgOp_osPJE&encrypt_type=aes&msg_signature=f87f22ed968dee89736e11f29d8c0193cfc9c0e4 200 2ms 421b
+  xxx POST /?signature=bf70486f673a6ec72b916fa4fc5623abfeb8f903&timestamp=1599821535&nonce=239479552&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=64bb6b33cf44bbc54a5581fb0e599e02a5a3f7d9 400 5,057ms -
+  <-- POST /?signature=bf70486f673a6ec72b916fa4fc5623abfeb8f903&timestamp=1599821535&nonce=239479552&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=64bb6b33cf44bbc54a5581fb0e599e02a5a3f7d9
+{"ToUserName":"gh_5907ea276845","Encrypt":"ARrNEKXVK7BXVZDLRLG/0HYPvdhel6cI/tjmsNykHmHm5QkEBlFDn4Y4eRxoPiglslIROUCk+U8xpZXDg9KLt9+AGOUI3W8BgAtXo4Ho599STHosZmVeIIHOxka2OzeKpVfJAXnfNmvwY9aDZH2t2spvCNFnvaZmZhPe9EnEMyYX/IbvxU+Vc3qBs84h2WTmRdPMA4OezxVGdFwDPdceeAAPe5vmFtSLzUN5HmhHtblZtdd+qb+XLL1UYVAqPf36wo5mGZue0urFA3K773t+PB2j+A+6iSlpZoJzbtjHVhw="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1599821535,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1599821541,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"1Fd6QnrHs03HOyECGl45WhHtN7pMc4raUF3L1ilbvWFVqpj+XnEQEwzyClXxmSgYNpa3n11UQ263gY1UOhKgbM301WhJQaxhqo3cuBIsUlGy8yOsSXOxXO8GHo7x+V7qNkTXI4kZxYRfQ966aYSMdw9nw6cFsJMCWiMQf/CN7PRKUksX+bIsNPpl4A9X5+/l3lbOrFWFu0tlFXXrrnMOkzjplIz1nZYVuRg1xg6OdsF0KUisXvKQnVK5kQTcsuXGFg9Tj/7EtkZy/8aEEivec4JCwpXiaRtQj5YXaEvHIcc=","MsgSignature":"365454ad1090b6bc73c3eb49b472c75f744ea3a8","TimeStamp":"15998578","Nonce":"159982154021540"}
+  --> POST /?signature=bf70486f673a6ec72b916fa4fc5623abfeb8f903&timestamp=1599821535&nonce=239479552&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=64bb6b33cf44bbc54a5581fb0e599e02a5a3f7d9 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,905ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /?signature=28c5e40c8eb3044f088a92a6cd196d9a596637d2&timestamp=1599823335&nonce=69762521&openid=oD5b_466Ieo--CyaiEVgOp_osPJE&encrypt_type=aes&msg_signature=564ed575281124c8837d964f6651670dfa8d478d
+  <-- POST /?signature=58713464e240245dfc9c4374fe629a6538926db8&timestamp=1599823335&nonce=913144613&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=757b6ecf79ceaaa7d394d5ff1ff62e81c19e016c
+  xxx POST /?signature=28c5e40c8eb3044f088a92a6cd196d9a596637d2&timestamp=1599823335&nonce=69762521&openid=oD5b_466Ieo--CyaiEVgOp_osPJE&encrypt_type=aes&msg_signature=564ed575281124c8837d964f6651670dfa8d478d 400 5,001ms -
+  <-- POST /?signature=28c5e40c8eb3044f088a92a6cd196d9a596637d2&timestamp=1599823335&nonce=69762521&openid=oD5b_466Ieo--CyaiEVgOp_osPJE&encrypt_type=aes&msg_signature=564ed575281124c8837d964f6651670dfa8d478d
+{"ToUserName":"gh_5907ea276845","Encrypt":"LksmxHqNs+fjqMFhz7BxUdygNJKmlvuFv2sQvUfTFS9VFJW1fbyS88iLd6keDvwZ39jDk+zoo0z9kk679DdzMRTXdoeDzWyTmr8kL/03YLxdh5wAnTx6o1XfZLwNKUD2woZAnDhoUFyApEpQdV/MlEqSjCHlrNZUDXVnHKRu3UehR95YIBBXVaZh/1uSB+Jm9e+Vl7yG/FMC0XK4r+ltVTOPNSx9VXybJp+TjHeMwZxhqiHXCxNk4JSTeFGthZuN3y1Bwr2H2KBiBwsBxyA+AvBRHlckl/AlwUOh9x5QfkQn9L9zED/5RK5DvY/AJqadQjKZKETfij6hhYXaOyuGtA=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_466Ieo--CyaiEVgOp_osPJE","CreateTime":1599823335,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_466Ieo--CyaiEVgOp_osPJE","FromUserName":"gh_5907ea276845","CreateTime":1599823341,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"JagGYVnGtfhXxg4Gb+P49Vu0JLPoAwADh7rWRVnKD/w6+EH1g26XtZ3wLaq5y83izxp+tfdDKD5aAsBxYu5IF3nBmabmlD7sprH7dBVAIA3xLmsNaVWM3TDoUCfga5vD1zQ/NMpCu9vs1HViJOTb1vE/Lf2b4xBmbx3rmomZQpNptosxvWNffvFFx8daXur+qM0QeRQOzTyCuHCcGzftS9AacTCD/2No/w1etxViWQUJsHF3+QFz49b1Bh8lt0gy4oz8WdaT/xdZuKOIXnDVytz75BVgl1OyzGoWZgNE1dc=","MsgSignature":"d1461f1b415fa692410115991506eace8944c005","TimeStamp":"15998726","Nonce":"159982334023340"}
+  --> POST /?signature=28c5e40c8eb3044f088a92a6cd196d9a596637d2&timestamp=1599823335&nonce=69762521&openid=oD5b_466Ieo--CyaiEVgOp_osPJE&encrypt_type=aes&msg_signature=564ed575281124c8837d964f6651670dfa8d478d 200 2ms 421b
+  xxx POST /?signature=58713464e240245dfc9c4374fe629a6538926db8&timestamp=1599823335&nonce=913144613&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=757b6ecf79ceaaa7d394d5ff1ff62e81c19e016c 400 5,002ms -
+  <-- POST /?signature=58713464e240245dfc9c4374fe629a6538926db8&timestamp=1599823335&nonce=913144613&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=757b6ecf79ceaaa7d394d5ff1ff62e81c19e016c
+{"ToUserName":"gh_5907ea276845","Encrypt":"BxjiSZXOspXgqAKFU5Nre0hnXklEOklOetM6UQQqr9ohyHgc9RZcauFM5SZLL2v5GOj6UUCHO03vXJljJ0GppP3qvp03F2IW95gbBYJCPOzSg6LO3L799HtrMakk6sz7Qayg9UcM6jSNsQ5kg7b7oqX4mWajJQ7gxDwTOYcUObCuXVEPEJzIaFHaawJ17cFOd+7gZHDfapqw5/wuIzHC/MMgQ2la9rbDXKRkdlv2l1O6DJrQQaNxs6OCPmlLf9otbZ8K6+D6EXpTNWe92N2qnjwVHDSH0IyEqwZstuGNR5O3efQiLouLaq/oYGSiyghOH4PnKkJfSGk9RsbqFp1D0g=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1599823335,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1599823341,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"C3MSJdpFK5XJpVn+kRmid4VnThJlWmN0e8xWzWfVyMG8VX8hE9Xzd1pMwR48GBssYE+jwJe1klSz6Vyq8LM2fGGX4fVRnhNylrl02gHLofWpm8IpzzS7cT8Zra+GcQCh4/ISk9kxlOWMoxC2o+FeiVBTWr4tc5gqeUjnvIV3mjF2qXHJjRr8Ny+Uw9XY5bpMyEsk6e601baJFdl6YFHWn31E++950hZvl7MFHteddfDvbmMjbd6N+DbkpAafKnLvBFEjCM10tMwMN23cjO+IpZdDGp//1KyM3/gvY18wiDc=","MsgSignature":"67b684baf8169c6157d0eb2a00c347a80e73af83","TimeStamp":"15998746","Nonce":"159982334023340"}
+  --> POST /?signature=58713464e240245dfc9c4374fe629a6538926db8&timestamp=1599823335&nonce=913144613&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=757b6ecf79ceaaa7d394d5ff1ff62e81c19e016c 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 96s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,145ms -
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 33s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,612ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,808ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,774ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,541ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,655ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 590ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,240ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /?signature=43efc94b855de06961dd971de23ae23652d8d65f&timestamp=1599829338&nonce=2029771217&openid=oD5b_4yV8BZ_4VUO6AQsg2R5BASw&encrypt_type=aes&msg_signature=80a8dfc712356cb96bfc4b5899f1571bf50a1d13
+  xxx POST /?signature=43efc94b855de06961dd971de23ae23652d8d65f&timestamp=1599829338&nonce=2029771217&openid=oD5b_4yV8BZ_4VUO6AQsg2R5BASw&encrypt_type=aes&msg_signature=80a8dfc712356cb96bfc4b5899f1571bf50a1d13 400 5,004ms -
+  <-- POST /?signature=43efc94b855de06961dd971de23ae23652d8d65f&timestamp=1599829338&nonce=2029771217&openid=oD5b_4yV8BZ_4VUO6AQsg2R5BASw&encrypt_type=aes&msg_signature=80a8dfc712356cb96bfc4b5899f1571bf50a1d13
+{"ToUserName":"gh_5907ea276845","Encrypt":"xoAgUGeBBsjtGO4tz6dPO7PsOjLrngDihUfvgcP6rcjwbwao06O+byku2o89nAUHVjOnyhfTrffEhC2n+pF6+dIwFKTu+QhyRZVkZNzmwnXqhGe9vf2hvSzcjpyDmjWT5EBjRAbqOP0QcQUAuMdu6iX8hl7sQPJN5IOvqiVx7KJINXNeHqp5uZRfrRLblKADWFQLJ9oWqqZFcTI38Vyl6RKuzzVtosqg2nXhQTbxc+Y3Ok/CG5fnLL0QeBOwTpsQnnFCENofVrj3BeFU00DXtByWywFuTKgWFPs7aQweOr8="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4yV8BZ_4VUO6AQsg2R5BASw","CreateTime":1599829338,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_4yV8BZ_4VUO6AQsg2R5BASw","FromUserName":"gh_5907ea276845","CreateTime":1599829344,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"OUZmWxdXp5rMSt7NM/mXBB7jmhtFPrLODtiispuH6hALpgy6iOANMFRGG0NcuA3dgKTa2lrcymRllBags3MqI2UG09Ht2k5iQT+AteiD89Nybh22E9C0DJrtYxorE1mfGPotxl54BK2MSpA+YNBeMvynQC0zklF4vx1nkfnCg7qgg3LxqW0AnelFoeX0NL7JYH37KDd6+XgWwpBa0svy+B4+6AwpPQ2wnvA6F0c7lcbV34UJM24DJVhv+A+Qd131ISDVIODxZEWf0Yx5RQPSkv7NmBAi0a45vEZUMSCz638=","MsgSignature":"dd81c806f153de4b6710dd753687e589a84dcd35","TimeStamp":"15998708","Nonce":"159982934329343"}
+  --> POST /?signature=43efc94b855de06961dd971de23ae23652d8d65f&timestamp=1599829338&nonce=2029771217&openid=oD5b_4yV8BZ_4VUO6AQsg2R5BASw&encrypt_type=aes&msg_signature=80a8dfc712356cb96bfc4b5899f1571bf50a1d13 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 3,321ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,643ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,027ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,675ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,854ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 892ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,385ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 118ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- GET /explicit_not_exist_path
+  --> GET /explicit_not_exist_path 404 1ms -
+  <-- GET /index.html
+  --> GET /index.html 200 2ms 264b
+  <-- GET /index.php
+  --> GET /index.php 404 2ms -
+  <-- GET /index.jsp
+  --> GET /index.jsp 404 1ms -
+  <-- GET /admin/
+  --> GET /admin/ 404 1ms -
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 1ms -
+  <-- GET /robots.txt
+  --> GET /robots.txt 404 1ms -
+  <-- GET /r/cms/www/red/img/prompt.jpg
+  --> GET /r/cms/www/red/img/prompt.jpg 404 1ms -
+  <-- GET /r/cms/www/red/style/swiper.min.js
+  --> GET /r/cms/www/red/style/swiper.min.js 404 0ms -
+  <-- GET /wcm/
+  --> GET /wcm/ 404 1ms -
+  <-- GET /phpMyAdmin/
+  --> GET /phpMyAdmin/ 404 1ms -
+  <-- GET /phpmyadmin/
+  --> GET /phpmyadmin/ 404 1ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,857ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,715ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,617ms -
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,898ms -
+  xxx POST /buildOrder 400 13s -
+  xxx POST /buildOrder 400 25s -
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 25s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,941ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,789ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,701ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  xxx POST /buildOrder 400 10s -
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,469ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,541ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,465ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,621ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 378ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 308ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 299ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 239ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 312ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,095ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,275ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 2,930ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,301ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,385ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,892ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  xxx POST /buildOrder 400 22s -
+  <-- GET /
+  --> GET / 200 2ms 36b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,310ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  xxx POST /buildOrder 400 5,240ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 1ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,699ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 26s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,925ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  xxx POST /buildOrder 400 6,034ms -
+  <-- POST /?signature=e06907573a6f7e2dbfbcd3f14653f1137e349968&timestamp=1599867406&nonce=1854911539&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=881fe308c8fc5ab2f286736e52c02a1b13b2bf60
+  xxx POST /?signature=e06907573a6f7e2dbfbcd3f14653f1137e349968&timestamp=1599867406&nonce=1854911539&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=881fe308c8fc5ab2f286736e52c02a1b13b2bf60 400 5,004ms -
+  <-- POST /?signature=e06907573a6f7e2dbfbcd3f14653f1137e349968&timestamp=1599867406&nonce=1854911539&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=881fe308c8fc5ab2f286736e52c02a1b13b2bf60
+{"ToUserName":"gh_5907ea276845","Encrypt":"WeJi+s4UKICAYZBk7uUIVRVDUjPfansYNNyGimYoliUIU6yxY/t8S8won6BMH/ZVvspkyjF5+HxzEgg+JjWEbulM1NHEbdTNr3fPTRGcNUCLbXj8uLLqYrAy83pjt/qVa2xawMyPe7jPrbf2iXSSPXR35LapFzv5BE7ReJFgTGlYZT+HPcrC1eIBqVY0P9ilz+MBAtZ2pbfqe8nIN608VED/wSoE3HmgX5L44oAc/mJNknJeMamQO/+rLRbnVxxRakNnRGsQXMWYrORaK64etwsCymAUE9vtzsK3zzZYnfM="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","CreateTime":1599867406,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","FromUserName":"gh_5907ea276845","CreateTime":1599867412,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"8HdU4/Ds2pQAhL23eeY64T6fU80o36cYRGgIJIO8MdGETajkjxaDkYnVBa9OgtvLYgIl+CLFfTzlZorKmoK4VVzVkNc3K8A7OyCZi+TcVmvwvlwVF9SVKcwerDMOSOvaJgWpLfCjp8OET+FS65jAwpai5obRSq5Tb6SWvg4K5RgeZj10YRq+S1mJg70zdUNgFJdlG9SYDRguxqg0aSPuzEn/RhFMrcNNfly2jgWVd1O6apxPfweVjEcQHK3POlJqxjGzBVi9Ccc/msdMr6tdPSJmoAAFfNBxTufgxmdmYck=","MsgSignature":"a45c2fdaabdd04b2a130ec32274f31d9f6d3ecfe","TimeStamp":"15998295","Nonce":"159986741167411"}
+  --> POST /?signature=e06907573a6f7e2dbfbcd3f14653f1137e349968&timestamp=1599867406&nonce=1854911539&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=881fe308c8fc5ab2f286736e52c02a1b13b2bf60 200 3ms 421b
+  <-- POST /?signature=5db32c6a812d2afa85e7be36f2a865fdc35b47bf&timestamp=1599867416&nonce=1885468374&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=c40fbf0f832670c004ac620e3dfc0c6d789c3b3c
+  xxx POST /?signature=5db32c6a812d2afa85e7be36f2a865fdc35b47bf&timestamp=1599867416&nonce=1885468374&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=c40fbf0f832670c004ac620e3dfc0c6d789c3b3c 400 5,001ms -
+  <-- POST /?signature=5db32c6a812d2afa85e7be36f2a865fdc35b47bf&timestamp=1599867416&nonce=1885468374&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=c40fbf0f832670c004ac620e3dfc0c6d789c3b3c
+{"ToUserName":"gh_5907ea276845","Encrypt":"XeJwlh5wlEbRlWzqS8MXbGbIBy8t6Swfxn50n99A44pYqLrNJ9IXY3vp7+NrZQOHPDFtSCHmotfGCIF/JoDL5rMQ1jMglHJ5sUxh1AyUZDujb9Z1jbgnQ5hScaDpQbH2h8PRfk5stkBWGU10VcCJCS3s+Tw+Mf3+BQCNQyuyQPIBC1COXQ0Ac9vBDW/EG1nblBLr65nHYJGhWx0UhIVXVcCbt2iJvaYhuNbihyrrM+Gd03q8UUOkUbCth92+dBTRV6aOWSO/iLy0hEwqqNwyZoOhhbhCmCJoLQ32S3Wh7NU="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_44s466NyQ0cK5kcN4vmgtFE",
+"CreateTime": 1599867415,
+"MsgType": "text",
+"Content": "喵",
+"MsgId": 22904593165058503
+}
+
+{
+  touser: 'oD5b_44s466NyQ0cK5kcN4vmgtFE',
+  msgtype: 'text',
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  touser: 'oD5b_44s466NyQ0cK5kcN4vmgtFE',
+  msgtype: 'text',
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  data: {
+    type: 'image',
+    media_id: 'jnumhU-M4E_4nZMJvwPF03p07xgN6gvOC3HFqyZ089fHx78JigTfNJ2pUWTusKnU',
+    created_at: 1599867421,
+    item: []
+  },
+  status: 0,
+  message: 'ok'
+}
+{
+  touser: 'oD5b_44s466NyQ0cK5kcN4vmgtFE',
+  msgtype: 'image',
+  image: {
+    media_id: 'jnumhU-M4E_4nZMJvwPF03p07xgN6gvOC3HFqyZ089fHx78JigTfNJ2pUWTusKnU'
+  }
+}
+{ errcode: 0, errmsg: 'ok' }
+回复的内容是: {"ToUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","FromUserName":"gh_5907ea276845","CreateTime":1599867422,"MsgType":"transfer_customer_service","Content":"","MsgId":22904593165058504}
+{"Encrypt":"/zVnN7Y6uhwCZIxVEPpgmZTXuSsrzgkvkUJHFHyucqsR/ITmP8Om1fZiH5kgETqye0ls7TeRONQ4aFF3luKsP+QSy+jJOQS89IOFlFvqoOJTdY1JdPj+DQsF+V4e+wPlpn5j5lZc/xyG1TLsY15E1TDnaGwIzpVyrA+XDgP5Q78IKCEzBJCETXoypEdwzFUnJ8+0yDP1miZePxPq/ih7qwLsegb4b0mXkB/B5lvxzKc2IDtYQSu0PdYulm0aU6cv5n2j5f1ER9QkF4EdaHtcUlQhyVniwpYiaDasAcihiWM=","MsgSignature":"5afdbf30bd97f41980bc7d70b19a0a35410a8e3e","TimeStamp":"15998219","Nonce":"159986742267422"}
+  --> POST /?signature=5db32c6a812d2afa85e7be36f2a865fdc35b47bf&timestamp=1599867416&nonce=1885468374&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=c40fbf0f832670c004ac620e3dfc0c6d789c3b3c 200 1,181ms 421b
+  <-- POST /?signature=968729756ffa32f0cd569b4aa8426f26b84b7660&timestamp=1599867426&nonce=1932695796&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=a410cd7cf269e2543139e553c9137b8d378c31f2
+  xxx POST /?signature=968729756ffa32f0cd569b4aa8426f26b84b7660&timestamp=1599867426&nonce=1932695796&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=a410cd7cf269e2543139e553c9137b8d378c31f2 400 5,000ms -
+  <-- POST /?signature=968729756ffa32f0cd569b4aa8426f26b84b7660&timestamp=1599867426&nonce=1932695796&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=a410cd7cf269e2543139e553c9137b8d378c31f2
+{"ToUserName":"gh_5907ea276845","Encrypt":"rKDLPLC6DxpnbYyfHbl1Da/FMyDaHPIm59vEYaL2yyLX+Xx7IhPo6W2Ge3iizCjt3ygzoXVhYWydanlAjojDtKqoJEfIjtfjSiDpCpVO9cNO68zpVScfKnqt2Vq7EvWtoSLnTeLjBN7vQls3FZcLnewiV2eAHRVm3uXpfeeptbVWvIABmNZvTuFim1AR7LRoiqDss+18cZlWwKezK6RsZGQKKvRGi7Zok9/g/J2Ug88pNaNu3wr7io32r7XIqWiVofEz01745LaxYYKWvBI9iijp+ry456vVkmrXXhv9FbM="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","CreateTime":1599867426,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","FromUserName":"gh_5907ea276845","CreateTime":1599867432,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"eA23o+XYBGGhBTpdruLBoYR9NmuU75sJCczzfmIkNkrAZWaac8xny+FXkjxOXYu/uupj0pmXOxKgmSF//soUeHNP1RO/9632KTEPIkxAKYzI4C4Q75RUxQ8q/BAu5g743iiPQ437izz3JZc2YATB1XbpHZBiKpY/n/XRra5uqAb9kgvD2YW1LEyC/smwKfTCJpo0AYRUvj6FIPrlhcLkZoXo6bax1JS+qw38xxl5Th+cZbSmk58/PoUgUsMRd1EMYHlfT2Bww6dfyMQ9EJnrc/XQ3xAXYLUzMHZrJO9luYY=","MsgSignature":"1366f184d26c8b8b4555ca7f4f0b86a3a3f1264c","TimeStamp":"15998886","Nonce":"159986743167431"}
+  --> POST /?signature=968729756ffa32f0cd569b4aa8426f26b84b7660&timestamp=1599867426&nonce=1932695796&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=a410cd7cf269e2543139e553c9137b8d378c31f2 200 2ms 421b
+  <-- POST /?signature=fb1cea78d09b593cc82201013afeefff78ecdf0f&timestamp=1599867432&nonce=72886968&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=0bb2dffff21ce674381349568da2c97c498a9dc2
+  xxx POST /?signature=fb1cea78d09b593cc82201013afeefff78ecdf0f&timestamp=1599867432&nonce=72886968&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=0bb2dffff21ce674381349568da2c97c498a9dc2 400 5,001ms -
+  <-- POST /?signature=fb1cea78d09b593cc82201013afeefff78ecdf0f&timestamp=1599867432&nonce=72886968&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=0bb2dffff21ce674381349568da2c97c498a9dc2
+{"ToUserName":"gh_5907ea276845","Encrypt":"zoQNwjIH2ASAOk9ErcJbXWx6fcnfWbpE3CC7quE8qcijnEozPHEMUkCfL0jcwKApUvbKNHfn6AtveKWSF3l0jE6uYtXspJ/B1dj413b8qwUR8Mbo3yYYU++02ULEuU/UmfEpUOL20Lx8yGK4Sk8LV6iqSlj6BaASgQDaM+G6N8mnyC0yeWxM/x1/lwa7Jj12DJLy1WL1ZWwxZfSxa7IrNr3b2bLpyligeZhqkA6abd7EK1Um663CR7BmEFNmI4PlsJSOQff/myYJS7HWDXeMK7eqB6R6/sWPDR22yjrrOII="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","CreateTime":1599867432,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","FromUserName":"gh_5907ea276845","CreateTime":1599867438,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"WwqoOoJV/a9pqgPCm4Kh5tRXukxo3VMXYft7kDE/O6LkdPOeuij89yIAqI4+PwBQ8MDe5A7a5uWULwovzxODLLWseqaGBap2raiwEVtf2ZSMQCrTGytzKSxZ3BWDWmZzH0aIn84LotX6ZRxRduQHc0Weq+oYW59N0ysNCQmMVtDnJ2CYhJmtOPbGDSAEHb11th4jE4s0FYxH0oyuQfEbgn6KESU13tGrHp/t5VSxJ7rcprNNeYE2j/ktgYEVL7XXrRlapbnaZ+wKqw9zrvmgI5DcTHpVYoGozbPGxIYdBjo=","MsgSignature":"841d7197095a30f91ca5b2e4805033e0653c6e70","TimeStamp":"15998041","Nonce":"159986743767437"}
+  --> POST /?signature=fb1cea78d09b593cc82201013afeefff78ecdf0f&timestamp=1599867432&nonce=72886968&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=0bb2dffff21ce674381349568da2c97c498a9dc2 200 2ms 421b
+  <-- POST /?signature=27aa62121bc6ae6a0d0d2298f049ceea4999d7ef&timestamp=1599867546&nonce=165265732&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=8bb5b358ddf628f5a10b3d395a178ffc1d817137
+  xxx POST /?signature=27aa62121bc6ae6a0d0d2298f049ceea4999d7ef&timestamp=1599867546&nonce=165265732&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=8bb5b358ddf628f5a10b3d395a178ffc1d817137 400 5,003ms -
+  <-- POST /?signature=27aa62121bc6ae6a0d0d2298f049ceea4999d7ef&timestamp=1599867546&nonce=165265732&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=8bb5b358ddf628f5a10b3d395a178ffc1d817137
+{"ToUserName":"gh_5907ea276845","Encrypt":"ksrRCvPdG3ySj9fP+9q1mP7t28aaFGoNHLmLdylVw2VBQJvryD285lKfuvW2XZUAurHQy4wzY38jpO27fuvmCCnk3lDm5AJTEkB0d01NHb/t2jQsdn5xHJJzwG2REAHtGSwvkV4rsRFacV9/KP33MpzJHSD14StA9jKqrL0dvVf6Vy+1rPCPqYx9pA3lvMFKx6XEC7nOXm9nyomeM6A+zgOGSnpLYRxvOIeraAnXiQhY+mK6PXmNzHHeBWXXa3SmrJhcQKM5AZ3ytKQEeUyw4CrgQPbjNoWzkzrfgLGbBh8="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","CreateTime":1599867546,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","FromUserName":"gh_5907ea276845","CreateTime":1599867552,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"59qlOCm3KJtDfwJXLB2FBu7/uL1zx7GqpfdwaWUMEnbHuwZtIwmlfFMGCuHeeQts9kIRV/QI8IG1nm7zLcQfRkwYZRtjIxcOxXPbE0+mL+YU83IY9rDLjKkaItHo9k1g14JEeNJpOYki47IRFblpnT0plkGg7AqDu0/yWrVg5VzQzyE2D2U+CEIqC7EmfP6Ksbb9BXxZGWdapqLtIJnsFBC/7mHFhiKhsXpjC02qnfROaCJAXTTUIhh4i9QjDXnhXAWPOJ0Q720fZbD9dowysumPE3pIXh4VJRRuxKG81bM=","MsgSignature":"cac6423d88f299cdc1cb8a064ef800caffb742e7","TimeStamp":"15998092","Nonce":"159986755167551"}
+  --> POST /?signature=27aa62121bc6ae6a0d0d2298f049ceea4999d7ef&timestamp=1599867546&nonce=165265732&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=8bb5b358ddf628f5a10b3d395a178ffc1d817137 200 3ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /?signature=6ddeb6a8be80abbab7ee716049a79c65d5342107&timestamp=1599867833&nonce=64468009&openid=oD5b_40MNeESMmC-4eu-4lN3-wxY&encrypt_type=aes&msg_signature=f49b8d32d0318e45702a048f080556517dbc257d
+  xxx POST /?signature=6ddeb6a8be80abbab7ee716049a79c65d5342107&timestamp=1599867833&nonce=64468009&openid=oD5b_40MNeESMmC-4eu-4lN3-wxY&encrypt_type=aes&msg_signature=f49b8d32d0318e45702a048f080556517dbc257d 400 5,002ms -
+  <-- POST /?signature=6ddeb6a8be80abbab7ee716049a79c65d5342107&timestamp=1599867833&nonce=64468009&openid=oD5b_40MNeESMmC-4eu-4lN3-wxY&encrypt_type=aes&msg_signature=f49b8d32d0318e45702a048f080556517dbc257d
+{"ToUserName":"gh_5907ea276845","Encrypt":"z75a7FhFmztmx1DKX4VflyB+39AizIz74W0NafOBEm8cvjEueBOOzCy07rh8/IPw29OHWU3xZPl4B/OSkXKk2NZH1xGgmcOIgUE/pQ+AfD0EbPPTaBhk64hSqTCRSfddfKogd7ps67nl8i5aeVgDITjHyidmo3f29+c9YzIi8YS8incJFhXz9PImyxj6fD2IMdFVwYHCLil2lNijuO4AOTDhuIeSnjh+HJI6VQw66FhpRD8VyQAD5G4QwJMIZ5/wUdyWoU33k7Q57y/b3PfM3S6pFP7MQ75h05M61YP8Ld4="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40MNeESMmC-4eu-4lN3-wxY","CreateTime":1599867833,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_40MNeESMmC-4eu-4lN3-wxY","FromUserName":"gh_5907ea276845","CreateTime":1599867839,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"mkPXyrWCtX3tKCFn8IwcKVmv4yN+v7h6Ma12LWcOAGxoW89OqGFUbNdtIjyi4WybxtN1mXQaOX1O+2uWDMwzZ15RFR7/W6DmKZ5eP7YIA/Gg3f3r06ZNciZJuY5lEHM9RkqcQhwxPdabZcdrv4qS0i4TQhrTBeTBlgYJbjkhr8nkBRNwXiJe/3Wl2z1vAOKt5d4pWw+Lm0FVquWxAW8saC4QOaxgCFat/diF6SVTYphPv3JyQmeQYCFtBOZH0h7zJBtLyXK3Rs0PmUlb12EdIZP8BOFbTMMqqbXoQpUtXZE=","MsgSignature":"e529900324d704eb410d80d57469ff68a2b0d9ee","TimeStamp":"15998086","Nonce":"159986783867838"}
+  --> POST /?signature=6ddeb6a8be80abbab7ee716049a79c65d5342107&timestamp=1599867833&nonce=64468009&openid=oD5b_40MNeESMmC-4eu-4lN3-wxY&encrypt_type=aes&msg_signature=f49b8d32d0318e45702a048f080556517dbc257d 200 2ms 421b
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,720ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /?signature=79421e73cf12d61fe93d503509c5ab22962812a3&timestamp=1599869345&nonce=1735884307&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=d7e75baffa41f475c2e4b751e95d885156bac569
+  xxx POST /?signature=79421e73cf12d61fe93d503509c5ab22962812a3&timestamp=1599869345&nonce=1735884307&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=d7e75baffa41f475c2e4b751e95d885156bac569 400 5,003ms -
+  <-- POST /?signature=79421e73cf12d61fe93d503509c5ab22962812a3&timestamp=1599869345&nonce=1735884307&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=d7e75baffa41f475c2e4b751e95d885156bac569
+{"ToUserName":"gh_5907ea276845","Encrypt":"cUThNIpOKgYEyB4b+7ciz0BqMu6PUIT8cZl7NguUoJdg3Efpg2HiCHkA9ZvSlvJE55pW+TnDxm6+uxxcEvKAacX/xRCORJ7Db8+S8LtRrmKnMaM1VAtO8Ulsk25RwcwK3LMgkCIBpa88wgopovpePgERd3V+2boF4kdSaJGkCAQ30e6jcIGCOvNuB4AvHoKzs6B9pOous6ZCPPJnuYqgpTw7/aAAPMU/9ZubV02ZloblvOOXbVCJ/lTSUdo9o7rAxU7r2Vtmlb0E9wJkasjN5mErHcx8w8/Kd4/mIsd1EbVO0t5IJFkaYKN/vZyJyJhQWEeKV65LwXR9sgxCY7Wn4A=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","CreateTime":1599869345,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_44s466NyQ0cK5kcN4vmgtFE","FromUserName":"gh_5907ea276845","CreateTime":1599869351,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"9b+iBuKYeWZyU5vTt+sHqTh4ZIrQwz8YFoFsGPpotm0gVeR5d97IWGR8I85oh/uxx7z6ob9c4bkoawf44fjlOdLKbWaOM27PXgHp8nrWcgtPZ22qeO+iVC3l/Yg6zuMQqEczU2wBmcKHWCUh+Y0YSP9NvIs0LfSOIdoVt5lPw8qc5PchbaqRY4eZ9goa/kqUTNakkVs+Fg2MfhrEDMg7/Azss0JIE/T9iln+iJQ7GJspRSVDSnPp+uIAmaxtesSpN+PDcSECare8m4wIH3jc2GxEadKhcfihVgo2KTja8CM=","MsgSignature":"dc9f49a4845dd33aa4f55167894d373ebe921cc4","TimeStamp":"15998882","Nonce":"159986935069350"}
+  --> POST /?signature=79421e73cf12d61fe93d503509c5ab22962812a3&timestamp=1599869345&nonce=1735884307&openid=oD5b_44s466NyQ0cK5kcN4vmgtFE&encrypt_type=aes&msg_signature=d7e75baffa41f475c2e4b751e95d885156bac569 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 8,841ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  xxx POST /buildOrder 400 18s -
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,677ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,471ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,026ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,371ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 29s -
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  xxx POST /buildOrder 400 9,138ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 884ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,648ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,653ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,824ms -
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 56s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 120s -
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,250ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 3,266ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 24s -
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,295ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,898ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  xxx POST /buildOrder 400 26s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,598ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,174ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 29s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,879ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,466ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 13s -
+  xxx POST /buildOrder 400 23s -
+  xxx POST /buildOrder 400 19s -
+  xxx POST /buildOrder 400 28s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 26s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 2,271ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 33s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 29s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,738ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 2,204ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 36s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 3,348ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,160ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,290ms -
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,359ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,340ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,737ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,561ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,835ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 120s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 25s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,314ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,504ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 3,433ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,755ms -
+  <-- POST /?signature=8d3b6e6ec93637b147b9945216f934c3cdc6cf3d&timestamp=1599900507&nonce=600115062&openid=oD5b_470X5wCvO0BM_Sc5ZEE2l2I&encrypt_type=aes&msg_signature=cf5c1ca83306e9c6e0620a813e10ac6606e58fe5
+  xxx POST /?signature=8d3b6e6ec93637b147b9945216f934c3cdc6cf3d&timestamp=1599900507&nonce=600115062&openid=oD5b_470X5wCvO0BM_Sc5ZEE2l2I&encrypt_type=aes&msg_signature=cf5c1ca83306e9c6e0620a813e10ac6606e58fe5 400 5,000ms -
+  <-- POST /?signature=8d3b6e6ec93637b147b9945216f934c3cdc6cf3d&timestamp=1599900507&nonce=600115062&openid=oD5b_470X5wCvO0BM_Sc5ZEE2l2I&encrypt_type=aes&msg_signature=cf5c1ca83306e9c6e0620a813e10ac6606e58fe5
+{"ToUserName":"gh_5907ea276845","Encrypt":"1EailIkjLkLMacnpDel5UluuGqd+/zSYBzE/DC3Ak4fm2JgNu/WXl1ne5ilGk9irPx0+frFSmDclQ1hMhJVk93n7SatVxqY3dmwra1GUV1jtV114vqVoAKs95yTtjVR4fR8pdc8NsJU3nX8pQp7EH00ddIB89o9REZZ9ox63JZW3mSkrgbZa/tuopXTNGzTaLsLqbEC1Cs1deO+HQLNdaktj7tAbLhEgdRzVvz/WfkQnPCQZRwLJdegs44NX3JzmMyH0GsP9JY6bu5F+PrZBuuOleq4VlIHrCpTjYBO2Fog="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_470X5wCvO0BM_Sc5ZEE2l2I","CreateTime":1599900507,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_470X5wCvO0BM_Sc5ZEE2l2I","FromUserName":"gh_5907ea276845","CreateTime":1599900513,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"i65TlFEejfLVOMucwoD7lWvjBkMiCWwGNQNcyMciPDkOakfVzEAfEYM3o99Rxn4YrECD8eIAX184v6Y9+53gw1ViSqPRbCIInOY80Uwmurr+WQV98TjQ+LKAjwms4M1rpwnvaaY2SHAbIas5HAa798iytHJZ3Sa1pmMpQQAJg3LmxpraDye+t1t35Vg8CFIL/hQ0d+HbbAx3aZyGhR7SJ2BlI3sTtMHGYgBH54NBjJnWu4PQNYBSDaPx3pqgD3+LWWGBREUezpgM1a24aDvzwKUJCOupcOYZx4z505G04Aw=","MsgSignature":"a31ef378bac163f15dbdfee3c69fd63472aaeb55","TimeStamp":"15999420","Nonce":"159990051200512"}
+  --> POST /?signature=8d3b6e6ec93637b147b9945216f934c3cdc6cf3d&timestamp=1599900507&nonce=600115062&openid=oD5b_470X5wCvO0BM_Sc5ZEE2l2I&encrypt_type=aes&msg_signature=cf5c1ca83306e9c6e0620a813e10ac6606e58fe5 200 3ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 32s -
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 25s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,184ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 25s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,312ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 28s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  xxx POST /buildOrder 400 7,724ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 29s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,603ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,470ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,926ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 27s -
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,605ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,209ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,831ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,728ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,522ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,692ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,010ms -
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,355ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,532ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,715ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,382ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,098ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,381ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 27s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,976ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,682ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 27s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,915ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,880ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 27s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,751ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,747ms -
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 2,210ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,648ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,667ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 410ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 270ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 210ms -
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 373ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,329ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 411ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,481ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,331ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,878ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,117ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  xxx POST /buildOrder 400 6,599ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  xxx POST /buildOrder 400 7,059ms -
+  xxx POST /buildOrder 400 22s -
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,292ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 28s -
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 38s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 3,610ms -
+  xxx POST /buildOrder 400 27s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,104ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  xxx POST /buildOrder 400 24s -
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,361ms -
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,222ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,294ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 3,278ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- HEAD /buildOrder
+  --> HEAD /buildOrder 404 2ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 23s -
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 693ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /?signature=d99ca9ed53bb728cc9a7f255f182ed6e3587a716&timestamp=1599963271&nonce=670186656&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=be0cf26263b9c12ec34349b787fac8ed9aee7af2
+  xxx POST /?signature=d99ca9ed53bb728cc9a7f255f182ed6e3587a716&timestamp=1599963271&nonce=670186656&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=be0cf26263b9c12ec34349b787fac8ed9aee7af2 400 5,004ms -
+  <-- POST /?signature=d99ca9ed53bb728cc9a7f255f182ed6e3587a716&timestamp=1599963271&nonce=670186656&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=be0cf26263b9c12ec34349b787fac8ed9aee7af2
+{"ToUserName":"gh_5907ea276845","Encrypt":"SCIBQVf965Qmdd8pwpXxA5XQvgUXgAvK56iLB38bgxLoQMrz40kIftsJcDvXBBmWHYguR+dB+ubxc+tA8XvgERZ3gObk4XpGSlQv2i2ZWhgTTV7i710MIwMQHW9tZmkBjAE5Mo2nteKhnx4c59haiK2HSXFhtpYG09AcdQz2FhTebpBebckvTtL1CbLaN7JEgWFg/14QGRaGwNgIYfnjA8EG0i62wzAoepXcpMeV8wHFbYWJEmdS/4M+zNNYxvqjzTys9tgTeJ7FtIkrRt0n4MnPdTtrPHh4WNhw2gvX4sg="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","CreateTime":1599963271,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","FromUserName":"gh_5907ea276845","CreateTime":1599963277,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"t/3QY690Fh2KNvHaG9Jd0qNAw0QLiGvZinwm/p7ESM/0iwC6pDTpryOd1vk4bf0bCwH/GAYXlj9PSVK1aC2UR1mFG4PiXEjjruc/tBBKFf6+oPAtysbQRt3T1GjGOakz/r+6v632dECoZa9YkdAwWc3ZNDT2n/D2N5kCAd2lL5yc96ciRoPPvdLD9EtpzMr4SJg1ON3Rxgppp/g+RkVJ070F7UpnTa5tUOruAl3ikYBZaHQd+zQECx3w5UOTA4ARy3oyUMT6WiMrlRcYknGb1Ew1U891D3XKpxuL61aKiaw=","MsgSignature":"de97d1d6c826db1eb9169bc050ace3a541f968ef","TimeStamp":"15999550","Nonce":"159996327663276"}
+  --> POST /?signature=d99ca9ed53bb728cc9a7f255f182ed6e3587a716&timestamp=1599963271&nonce=670186656&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=be0cf26263b9c12ec34349b787fac8ed9aee7af2 200 2ms 421b
+  <-- POST /?signature=fe68c5abee40c2748fd817d133cbad552e17bdcf&timestamp=1599963372&nonce=2058361003&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=fa201c7c81c683c888e805763e5388772a40fc06
+  xxx POST /?signature=fe68c5abee40c2748fd817d133cbad552e17bdcf&timestamp=1599963372&nonce=2058361003&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=fa201c7c81c683c888e805763e5388772a40fc06 400 5,003ms -
+  <-- POST /?signature=fe68c5abee40c2748fd817d133cbad552e17bdcf&timestamp=1599963372&nonce=2058361003&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=fa201c7c81c683c888e805763e5388772a40fc06
+{"ToUserName":"gh_5907ea276845","Encrypt":"1BnMLmDs2QDMECYDe/Sbb4cmsVgnEtjnjbV5jVciUL/TA459IW8ehHITnHF17x9XYuBPlXcOdIvBljU+bWIfcgnZwCEvjlT2lmC3qNLjrL5yYRYzxd22IskHtyqulko8wAsASuXKaYPUhBlLyIUjyI8ElW+ktZJ0PHITT/XP3mqNbTHDs4/Pn/NMa2lItK0bM8pQ3TxiEhUNCqTOAhyXqG1ehUw2SGnj2Zt3GmnzDZe/Wii6RZM4UaRLBEGN3E4kQvKEBVM4sbTaewrnTdKUau6+lO4Gxnkgr/M4Tm6wejA="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","CreateTime":1599963372,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","FromUserName":"gh_5907ea276845","CreateTime":1599963378,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"EMVwEOXrJy7g/lY+YYqkTZe0N5ve20KvOCYHDAqGdX9OQcdxenu3fXMoFwZqdcDCgVlPEsHRNzXqebDAkO28+cYmqDgj6BwPv7s+njsPFnmB41xY6YWEuAjwXHhNbpYtOeMd0FBmFYAp+YruAEdxWaNh90MnN0p5Dhex+Fo3FypYioznQPLFBG9cIn1Sj9piMxUv8RYY/yx1u9p6FCwvLGfJCaEgHaiFugNsbWQ0bGRJjGDkGJABOuUOfFfNxz5VGh3Slmc8cVkfNOQIkgGSbpw7MEbStco0tD8KgncX/SU=","MsgSignature":"44d424a439c942356bf83ef8135e293db5090f0f","TimeStamp":"15999621","Nonce":"159996337763377"}
+  --> POST /?signature=fe68c5abee40c2748fd817d133cbad552e17bdcf&timestamp=1599963372&nonce=2058361003&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=fa201c7c81c683c888e805763e5388772a40fc06 200 3ms 421b
+  <-- POST /?signature=62b0cdb35106214380159788283ef6293ffcdaf4&timestamp=1599963381&nonce=1369494611&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=a73b89a9abeacd113f46f323eb2708d9fc6908fe
+  xxx POST /?signature=62b0cdb35106214380159788283ef6293ffcdaf4&timestamp=1599963381&nonce=1369494611&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=a73b89a9abeacd113f46f323eb2708d9fc6908fe 400 5,000ms -
+  <-- POST /?signature=62b0cdb35106214380159788283ef6293ffcdaf4&timestamp=1599963381&nonce=1369494611&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=a73b89a9abeacd113f46f323eb2708d9fc6908fe
+{"ToUserName":"gh_5907ea276845","Encrypt":"wZll4gTNwnO0d+4t+t3q+D2/PHVuL/iF5kww/F5JLdAO6XjPqjBILJoTM877QY5WCjDcNSUmXYCQtCW8yW7K969Bee1NgfoDkFUkk5idmG7MXDuTcv3K65n96R/WfKuV/a/+0JInHl4ga6eoXiC6xv+7noIJnwtv7jw/AUQw1lDc72VpA4pqTp8lm51UuZozJ1VIhLdTlQAQZBRPtdhXjVf0PwvDvjDWheJfD1mj/ORRLqXmfG5V4Dd73lBZ44sKtqKWhTR14FXrFvnUPcdnrPRWXofNzGZvIBd0GbI2MNY="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4yEx24-7sY13vlipYSZd6yo",
+"CreateTime": 1599963380,
+"MsgType": "text",
+"Content": "Hi",
+"MsgId": 22905967819443672
+}
+
+回复的内容是: {"ToUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","FromUserName":"gh_5907ea276845","CreateTime":1599963387,"MsgType":"transfer_customer_service","Content":"","MsgId":22905967819443670}
+{"Encrypt":"WBkx/0pW8Vt4IinYMbWBkaW2qlFmy1dnyUt6LsLCK/B1Clpqnk81qxzxfpJMeY3F9Nm/JdKT+LPbWd1EcZv3VCapwrSUActUtjvLEB9Q8e6efkLYRrUOu6Phi0DIH2VK+vUaBgsHtzYiaymHtv2RGBIklTCHYYQLsMLO2YOvPm5YgOc8HA6DiWdijXJ0sfcUZ0pNhzbKcGNEayQargHHf+y2PcZjOYHlXdBa8x1r9U2EnX5ag7SIU3qUz0As56ffEZVEUJs/1nYEnAKyvoz6mQXkLX9YAjMeNzkNw9tnmWM=","MsgSignature":"17b74740c873a0c991fd0f90a3818671d5b8f589","TimeStamp":"15999178","Nonce":"159996338663386"}
+  --> POST /?signature=62b0cdb35106214380159788283ef6293ffcdaf4&timestamp=1599963381&nonce=1369494611&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=a73b89a9abeacd113f46f323eb2708d9fc6908fe 200 2ms 421b
+  <-- POST /?signature=b0cadca8f61450692eea25658202b953c8843bff&timestamp=1599963393&nonce=1772207844&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=9f10d9cdbacbe1bc6626f3f60e14e5dae39f5be0
+  xxx POST /?signature=b0cadca8f61450692eea25658202b953c8843bff&timestamp=1599963393&nonce=1772207844&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=9f10d9cdbacbe1bc6626f3f60e14e5dae39f5be0 400 5,001ms -
+  <-- POST /?signature=b0cadca8f61450692eea25658202b953c8843bff&timestamp=1599963393&nonce=1772207844&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=9f10d9cdbacbe1bc6626f3f60e14e5dae39f5be0
+{"ToUserName":"gh_5907ea276845","Encrypt":"dh4YXBq0xKELsFQ3Tt/z2tayih5MioeUCeBSA/WetxSXgZ3MypQ0MF/q+CY6vIR/vmRETUxhb2Iq2dQUgdKSRVea3Rh51LnKAnZ/aE4Zd05u8Wue/DKfHU+B6UrBKxJBbHL1+XSrVDYNl3ugc7wFV77pLKUbHovVGo5ryobqr5NG8ljtqnXs7FOKYCVp542IJkxertcloorKz+ixXSguj8dE2Qe1NkoVSyj4Z8l0JV7hP6NMwJn4Nx75THLRBJcQnYgge0cDvx9a6A1fx18u9jmynBMluj3HPo9c1h9uENg="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4yEx24-7sY13vlipYSZd6yo",
+"CreateTime": 1599963393,
+"MsgType": "text",
+"Content": "你好",
+"MsgId": 22905970970972140
+}
+
+回复的内容是: {"ToUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","FromUserName":"gh_5907ea276845","CreateTime":1599963399,"MsgType":"transfer_customer_service","Content":"","MsgId":22905970970972144}
+{"Encrypt":"4ihTjHuObvXSPTh757x2I5ziWCMErDrAzoCjiWxZoRbSHt239cANjbF6uxIcvG3CBaypfBa4bP0FbPcrmQ4KYqXvPs0P/SFluWDi9Uz8Gq/VCJkjeZjPQplGa8EjFdZS9kz1iAkVfSv/0AkdhP0Jf0J2NARFruOWljePlRvLf1oP3Xoo0p4Vp8oOE0Q4ndA1pbG3AhUFqFXh+0WvGzxLvvunz+oWl1Ay1K7msnbTnKQTTxb4VOdDM27eqtcu8oCZHCUjlU8kzBSm3DOnSnmzMq4d6J8Ck+7B6TcK/58rwRc=","MsgSignature":"46f3e89788fd4b2fd481b8853c81d0471b1abdad","TimeStamp":"15999703","Nonce":"159996339863398"}
+  --> POST /?signature=b0cadca8f61450692eea25658202b953c8843bff&timestamp=1599963393&nonce=1772207844&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=9f10d9cdbacbe1bc6626f3f60e14e5dae39f5be0 200 2ms 421b
+  <-- POST /?signature=0bbb3d6ec964de17eaa7a2f7dda6817df5889d8d&timestamp=1599963405&nonce=1845015764&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=d4866f05e7da227c6250d2609d5c79468cb941f8
+  xxx POST /?signature=0bbb3d6ec964de17eaa7a2f7dda6817df5889d8d&timestamp=1599963405&nonce=1845015764&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=d4866f05e7da227c6250d2609d5c79468cb941f8 400 5,001ms -
+  <-- POST /?signature=0bbb3d6ec964de17eaa7a2f7dda6817df5889d8d&timestamp=1599963405&nonce=1845015764&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=d4866f05e7da227c6250d2609d5c79468cb941f8
+{"ToUserName":"gh_5907ea276845","Encrypt":"T4Tg32NVhLD6/0uUK6udKv4tXIG+DeRMDkA+o8qLdKqgFn8o4R7kGEcOZZdos3dy7jTSMdz65WoYHKGcf9lAxr8Yfh4gHqfTSvh4uDHZ15Nwdxbdx6PUV0z4YWxvgxtMIerzbT0yl8ND6CopXpZd3qBvQhtXr8ctpzKB1pU4+vel7szFxhN9K2qnxzSV9Wo9Pxam12Rn5IWRsEJUA6rdxKlFqEWKdwfhj5CVdRKTaaBBm6tEaTpDSm8TsE09eBr+8RrkgGO90wLxwS4ogpWweHDlufW8/cV2N1TW+thSEzs="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_4yEx24-7sY13vlipYSZd6yo",
+"CreateTime": 1599963405,
+"MsgType": "text",
+"Content": "有人吗？",
+"MsgId": 22905969642629640
+}
+
+回复的内容是: {"ToUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","FromUserName":"gh_5907ea276845","CreateTime":1599963411,"MsgType":"transfer_customer_service","Content":"","MsgId":22905969642629640}
+{"Encrypt":"1BlzPezpe2QUYO0hFyQDaEqI4+0S+3Ge6rwoVyroxHmMNB8fs7DQcsE9V7eAOpCBgWLmfySvTpks3v6lktv6X097jkqYkAwdNl7ud2BkUrpAS/Uz+wA66NytAgqnlkslIwbWWBHoq32wVfCeVMPiXAAxG4QcluQPTfU/TAt9V/hVBMF/uIIcfWFSHO1uenOTqk6XxfxWJjPmWsTMzq0X4C4EJihRPdRG02TAZwZmFg2p3Ty8e8VZp8cm+UqdkCmPsGIo7Q1IS5aMUWxBZGVa+lo6CRm0tTYFq+pG7/T9L/w=","MsgSignature":"da9cee6f251a72c49cec7cd5edb215cd7579e3c9","TimeStamp":"15999445","Nonce":"159996341063410"}
+  --> POST /?signature=0bbb3d6ec964de17eaa7a2f7dda6817df5889d8d&timestamp=1599963405&nonce=1845015764&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=d4866f05e7da227c6250d2609d5c79468cb941f8 200 3ms 421b
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  xxx POST /buildOrder 400 5,944ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,884ms -
+  <-- POST /?signature=8877c91005f2182de5b996182cb424fbdbb0e4a2&timestamp=1599964359&nonce=59955747&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=de228a9a5e710dc81b237a28138c2181a785ce53
+  xxx POST /?signature=8877c91005f2182de5b996182cb424fbdbb0e4a2&timestamp=1599964359&nonce=59955747&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=de228a9a5e710dc81b237a28138c2181a785ce53 400 5,004ms -
+  <-- POST /?signature=8877c91005f2182de5b996182cb424fbdbb0e4a2&timestamp=1599964359&nonce=59955747&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=de228a9a5e710dc81b237a28138c2181a785ce53
+{"ToUserName":"gh_5907ea276845","Encrypt":"v5Nd6CQmbPHpciKbCv8qzbkanfTFnYekIZxbs0BWylfiXkGyOBm6YwrZu8FFf4UfyaZ8oxEnfpFn3s4xAQ8kkDHkxX/lbO8D4W8ZPDk6y0O+UUME7rb0lpy08JF9x6mpUdO/6+7jDw3nxTMO6mbxZTfX6jUUcZOVvLi33jf6jsGCuOOVMOt2xbWVJvH1/5Z3HMRRx/hKim8Jkt8PeBnsKcR/Bh2WKR/HNA+nLQq++3abgq5x+PzbVoP4JJ69nqU7m70cA7MrdX4+6u7j/pa9yK/80zWB/TNpLMDxYpqRE7I="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","CreateTime":1599964359,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2001@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","FromUserName":"gh_5907ea276845","CreateTime":1599964365,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"r1S2FXLHvuBwvQNnYzARNrHLEAy29WeR1HZT9HU4xRSn+2bQtetDlKgMzPRHUKQMdErwYU20bI3aHgByIm7WHZH5lotgupRiW/Mfz6WeVBBThb/K4Lef79qP1QoaVisn9pBpAzTx4yh+a+R+kRKKKCBbKClmowh6WX4z2liozRjnBQBIXHGBtBqRVXYEJBanK9FqGr0kGy6e0wFgpStPwxPp1UwQRRrNqoKv4D+k6uFzygHLZ/r/TYDbt60JAxfTOr00m3WZ4nsz84ZuQL5WiFAHxc7OLvJIRS/mhtL+lLM=","MsgSignature":"0a5f676fd866cde8211507c208dc11fdd16d905b","TimeStamp":"15999342","Nonce":"159996436464364"}
+  --> POST /?signature=8877c91005f2182de5b996182cb424fbdbb0e4a2&timestamp=1599964359&nonce=59955747&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=de228a9a5e710dc81b237a28138c2181a785ce53 200 3ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,603ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,531ms -
+  <-- POST /?signature=9c8bbcedac21594d1b66394ccf26a811c76c690e&timestamp=1599966509&nonce=334596331&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=50a06fa477a2e1c69477688ef9a9c153ca3d677e
+  xxx POST /?signature=9c8bbcedac21594d1b66394ccf26a811c76c690e&timestamp=1599966509&nonce=334596331&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=50a06fa477a2e1c69477688ef9a9c153ca3d677e 400 5,003ms -
+  <-- POST /?signature=9c8bbcedac21594d1b66394ccf26a811c76c690e&timestamp=1599966509&nonce=334596331&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=50a06fa477a2e1c69477688ef9a9c153ca3d677e
+{"ToUserName":"gh_5907ea276845","Encrypt":"rHD/yuHEL0A3qHQOcI8u1G2wbSJwv7bKR1NixOHSTgOD3eeogjs5aR2rCftfebZwLK4duYWcAiHj5lCAH1eIpkW6EqdRe9KEOy96qabSqce4vTXiCdw1u45iLba6MnaD5US92RArMJu6wBv/soBj8pE3JhGFSOPM5mLCjnDEiyoLLQCnMGWoyDTqFK4+apCjKrL5cEz+uUQK5iDsg3fB1ttkoCJndZyz/A4OgIVFMBejQwpjGPKCLzSWS7MyYQ7YuTINb1CAV5d5vOwUltvPD98oCSxbx93nyOBXTIT2eq39nGVTvqb6H/RiCHH94MCPdug+q+cRg40DRn/oHf1QUQ=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","CreateTime":1599966509,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2001@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_4yEx24-7sY13vlipYSZd6yo","FromUserName":"gh_5907ea276845","CreateTime":1599966515,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"uZUCNPyUX/r4oNyflF3SRuOMStHNPOTLTCxtwCbK/1SyZ5Oh6VDIvc+Zvk9XxfwGF6Dj1GYOidkkUS4CqGq8MbKMU3EUdWdu0MNB1SuWRBcgUf/cbJp6tKKnp3HChNoP/i7Nd8KtxCffKBi+jJ+blEvAzTc4nJFbAcypuNOuYSaQvUryF4uXgwyCSVkGdeISENlrzjXHVOBOInElvbd9aDPl80ib4qjTl5WZMyYXtb/NSdB9sJVMH4AFNyhuc+nb/Dhhc0QowJndWNohdycPaARyjxB0ErXgnGeC4pdfmZA=","MsgSignature":"c0b912e46eed925e0b94c3652190e3ab1398c5a7","TimeStamp":"15999846","Nonce":"159996651466514"}
+  --> POST /?signature=9c8bbcedac21594d1b66394ccf26a811c76c690e&timestamp=1599966509&nonce=334596331&openid=oD5b_4yEx24-7sY13vlipYSZd6yo&encrypt_type=aes&msg_signature=50a06fa477a2e1c69477688ef9a9c153ca3d677e 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,698ms -
+  <-- POST /?signature=ada38a743fdddfab98c16f3350b6a06b1fb5f53f&timestamp=1599966970&nonce=1695784479&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=46015c87db5f6add2b194576e2f061beafa67239
+  <-- POST /buildOrder
+  <-- POST /?signature=add7d0ae88c6b7196b643fae63dd4f4b29dac7bc&timestamp=1599966975&nonce=1531535222&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=a77635275bcc0e57b4b684d881f4a3549719ce09
+  xxx POST /?signature=ada38a743fdddfab98c16f3350b6a06b1fb5f53f&timestamp=1599966970&nonce=1695784479&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=46015c87db5f6add2b194576e2f061beafa67239 400 5,004ms -
+  <-- POST /?signature=ada38a743fdddfab98c16f3350b6a06b1fb5f53f&timestamp=1599966970&nonce=1695784479&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=46015c87db5f6add2b194576e2f061beafa67239
+{"ToUserName":"gh_5907ea276845","Encrypt":"ZqBPDKGJXEdbsSRrnT1K1k0JtDfrErvuzbANJI8S91oKWgnwUt7Elzvh8kTd4DLGv/tCV0hCvX+0dbfvcBt0eH2KqmhHvK3JBMKuOGn7eRRAfQPMA++nVvWA0iHCgiy6PxrMoilNqvcfTKyW8yNMxbxBhks1jhh4e5M2R9GZp3z2TTJgKE7cR6FmNobbXVjE3a7XXtnc7LWJTWMX+Fn3np2Nom2wDNfC1gnYCJzwHO1z3HQ/tIxwu+i59YMaTAsF6ilKw0agLDCTNkEPqCFO+p0t28ZmmcNQXBit5fbsvug="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_45b1WHG-NgvVo0IXVEVM7xQ","CreateTime":1599966970,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_45b1WHG-NgvVo0IXVEVM7xQ","FromUserName":"gh_5907ea276845","CreateTime":1599966977,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"2WAXxo42QWiqGy/Ut9D6ZeJHqKJsimKXS4Bm+1gqU82Y5mgL1jxK/dYW0GjpF55iC0NS7BbpumeJEzbsLWLadb4LjJ8F56EmuGisb+nn3fUy4YEktSEovfG5pL7hTGR4cgcj9sySYQwrIGh3TeRY+/n6Ag9XwcN0H6tZR8WbQ3fdNvDTjr4Db4GYeMThrJjHOh+1PAIXG1AgrkjIYdUpXU1GHZDo+hMLDoCJIt35N1w93CbEWDLewRcuAs9Qcr6aIQ9hwiGj7I0hK3tq5UD9QunLGAfiM4mifoPXqsj4C7Y=","MsgSignature":"a72016eb19e3c553d4c12dc2c734f3905769f707","TimeStamp":"15999102","Nonce":"159996697666976"}
+  --> POST /?signature=ada38a743fdddfab98c16f3350b6a06b1fb5f53f&timestamp=1599966970&nonce=1695784479&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=46015c87db5f6add2b194576e2f061beafa67239 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /?signature=add7d0ae88c6b7196b643fae63dd4f4b29dac7bc&timestamp=1599966975&nonce=1531535222&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=a77635275bcc0e57b4b684d881f4a3549719ce09 400 5,005ms -
+  <-- POST /?signature=add7d0ae88c6b7196b643fae63dd4f4b29dac7bc&timestamp=1599966975&nonce=1531535222&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=a77635275bcc0e57b4b684d881f4a3549719ce09
+{"ToUserName":"gh_5907ea276845","Encrypt":"FBVWQVJqbTXW76SLa9/srwq3IpAc5Pn0bwEq0ryY502uteZr87+jL3x16EvdFNrPtlYOGjQ1KOnDqSYkTmfN2/oOA7W21y5a7xuoBMM1fTL34zcgd9MwH/7wb+7J2Oz17Pen4qGltK/GlEM08OLqDLftxo38yu5GAy4nvdyLWvtmXB1HPBC7JFDJdUiXMs00QlzEItS/ousemw9cdKJSy+5UNMk777Qn2FtYfFdNglJ3oik2D+7SMZ1OCzV+q5pA2FcknOD5XVxHYcI17TMccV8uaaFowm/tg+leyfAJ2QE="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_45b1WHG-NgvVo0IXVEVM7xQ",
+"CreateTime": 1599966975,
+"MsgType": "text",
+"Content": "喵",
+"MsgId": 22906018502574624
+}
+
+{
+  touser: 'oD5b_45b1WHG-NgvVo0IXVEVM7xQ',
+  msgtype: 'text',
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  touser: 'oD5b_45b1WHG-NgvVo0IXVEVM7xQ',
+  msgtype: 'text',
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  data: {
+    type: 'image',
+    media_id: 'scbdPRkL9fVH92d1L3Z7Ocl53PvT8pZpACNqUhfyw5kV-8S3mKcIZnqH76hKhkLU',
+    created_at: 1599966981,
+    item: []
+  },
+  status: 0,
+  message: 'ok'
+}
+{
+  touser: 'oD5b_45b1WHG-NgvVo0IXVEVM7xQ',
+  msgtype: 'image',
+  image: {
+    media_id: 'scbdPRkL9fVH92d1L3Z7Ocl53PvT8pZpACNqUhfyw5kV-8S3mKcIZnqH76hKhkLU'
+  }
+}
+{ errcode: 0, errmsg: 'ok' }
+回复的内容是: {"ToUserName":"oD5b_45b1WHG-NgvVo0IXVEVM7xQ","FromUserName":"gh_5907ea276845","CreateTime":1599966981,"MsgType":"transfer_customer_service","Content":"","MsgId":22906018502574624}
+{"Encrypt":"J1aJ2/uoijgi56PnZK9DODjdBC7eUeNDKGn3qpK0vsGAgSrsfaHxQEDmQ4F1K3IoWq7mm3JUdOJXG6P67YMSaPnuJl8er3F3UZQZXiq3ZBEW9+p4MV9U+Uli8q+200uB2rFqk7MteL93/EvOAKmsakqGKgjwgxyzZal/vDxJ4wD+S23nN8dDQ3z/ri8bZOuQxq9ip8KOXhT9EPoIkmOwbkpizpsw2PhKOytIgBEkBxcS1Q28csConx612Cc8LtVlQ/K17xCcG4wtj2bt97wBKaTf1ekL1O8MjAg6k8Vd6Oc=","MsgSignature":"7d9f51cff29c8e506b2876dc810bed551137d75f","TimeStamp":"15999557","Nonce":"159996698166981"}
+  --> POST /?signature=add7d0ae88c6b7196b643fae63dd4f4b29dac7bc&timestamp=1599966975&nonce=1531535222&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=a77635275bcc0e57b4b684d881f4a3549719ce09 200 852ms 421b
+  <-- POST /?signature=185b51d34d0a7e47c3b1fbc863b0fe605e765f22&timestamp=1599966986&nonce=637256851&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=f57012e415b0e84e19226264a1cc8a5b064b1f39
+  xxx POST /buildOrder 400 18s -
+  xxx POST /buildOrder 400 10s -
+  xxx POST /?signature=185b51d34d0a7e47c3b1fbc863b0fe605e765f22&timestamp=1599966986&nonce=637256851&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=f57012e415b0e84e19226264a1cc8a5b064b1f39 400 5,000ms -
+  <-- POST /?signature=185b51d34d0a7e47c3b1fbc863b0fe605e765f22&timestamp=1599966986&nonce=637256851&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=f57012e415b0e84e19226264a1cc8a5b064b1f39
+{"ToUserName":"gh_5907ea276845","Encrypt":"bRlpJ6oh4/jy/fA6W2GJX9kqYK0NGThmLLYnVdICtsx20z6qt18n1ckqc8ix+Hp2jKaqolrzm0IVUMpOnqzRyI3Fyy305lUlKGYl2J5JnTTo4bDRDk4TnBCR8S1hyP/G7MiAPEJK/eKFn4WfExVn3plQM3ujLHFRIah3UCftfM7nKohbNy1N31/I7v2Z0zZu7ST0ria2HkCtUWgYtCT3dqENKhXRnA92WUHcNU+ksVt+8Ew8zcZiffIn2K1wZZOXDYGCyO2ebutrcHWy21AMCrFbN6F8FuG3YewVXfhPMF4="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_45b1WHG-NgvVo0IXVEVM7xQ","CreateTime":1599966986,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_45b1WHG-NgvVo0IXVEVM7xQ","FromUserName":"gh_5907ea276845","CreateTime":1599966992,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"jETVe3bmFFLt+2LDGSL0q4/Kc6xeXUWHbObysqOZiaqrIJ7ZPPxcQyrrj0rDXFtBDjhNlZ+lKlrSmDniZV3old25qaIHKyGHwUerYSIMNBwTC6lk98tof8sg5iMOFR35NVyaW3MITsD9k16hpD8HTaJxc8vdUdIEW3hgcfZkT6EkB8qjK8cToSVj/nGBJ3qx8dU/IREsCfDivHT4zzEn+rUSfLwAft6WqXWV88r64JTYMGgTxTkopMyEtRu8hLA/5qSYzUhoS6t8bQTOydRFgnubqF8flXhZGosMGYWJwmU=","MsgSignature":"cb7f3379cab0405322fed865540591de08e466f5","TimeStamp":"15999188","Nonce":"159996699166991"}
+  --> POST /?signature=185b51d34d0a7e47c3b1fbc863b0fe605e765f22&timestamp=1599966986&nonce=637256851&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=f57012e415b0e84e19226264a1cc8a5b064b1f39 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 120s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 29s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,518ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,684ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 27s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 28s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,532ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  xxx POST /buildOrder 400 19s -
+  xxx POST /buildOrder 400 6,345ms -
+  xxx POST /buildOrder 400 27s -
+  xxx POST /buildOrder 400 12s -
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 204ms -
+  xxx POST /buildOrder 400 120s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,505ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 396ms -
+  <-- POST /?signature=2b7123e9bcff165d7eb630ccd6fc4e8653c97d02&timestamp=1599978855&nonce=1424591756&openid=oD5b_41I9Pu1QhBflRXs_Vw_VOG0&encrypt_type=aes&msg_signature=c179e02b0f5716c61cc02522538b775b2c72df6a
+  xxx POST /?signature=2b7123e9bcff165d7eb630ccd6fc4e8653c97d02&timestamp=1599978855&nonce=1424591756&openid=oD5b_41I9Pu1QhBflRXs_Vw_VOG0&encrypt_type=aes&msg_signature=c179e02b0f5716c61cc02522538b775b2c72df6a 400 5,002ms -
+  <-- POST /?signature=2b7123e9bcff165d7eb630ccd6fc4e8653c97d02&timestamp=1599978855&nonce=1424591756&openid=oD5b_41I9Pu1QhBflRXs_Vw_VOG0&encrypt_type=aes&msg_signature=c179e02b0f5716c61cc02522538b775b2c72df6a
+{"ToUserName":"gh_5907ea276845","Encrypt":"3LFEW1hIT1Mxyw2EOxsf1TfijUAfldz9ilgkQ2yOSCn+ndmWYu1l9dL6MAFM5L1wOx5Wcxq1tXfNDHgDh9h744rlf4Aty8TStAP9slugZnPEribNoSZACMIYiEjFzxT+HVE52XgG1V9egnaq+4BeBFG44Qc6cVbFWNDcA9Zt7UrWhCIyo+3NggSEDJ6g1ivZqMyZyb5kwKQah8ihkFjJVx/XDnXupSAYAle1/JCzxQ077WXGQRSUeleDQTxFRk34wapO/6RKS8OK4EszJEkdtrCF+RE2tYLtE30aPfoRvfA="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_41I9Pu1QhBflRXs_Vw_VOG0","CreateTime":1599978855,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_41I9Pu1QhBflRXs_Vw_VOG0","FromUserName":"gh_5907ea276845","CreateTime":1599978861,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"e911bti5KfwX0+8OQ+4gA5AEXvQE1Z/juRa+PyB2p+EV352xTEsoq/S/ub9yAklG5UDflCUVK2WTYaGU8w++ptOfSCaanKfsoNRMiZTnBVUDRQZjx70iTKf5K8olP7FPPt+2B/ViZhTfwPbTMquetVa+xL5NQOx7lLI+tNO/Y38Nauc0maJ7yzfc9ONF3AX18wohWtDqeS2Mo7S9+tAmhqaZtYgbIgiaPZNy+WYl1EWVd1ics0raA6/140FGJyorVCVAIlvXonEHoJOl1mZy0AdBG6dV9N4J7S53ICWejt8=","MsgSignature":"3830bc9a4b70dfe9d13f051c160c3c84c5939c7d","TimeStamp":"15999629","Nonce":"159997886078860"}
+  --> POST /?signature=2b7123e9bcff165d7eb630ccd6fc4e8653c97d02&timestamp=1599978855&nonce=1424591756&openid=oD5b_41I9Pu1QhBflRXs_Vw_VOG0&encrypt_type=aes&msg_signature=c179e02b0f5716c61cc02522538b775b2c72df6a 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 3,678ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,385ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 363ms -
+  xxx POST /buildOrder 400 377ms -
+  xxx POST /buildOrder 400 385ms -
+  xxx POST /buildOrder 400 390ms -
+  xxx POST /buildOrder 400 389ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,331ms -
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 120s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,698ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,879ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 3,975ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,557ms -
+  xxx POST /buildOrder 400 16s -
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,931ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 29s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 32s -
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,063ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,393ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,387ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 26s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 22s -
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,240ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,896ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,944ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,678ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,936ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,965ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 29s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,492ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 27s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  xxx POST /buildOrder 400 1,478ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,879ms -
+  <-- POST /?signature=72379ec18648a90d1322311b6b2304ce4e3eaa10&timestamp=1600001878&nonce=1836237335&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=6bfe86e4a80cff24f16cca9903f27f9676259265
+  <-- POST /buildOrder
+  <-- POST /?signature=8b5bedcf320e190ae99afae8ea28d9096a148ee8&timestamp=1600001881&nonce=1245998279&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=ba36ec0e799f79341369a7a747c6e15a91fd8abc
+  xxx POST /?signature=72379ec18648a90d1322311b6b2304ce4e3eaa10&timestamp=1600001878&nonce=1836237335&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=6bfe86e4a80cff24f16cca9903f27f9676259265 400 5,002ms -
+  <-- POST /?signature=72379ec18648a90d1322311b6b2304ce4e3eaa10&timestamp=1600001878&nonce=1836237335&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=6bfe86e4a80cff24f16cca9903f27f9676259265
+{"ToUserName":"gh_5907ea276845","Encrypt":"mVuHODLob3+hjkFq0+4JmtgOU4SnYaDvcj1cNhMMYIWAqhUNsTrXtElAjeeOeTtOD+P11Vq4NSPmX9EHSbw0/2iTvNdGaAkVRAsWr0OiWBiTtM6YNcE/xd50cNT6PV4hqCvhyZwnS59j0IQ/HcGl2gIPDuAKG3MS6FOBp1svNpoPOZFkcmi7pXLUDedtW6EpKfJlo/DWcZy54DtduW+WPxMjx7NUJ2pZdaPAd/8YDYqw+22DjMBXvSmgJEDJXcNCnw6F2pjs/sbbv7rXx0vwJGFhpgiimJcIua3VMAcz+yE="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_44Q_c2C3UJ9vyrK_qpQa-ok","CreateTime":1600001878,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_44Q_c2C3UJ9vyrK_qpQa-ok","FromUserName":"gh_5907ea276845","CreateTime":1600001884,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"t5WXwcJJOGh0RiZ8eNtXa5FRZyXQPKWiY4xRO0mdACv2+Jw7YgX+5LCyv7n3vdbcxeXQHXJGDwQ9I1ribPSF8fzsECjihR4PWl8yLRqsSg8OBNG4txgZCAxkJ1OWyeT8K7kWELmoH6/kRHs+GaNJ7XI2E6fhbmzuXCPEpyZdAHGFVBBwUqcOOvWSu2bbY2IrKuJbhVzxRW23SlD3p3RqvTOeryNfi/q3F2vnhzn73PwZFyvKUZmc0juxJPEvcUvvioi6OzuveI+Quy1kvHDnYq4QnXQnAyRxbSz05NJYfgE=","MsgSignature":"44247716160499a943b44ab28ffb1456b8cc8737","TimeStamp":"16000152","Nonce":"160000188301883"}
+  --> POST /?signature=72379ec18648a90d1322311b6b2304ce4e3eaa10&timestamp=1600001878&nonce=1836237335&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=6bfe86e4a80cff24f16cca9903f27f9676259265 200 3ms 421b
+  xxx POST /?signature=8b5bedcf320e190ae99afae8ea28d9096a148ee8&timestamp=1600001881&nonce=1245998279&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=ba36ec0e799f79341369a7a747c6e15a91fd8abc 400 5,003ms -
+  <-- POST /?signature=8b5bedcf320e190ae99afae8ea28d9096a148ee8&timestamp=1600001881&nonce=1245998279&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=ba36ec0e799f79341369a7a747c6e15a91fd8abc
+{"ToUserName":"gh_5907ea276845","Encrypt":"FKDnt0LHx2eLTQE9XPHzGMLSzpzIZBfR1bIwOr9SE+QvPtJgcBCy2EjB13Ag0ST2NDBB7cAIk5LBfkEZUKhbYWv3DVa/apGO8l9OVLqPXmAIRBBNVfU27KedvNBdZBEXSvCbeXjQzpdZQjG4vVO3ziY31hY2StrxFFB2RCnLonhvoRpAn0/HAaNI49U2e2HqxOuD7Ah3keysDq1wFiMIOKijS9YFp2dt7cbnkly9YOcGv9QPqahFmkQNDDpIqUYumKHnXaau2RVlb5TdGKSWr3R5Y3aag0d+j+fGBx+djQw="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_44Q_c2C3UJ9vyrK_qpQa-ok",
+"CreateTime": 1600001881,
+"MsgType": "text",
+"Content": "喵",
+"MsgId": 22906519772021322
+}
+
+{
+  touser: 'oD5b_44Q_c2C3UJ9vyrK_qpQa-ok',
+  msgtype: 'text',
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  touser: 'oD5b_44Q_c2C3UJ9vyrK_qpQa-ok',
+  msgtype: 'text',
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  data: {
+    type: 'image',
+    media_id: 'scbdPRkL9fVH92d1L3Z7Oe3roixClMrYPhwCTU6dAM50zLmstS6GlPDipY8MIi15',
+    created_at: 1600001887,
+    item: []
+  },
+  status: 0,
+  message: 'ok'
+}
+{
+  touser: 'oD5b_44Q_c2C3UJ9vyrK_qpQa-ok',
+  msgtype: 'image',
+  image: {
+    media_id: 'scbdPRkL9fVH92d1L3Z7Oe3roixClMrYPhwCTU6dAM50zLmstS6GlPDipY8MIi15'
+  }
+}
+{ errcode: 0, errmsg: 'ok' }
+回复的内容是: {"ToUserName":"oD5b_44Q_c2C3UJ9vyrK_qpQa-ok","FromUserName":"gh_5907ea276845","CreateTime":1600001887,"MsgType":"transfer_customer_service","Content":"","MsgId":22906519772021320}
+{"Encrypt":"z9ZwU0m82ef7/NDEGRoqPRqo+04cCNgtKw3GqRjSNKcwD8EzQ1htWF/SFzcYZGDnufEKSd+1aoOKl2kz6XCKSgbHAarmB8Q6c1wzr05hNBN/MpwNr7/0fI7kGo1VNU0bHo9IE1POyE3HcrT8jzOMVLxqRsMfKzw4Qx+A4Y9jYitVdxL56tJb1TTlkwOOopA8t6nS/2HhuGCqrmEwlW4gGqgl0SWAt9ixrZNPbHnCOHGKe3snAbxuXFcGDvVGvvcfrNX7Np6PS1ORFe+srWDsCBzP9UMtxd5C65/EEw1+ZRU=","MsgSignature":"d3b60da1b507f049a0e07f5aeba32ab5a5b5e847","TimeStamp":"16000052","Nonce":"160000188801888"}
+  --> POST /?signature=8b5bedcf320e190ae99afae8ea28d9096a148ee8&timestamp=1600001881&nonce=1245998279&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=ba36ec0e799f79341369a7a747c6e15a91fd8abc 200 1,104ms 421b
+  xxx POST /buildOrder 400 26s -
+  <-- POST /?signature=bd4b24552bb708009b59892e11c7b04f0008c848&timestamp=1600001917&nonce=12857113&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=e58f918d6f76dbffe0daa9e00267e2ebbf625098
+  xxx POST /?signature=bd4b24552bb708009b59892e11c7b04f0008c848&timestamp=1600001917&nonce=12857113&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=e58f918d6f76dbffe0daa9e00267e2ebbf625098 400 5,004ms -
+  <-- POST /?signature=bd4b24552bb708009b59892e11c7b04f0008c848&timestamp=1600001917&nonce=12857113&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=e58f918d6f76dbffe0daa9e00267e2ebbf625098
+{"ToUserName":"gh_5907ea276845","Encrypt":"Kweiy+HzHZ1jp556Wb+VBKPuHdjrOIePJuGvj3DRozRYn+g0XzZDiLyAkZRitKkE8zbyN+SvbWbfU6rc1Ab23xfh4wz3KJdpzTjU1NqW5MAdoHn9f53TmMs9sUMciCqZHC7EmOTwsj3vern/zXRbGL2D5S4MheByKy4yFjDOv5WOk1D4OPUz4Sk20GSA6MBFrQp9NF+G+ev7otN0N+Gj6LjXc5Xjtwl/sR1iHsf2a429yHU6VfKO+YZSX2xl2fk8a0p9rSg5gSLxrWAtMbCX+8z04Kvd9BDUXrxG+5Mt+zo="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_45b1WHG-NgvVo0IXVEVM7xQ","CreateTime":1600001917,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_45b1WHG-NgvVo0IXVEVM7xQ","FromUserName":"gh_5907ea276845","CreateTime":1600001923,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"mnrvrCWyxnYXlwlJdqn8fTXsZ6ZUFX4bQyvf4j+rFNbZk8VuF9Ne3YcjepeR6IYXRaCotvFx0GJkU2Z1pnmStXVMt87ABn/aOUmmAQKNdj2JZO9OJLyR76HLkmJX3ETEYb7jP7qBV67wYiGOlIkx5Cf5wWuC7LJHG0wlL3y2zRqYV4hsyhtv7Wa6laJq73XAHfxnSHcVpjITrrAT4d6u6kQLwXITQhVJnTzc81NY06DJqtJMygEmcR+RYMSeQCyaiHt2X4fuVNX2vgJlC9zqTPIM6rOBBnGva+XA7E+j9Wg=","MsgSignature":"66fbf070aa6f582391043da18507486cfdfe3876","TimeStamp":"16000424","Nonce":"160000192201922"}
+  --> POST /?signature=bd4b24552bb708009b59892e11c7b04f0008c848&timestamp=1600001917&nonce=12857113&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=e58f918d6f76dbffe0daa9e00267e2ebbf625098 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,932ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,399ms -
+  <-- POST /?signature=8604608536bcecac2b088a6410859e0b3d00cf7d&timestamp=1600003717&nonce=761652935&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=081533d60d45ce3352583450d887df347a8c929f
+  xxx POST /?signature=8604608536bcecac2b088a6410859e0b3d00cf7d&timestamp=1600003717&nonce=761652935&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=081533d60d45ce3352583450d887df347a8c929f 400 5,004ms -
+  <-- POST /?signature=8604608536bcecac2b088a6410859e0b3d00cf7d&timestamp=1600003717&nonce=761652935&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=081533d60d45ce3352583450d887df347a8c929f
+{"ToUserName":"gh_5907ea276845","Encrypt":"hOgsutfLEOFzzmcoN3JUAbN5ZtyNtmfbl2GHICavJgNsbdJTQKoxacs9HFhEtrOSeZPLhlAViZ7H2H08cb3qybXnmilbU3bUIsEOJWpE1eC7xhI4nnqr/8MXo0/yJiiGpxfKvjAfTEgnHHiDeYt2PsqxTPX7jtzD1XmhUpPZ+9sWOZ2Fs7qefiz88mWPlsljiTiQ/x17U+Uk9yHMpPcSFbiG34asy+RpSZWlzsOSHngw6n04P4JMQCXYHuco2w06BvoFrjg7oL3aTH7b6TGo2/5qtqW47JPux70o3M8kpBgLvl5vJSEg9zf3DiRMUPGU9SPzyCFlAg61nL39CeY9+w=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_45b1WHG-NgvVo0IXVEVM7xQ","CreateTime":1600003717,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_45b1WHG-NgvVo0IXVEVM7xQ","FromUserName":"gh_5907ea276845","CreateTime":1600003723,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"SP+LRz1ahtZWl0mv1pYm7EQePmoJqkK5UWtx1nVXq4vyQRyRQfUzoOhZz2vANxDsfhpA2QhJJTMxPmikuRKD+5SuR8uVAl3SbXSLlURRvRouQ5YtIp0XRP2ntwlGnxhtTG3emtnBkA2tLRyyRSrGbbCV/uwLOhG+IVYGmrR7ofWgNN+0oDbaa4CEIrfrLFckyR9PCu86JgFKU0SptEfmegKkSxk3E7Bl+oQGVfoCQZx9n96+hpwIQHjio/P5l6h1y122UMV1kx/PTioeb3anc2Jj4Pe6BZ+bxYJJKg6tKug=","MsgSignature":"1ca4db24b3c050bedd48903422ca1405e933c53b","TimeStamp":"16000432","Nonce":"160000372203722"}
+  --> POST /?signature=8604608536bcecac2b088a6410859e0b3d00cf7d&timestamp=1600003717&nonce=761652935&openid=oD5b_45b1WHG-NgvVo0IXVEVM7xQ&encrypt_type=aes&msg_signature=081533d60d45ce3352583450d887df347a8c929f 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,668ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 120s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,937ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,473ms -
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,958ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,095ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 25s -
+  xxx POST /buildOrder 400 45s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  xxx POST /buildOrder 400 43s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 29s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- GET /
+  --> GET / 200 2ms 36b
+  <-- OPTIONS /
+  --> OPTIONS / 200 1ms 0b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,851ms -
+  <-- GET /nice%20ports%2C/Tri%6Eity.txt%2ebak
+  --> GET /nice%20ports%2C/Tri%6Eity.txt%2ebak 404 1ms -
+  <-- GET /?CAVIT
+  --> GET /?CAVIT 200 2ms 36b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /sdk
+  --> POST /sdk 404 1ms -
+  <-- GET /nmaplowercheck1600010896
+  --> GET /nmaplowercheck1600010896 404 1ms -
+  <-- GET /HNAP1
+  --> GET /HNAP1 404 1ms -
+  <-- GET /evox/about
+  --> GET /evox/about 404 1ms -
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,824ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 23s -
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 26s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  xxx POST /buildOrder 400 120s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,843ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,202ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 2,701ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,814ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,507ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 26s -
+  xxx POST /buildOrder 400 8,643ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 794ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,247ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  xxx POST /buildOrder 400 17s -
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 839ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,036ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,417ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,810ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,751ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,834ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,506ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 27s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 6,959ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 35ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 27s -
+  xxx POST /buildOrder 400 11s -
+  xxx POST /buildOrder 400 23s -
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 585ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 490ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,585ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,928ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 25s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,930ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,619ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,407ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,590ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,629ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 25s -
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 25s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 23s -
+  xxx POST /buildOrder 400 11s -
+  xxx POST /buildOrder 400 27s -
+  xxx POST /buildOrder 400 5,568ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 458ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,418ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,720ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 2,164ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 674ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 556ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 599ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 518ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,016ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,252ms -
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,990ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,351ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,940ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,955ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,988ms -
+  xxx POST /buildOrder 400 21s -
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,759ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,993ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- GET /
+  --> GET / 200 2ms 36b
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 1ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,263ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,016ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,584ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,599ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- GET /?signature=973d9348d0588deb157f7e49b15cfc6671e45811&echostr=1168755930177722365&timestamp=1600083589&nonce=455025350
+  --> GET /?signature=973d9348d0588deb157f7e49b15cfc6671e45811&echostr=1168755930177722365&timestamp=1600083589&nonce=455025350 200 2ms 19b
+  <-- POST /?signature=ad78f6ac8b5b6005ac72d52bc3facb2631d2493a&timestamp=1600083598&nonce=1524021173&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=05706e7dae0ccd6d27e2f1aacc09f670022e90a1
+  xxx POST /?signature=ad78f6ac8b5b6005ac72d52bc3facb2631d2493a&timestamp=1600083598&nonce=1524021173&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=05706e7dae0ccd6d27e2f1aacc09f670022e90a1 400 5,000ms -
+  <-- POST /?signature=ad78f6ac8b5b6005ac72d52bc3facb2631d2493a&timestamp=1600083598&nonce=1524021173&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=05706e7dae0ccd6d27e2f1aacc09f670022e90a1
+{"ToUserName":"gh_5907ea276845","Encrypt":"2jKFnU7mrDJpME2wvGywTx4YEXof/A5mhk2BzISYLqbK3Wvoiku0XJjDG4N2MXxP9NZuh4wSiAU1ylBu52SxOAUIeZ+yQapT6z9TOHutZriRwX2IeoFf711Fmixo/UKRn6nxm1oTxkjeDTzb2u+IlH3d/wvxxdsTfjsRlyh3R6Z4mc/dcg3761WMrczVKh73IsnO+1kPP9ET3D5iGtpjY+9ubKs7FXihZb1CP9nzKeChwEYNB81H5kMvveku4LlaDB1EWihXptCwoHOEOmaAqhrw/f/SP3c8Md5X7X56jUU="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_40ERop3bh_kqHSp8LghYF10",
+"CreateTime": 1600083598,
+"MsgType": "text",
+"Content": "喵",
+"MsgId": 22907688260846945
+}
+
+{
+  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  msgtype: 'text',
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  msgtype: 'text',
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  data: {
+    type: 'image',
+    media_id: 'zkOJtEqv-vl_rELourEigHXFtC6ZjYdGpPnWP4lsJ88pkQzWzYtR936J-z6jCQ9h',
+    created_at: 1600083604,
+    item: []
+  },
+  status: 0,
+  message: 'ok'
+}
+{
+  touser: 'oD5b_40ERop3bh_kqHSp8LghYF10',
+  msgtype: 'image',
+  image: {
+    media_id: 'zkOJtEqv-vl_rELourEigHXFtC6ZjYdGpPnWP4lsJ88pkQzWzYtR936J-z6jCQ9h'
+  }
+}
+{ errcode: 0, errmsg: 'ok' }
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1600083605,"MsgType":"transfer_customer_service","Content":"","MsgId":22907688260846944}
+{"Encrypt":"yzVmX6gP62WGc+tTykVGlmp/MaSNSRSbyxFtk1BozlmZMepiVMPruUJcxgsBVnLXklF3Y481+sMpWje5Y5ZOgGyr7WAySi7ntIwwdSuqlvzYxcR7p0rVgiSNi7XmAc2osVMR/mbyJ1kLPxb4qI74UKiA24nIjMC1dU6cSX3i/N3b6YGLh/GzpCx+2ZQ4D8JpcCngvhk7TID0iqzai89UkHKCWXegy0VaVEp/kvdvMFeRFlzK5GOUhAcZ+8MytXv4PEsw+YjW/j2j99fsUvguRBDxBPzf9xuyacFnuFOmnNw=","MsgSignature":"c0377935019005c62b358a73b85bd8d8044f8db9","TimeStamp":"16000195","Nonce":"160008360583605"}
+  --> POST /?signature=ad78f6ac8b5b6005ac72d52bc3facb2631d2493a&timestamp=1600083598&nonce=1524021173&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=05706e7dae0ccd6d27e2f1aacc09f670022e90a1 200 1,193ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /?signature=e9792596ed71c40f17763ac7503090b72bf17a48&timestamp=1600084154&nonce=1564026603&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=9862db53052eef61a231c1224b482da70a27e1ba
+  <-- POST /?signature=23eb17d92e885687a6c0d110837bd1aa144496b1&timestamp=1600084154&nonce=1180378176&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=78e91fcc20b74c6c060524b8c3f0e6cddd0f921c
+  xxx POST /?signature=e9792596ed71c40f17763ac7503090b72bf17a48&timestamp=1600084154&nonce=1564026603&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=9862db53052eef61a231c1224b482da70a27e1ba 400 5,001ms -
+  xxx POST /?signature=23eb17d92e885687a6c0d110837bd1aa144496b1&timestamp=1600084154&nonce=1180378176&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=78e91fcc20b74c6c060524b8c3f0e6cddd0f921c 400 5,002ms -
+  <-- POST /?signature=e9792596ed71c40f17763ac7503090b72bf17a48&timestamp=1600084154&nonce=1564026603&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=9862db53052eef61a231c1224b482da70a27e1ba
+{"ToUserName":"gh_5907ea276845","Encrypt":"/zf/QngyHcp6FUM38Roo0muFZrZK9VqaUKtGNGsXeEtU/XuaLTfq0lp8hoDuIYmbVgO8ap9aQDo/18P43c0fY2JbgNKnVek13wdWWzR2iazQ9yABFGnUPdE36jhaRD9OOWRcXaMnjizZxvbiFrE3E3KKxkskBUrYCSKyPM1OyHaB53E9j+DYNtq5JlwqvysmcZVd8OWsarwcK8nibouQsf/PiyEyR9PLhzQPDHW+Hii1QHOZpm29uFeti0BpKuswoEDP5n9iLCVRyP/cz/qNxY/GA6CfAOU2cIDCn0MW0Cg="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_44Q_c2C3UJ9vyrK_qpQa-ok","CreateTime":1600084154,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_44Q_c2C3UJ9vyrK_qpQa-ok","FromUserName":"gh_5907ea276845","CreateTime":1600084160,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"9zPZ8EG+rtNGgSJD4J2Ce1GqTQZckiqFV1RVJjCItPLunttF4nNgsgNAUzpwJcLcFKT4UO8sJ+8MLpTYsHbBVKZMmcp9fsV4oYAN9jUYKQVWToqutBZNT+mA96jJjo8vjg9xDOzNG2o0LAzfvdNHrh3VPGZXBLlPQGfl+yyzbdqHmEQLSlc0SuFV11IoVaebdNZ+QQQGzBpGO9DUrkv7D0Iveh6CPHDANJ8isPeXTTP+qpIjRqRGCzxJ5jfT8mJwqGqxNw33WYr4tHj34ms6vWEYmV3SCnSRWWqU86RbOIo=","MsgSignature":"3a8fcca2f41ea8a3985e126f800d843cf9d588a9","TimeStamp":"16000305","Nonce":"160008415984159"}
+  --> POST /?signature=e9792596ed71c40f17763ac7503090b72bf17a48&timestamp=1600084154&nonce=1564026603&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=9862db53052eef61a231c1224b482da70a27e1ba 200 2ms 421b
+  <-- POST /?signature=23eb17d92e885687a6c0d110837bd1aa144496b1&timestamp=1600084154&nonce=1180378176&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=78e91fcc20b74c6c060524b8c3f0e6cddd0f921c
+{"ToUserName":"gh_5907ea276845","Encrypt":"h2ODGyeu7ANvqbDn97yIO+VJSX6HRcOUXCJbaCdyvUYzFfBpk1tMt0OlFbOxFNfxhRD2oWky2Cn688SPHL5PaW8W/vKrTgor8KL40MDnd4SD3mj8lRTQEYkkO5TKDDGgn4r13B6b/MhQt8H7mG+O8Y+b9UMTT6ycfa8BTBoZzyjIpWueY5EijPY8LNN+/IB1U5g/PbNKP8CseLdVquh/nGVhv/JfelPIw6YS4Fwnd275YM9w6RZ4kAcRfQTT10bP4BTQtFMRURD0T0kJnIAT9rFcdE1cc+XEKuM2VZl5QSA="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1600084154,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1600084160,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"bkZ0VvfcyAHFMvoeapxdBQmoDyLVKTPfYk5E7L/2ktnVet5j87jFhPc8FcmCYjMeRrJBF02B5iPBuiP9bNkAtYctY3W+eyBAuCO5mtStSckLKceyeUoqV2/cAfZdy5jXFNRuT4BjDOFiZy8ibXugD43IBP2F2s+UEMuYS6+lPmy345g1vyu8XxW+7iBfWz0KysZpOwWWIy8bhRDwWk3Q5xVac4JdcMmPv/RFRhnObI2I9LCs79CgM7LEpmeUOCNpKE0kAhMS8OxS9e6Nv0Z1a9QU/8VBSdCudno2jdyNt+M=","MsgSignature":"ff038608e3b4ec03492cc4bf70c8addc3650ad32","TimeStamp":"16000310","Nonce":"160008415984159"}
+  --> POST /?signature=23eb17d92e885687a6c0d110837bd1aa144496b1&timestamp=1600084154&nonce=1180378176&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=78e91fcc20b74c6c060524b8c3f0e6cddd0f921c 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,935ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,775ms -
+  xxx POST /buildOrder 400 17s -
+  <-- POST /?signature=6a401d252d427ca9c3331da880f6c7c60ba8f2ba&timestamp=1600085954&nonce=1409629138&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=a6f287b96e857dab82d98df5fac129d485db3c93
+  <-- POST /?signature=55a52c572f395c92487cafedde7fc4beb61cd4e7&timestamp=1600085954&nonce=1890736234&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=84443f17fd2fcb12fb37ad3872eb6f3f6eb9dd37
+  xxx POST /?signature=6a401d252d427ca9c3331da880f6c7c60ba8f2ba&timestamp=1600085954&nonce=1409629138&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=a6f287b96e857dab82d98df5fac129d485db3c93 400 5,003ms -
+  xxx POST /?signature=55a52c572f395c92487cafedde7fc4beb61cd4e7&timestamp=1600085954&nonce=1890736234&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=84443f17fd2fcb12fb37ad3872eb6f3f6eb9dd37 400 5,001ms -
+  <-- POST /?signature=6a401d252d427ca9c3331da880f6c7c60ba8f2ba&timestamp=1600085954&nonce=1409629138&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=a6f287b96e857dab82d98df5fac129d485db3c93
+{"ToUserName":"gh_5907ea276845","Encrypt":"zqbmIf2Wbzt1TkyTKMJjwS/1I+Pmx7u9iemSCQYXTGAT5iavVUJQdCAC99sQ45yPNohu7H/ayyiURkEpFvK8nQ2yEQtsYvyg96MYCzodsm+lg230smjnPLL8vdb6EEHYq7LUhBwmrhhoZva5u3FxGNqTKn3BSqwO0Fw5tw5x6hsp65VW8AtDxW3ySd/HMVepSmu9C7sVo4buEpbg9LsNwXxAfjg+vW3iuvlR1VZQydKP3EuGdIlpOcLMQgnZTQV0yDxL581eMQ9KX6izEOzYGrqf33XhDXqhJcL65ihdpDV0dg+mLwTE11r/Mv3+PH9fDgCLeRAk54pnZbQvK4kI1g=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_44Q_c2C3UJ9vyrK_qpQa-ok","CreateTime":1600085954,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_44Q_c2C3UJ9vyrK_qpQa-ok","FromUserName":"gh_5907ea276845","CreateTime":1600085960,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"cqwHNYranM7K2D2LsqueU7AGNsa3zSFtVOmUBJEsgx6WdCPZe5ESLiEGWO49+0mTR6Kf3hH7OzBFJThiKLblY1RXLL7ZDeqVGb+eYumpifljOXG0UuO6u/z25kiuj42o2elCsakEGG37OgrwfB8J8negDj2TSlOS5aRFa5W6NWusGYrnC78pFfPHXQ+unRAYSlLxADiO0Whvf33ha696Hbma731y8yt9cFDAeFsLfR0JkDA3W7WBdqBHP+SVbec8ZZ+8Q7YScelLLo49XFf4MM8Yj1CZ/oqhRvvCinKeHUA=","MsgSignature":"843d9ce31ce8e9343f85a5418388ecfd21d8cfb0","TimeStamp":"16000155","Nonce":"160008595985959"}
+  --> POST /?signature=6a401d252d427ca9c3331da880f6c7c60ba8f2ba&timestamp=1600085954&nonce=1409629138&openid=oD5b_44Q_c2C3UJ9vyrK_qpQa-ok&encrypt_type=aes&msg_signature=a6f287b96e857dab82d98df5fac129d485db3c93 200 2ms 421b
+  <-- POST /?signature=55a52c572f395c92487cafedde7fc4beb61cd4e7&timestamp=1600085954&nonce=1890736234&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=84443f17fd2fcb12fb37ad3872eb6f3f6eb9dd37
+{"ToUserName":"gh_5907ea276845","Encrypt":"RhrMnofr4DUh7s5b+uZd43WEIysOLvb7/bl1SV18bZnWkHsye1fG8V+skMuN5990RTlxcP09t266fpqb3MKNTsb18IlqXh2d616EMKW3jlcqm9zJQqRlxVbRZlc6zG1pWbOb+ubSKlHYWpuQsU48NPFU5zQXDCNIa88Zix2jBuwl2rZ4TgndK3NY4w7x/on1WXvP2PxRysCS/xxj7Ltx+xZyT9LUZqLNr2Nc7F9Msg0IBqr3vHJ1UUvOyGjDyJYL77junub8LJS+dSmTBXQyFgZRIUzcNR7hgK6t0qqedNfWz4nJpwNT17D3f91+pIChWh4nSTkW9Wd9H6sx5Rjbwg=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","CreateTime":1600085954,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_40ERop3bh_kqHSp8LghYF10","FromUserName":"gh_5907ea276845","CreateTime":1600085960,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"vAaPn8w40zNhkzSs0O46j1wvl3FjsCcnHpj0SqfPQp2qV2vT15WA39jsEorH3QdKhbhngn30kybgn7NVPoGzRRZc5fMrFSquKVEQtwgPbs2gOLRJfzIS/0zMHeWNXesXLkzXeTfuxPOt4PIrA9pp+AU+3U65BfKV6Xv/Kld9EiqiDpyLy+KujoE50V9zZv+N6ovMChA/q4rIOffIkq0WYhD1Y1c7Nj/w50M6VFRhT1/pB2+5MeRcZ+1e6Z2etUZ0c+hwx0E5Da1Cgk8wnXBBpKfpxcbSrwUcTd4Qrv/6u1Y=","MsgSignature":"297c52ba7b78a8e20e2e42fa18a98d567705142e","TimeStamp":"16000159","Nonce":"160008595985959"}
+  --> POST /?signature=55a52c572f395c92487cafedde7fc4beb61cd4e7&timestamp=1600085954&nonce=1890736234&openid=oD5b_40ERop3bh_kqHSp8LghYF10&encrypt_type=aes&msg_signature=84443f17fd2fcb12fb37ad3872eb6f3f6eb9dd37 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,210ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,957ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 42s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,980ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,744ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,649ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,189ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,349ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,438ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 29s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,687ms -
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 29s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,433ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,910ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,639ms -
+  <-- POST /?signature=95a8f92487215543ac143a59c7a6412d03db8266&timestamp=1600097877&nonce=807314776&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=1a0a25c37264cd1ceb24ce89e702f05a8e186e85
+  xxx POST /?signature=95a8f92487215543ac143a59c7a6412d03db8266&timestamp=1600097877&nonce=807314776&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=1a0a25c37264cd1ceb24ce89e702f05a8e186e85 400 5,001ms -
+  <-- POST /?signature=95a8f92487215543ac143a59c7a6412d03db8266&timestamp=1600097877&nonce=807314776&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=1a0a25c37264cd1ceb24ce89e702f05a8e186e85
+{"ToUserName":"gh_5907ea276845","Encrypt":"wQwkYgX9tLmrOwjXROpqn4d3RTurxM+nRx5L0sbjUmFibu8pl6X/O1dyLviwRVU6+tFNE3AM4JdmX0bx6imrw+S7qJ8ZP8U1F2veZ8jMEY6+55BDnHIka/5uHZnBimOKnojIKxdLtgkGoAK/Vjy5WG9GHq7wQvAnvpvXZ78HsC9mtyJHhPXslSHdvQ/ge/uvZbXZBsgv83IwBaQb4U8ioHCoK1DTfcLgW/q1pVAEG4yOj07afnEXoQjd5JCxssyz3W699DOSnZCd9HCV51NRDjZ09RlESzscL7zkmiEDQpE="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_43kHtJU_zWJkE6fEggLVebI","CreateTime":1600097877,"MsgType":"event","Event":"user_enter_tempsession","SessionFrom":"jyg"}
+回复的内容是: {"ToUserName":"oD5b_43kHtJU_zWJkE6fEggLVebI","FromUserName":"gh_5907ea276845","CreateTime":1600097883,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"QOHADqak5UGCNPZ9hy/1zizueblBXIr5MFZ5cLxnm5dG5Qq7mzcm0T6wpABXJ70QYgLZHMnwIKzd/SkDMWXigdJ2IeEsMInADGJETX4U+d7MzLXeOYfpZuI4ONbjTbyFgCBDu2yaY1ExE4OunsOipzxs1aBS1uxQLHibfekOWcwZc8YEpIstXaf5q4rTrJSl/saqJ26BO4uXCbqJBOOYjLRERKqhdQxej3uu/3s0d9A656fM50GdbfqpU7OQig3PEjusj7R/0xeto3PuM8MPQpJveQYATxU4JunL0CF+9Sc=","MsgSignature":"df9f835531978cad24beff4c7c78029ec8d3ce06","TimeStamp":"16000477","Nonce":"160009788297882"}
+  --> POST /?signature=95a8f92487215543ac143a59c7a6412d03db8266&timestamp=1600097877&nonce=807314776&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=1a0a25c37264cd1ceb24ce89e702f05a8e186e85 200 2ms 421b
+  <-- POST /?signature=3b29360be5424c19fa8bb8938f808feb692f63fd&timestamp=1600097885&nonce=532337568&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=1784fee0527ef60c0e839f988d63b2b45bd3ce5d
+  xxx POST /?signature=3b29360be5424c19fa8bb8938f808feb692f63fd&timestamp=1600097885&nonce=532337568&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=1784fee0527ef60c0e839f988d63b2b45bd3ce5d 400 5,002ms -
+  <-- POST /?signature=3b29360be5424c19fa8bb8938f808feb692f63fd&timestamp=1600097885&nonce=532337568&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=1784fee0527ef60c0e839f988d63b2b45bd3ce5d
+{"ToUserName":"gh_5907ea276845","Encrypt":"OYea1QoRudJvd5Dr1eqPl/orrefGWh9mEthdJjpZaHxKRHUeQd0mYb6iB8LEH8VOvvZ/LqYST1nWmE4AcLBPb40vPS/xJ6AEhL5ltgld2YzBCzk35y3DdNJyovNhRV5MzBjBZEotWaRdOxPze4APAvBh8lZS9Fw3akk5gJ9rEpg0RNJ9r3u0FR3AaMgHf0YVdmEc02kknSkaaU4pFgF1vrhtt6RAQ/IqlYgh5+GZXCY8n2DnujkYXdiL6CvETJVwdXeHfbFQFnG/w6yotTXUE7a5CS2JPhPumGlpIqwzV48="}
+{
+"ToUserName": "gh_5907ea276845",
+"FromUserName": "oD5b_43kHtJU_zWJkE6fEggLVebI",
+"CreateTime": 1600097885,
+"MsgType": "text",
+"Content": "喵",
+"MsgId": 22907895148016630
+}
+
+{
+  touser: 'oD5b_43kHtJU_zWJkE6fEggLVebI',
+  msgtype: 'text',
+  text: { content: '你好呀~喵巫在哦(ฅ´ω`ฅ)' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  touser: 'oD5b_43kHtJU_zWJkE6fEggLVebI',
+  msgtype: 'text',
+  text: { content: '预约塔罗师1对1占卜解惑，长按识别下方图片添加老师微信哦~' }
+}
+{ errcode: 0, errmsg: 'ok' }
+{
+  data: {
+    type: 'image',
+    media_id: 'QaQorCa29LsdCu14t7Qe-X-oozsPfGoamS9IE3H5AKEq2BbnnIDyQb0ost-_HCX_',
+    created_at: 1600097891,
+    item: []
+  },
+  status: 0,
+  message: 'ok'
+}
+{
+  touser: 'oD5b_43kHtJU_zWJkE6fEggLVebI',
+  msgtype: 'image',
+  image: {
+    media_id: 'QaQorCa29LsdCu14t7Qe-X-oozsPfGoamS9IE3H5AKEq2BbnnIDyQb0ost-_HCX_'
+  }
+}
+{ errcode: 0, errmsg: 'ok' }
+回复的内容是: {"ToUserName":"oD5b_43kHtJU_zWJkE6fEggLVebI","FromUserName":"gh_5907ea276845","CreateTime":1600097891,"MsgType":"transfer_customer_service","Content":"","MsgId":22907895148016630}
+{"Encrypt":"MOZIUk04R6AcW0IXZtMgS71/Vrve8r7JTp7fQsF2pPNMxRii9532UvBR9SJ0uSnQRiJTfDBBUZM8RjEEQ8CHT+l1eronumCQ4kZyCcc2oIfR0LNEIHjDMnrY9+mOqklWt7mPMgxbfnrBDWz3bXftuE6sZF8cW9OLHqgFtaE69VW6eAHN6jr6gSCavOmYVopcHkud1i6ewujLFHMTenhmDDf98uF8BMOGKUhwO/ke/ELHtcSGMBZn1kiKlDlbeDJV2mDOzYPWOU+qsPnxLN6hSJK81CNaRUYkZ+CDIZiQ2a0=","MsgSignature":"4151fdcb3474592c49a8c2a2411f360b90e200ad","TimeStamp":"16000497","Nonce":"160009789197891"}
+  --> POST /?signature=3b29360be5424c19fa8bb8938f808feb692f63fd&timestamp=1600097885&nonce=532337568&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=1784fee0527ef60c0e839f988d63b2b45bd3ce5d 200 1,196ms 421b
+  <-- POST /?signature=eac2ab7960192232dd901f33992a1d2a153e23d4&timestamp=1600097911&nonce=2076494053&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=296050b31341022989a272111acd24c3b0c810e9
+  xxx POST /?signature=eac2ab7960192232dd901f33992a1d2a153e23d4&timestamp=1600097911&nonce=2076494053&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=296050b31341022989a272111acd24c3b0c810e9 400 5,001ms -
+  <-- POST /?signature=eac2ab7960192232dd901f33992a1d2a153e23d4&timestamp=1600097911&nonce=2076494053&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=296050b31341022989a272111acd24c3b0c810e9
+{"ToUserName":"gh_5907ea276845","Encrypt":"iQTx2zQlOgZMHmUqGT+b+eK81eXPQZl2ngxXndA67lPNoCdDMzQBt6FfLV0d2VWDcu380OEZrucXZBP+aDAkvChyvACEJPFtFk8E6cpaqxYb8J4Pvb3Zi2hClQuk5Nb2lAT3JT5hSoR9W5TCCMOVDgr7D3V5eCc6jwFxGAdRMSjlmVuqJ8JcdriIvufvmSGl18ZNXFtEc1xKtRR7lQzNv6JkFwXCwpKn32vxbCUm03tOPIjwhtC0S+vyqR5RanHQrl2wrErRjEuaGUHgFzV2duXmQyyZPCSTPuU7CDRWFuI="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_43kHtJU_zWJkE6fEggLVebI","CreateTime":1600097911,"MsgType":"event","Event":"kf_create_session","KfAccount":"kf2003@gh_5907ea276845"}
+回复的内容是: {"ToUserName":"oD5b_43kHtJU_zWJkE6fEggLVebI","FromUserName":"gh_5907ea276845","CreateTime":1600097917,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"SMH69nhzLGRjvTFvsic+cf9VqExZq9BEYiX6FG/64Ur2CXdWJvttBz5ydwnVIpjWtv1BZy8iqzdpF4yhJ1GuYSzU6aG2El1xgVgOogRBpJU6o1XPUuhCBVvjqeQUfvjUCYzOe8MlWWjTGaKBD3nDMo08KghEfvz05BaPqOUMC16Yw8bbcgy4lGPuICu7EcjAJmgCq/sHWjvH9E0GSApMyoyMwJUttimaR8mnf4BBKtTos0z2vVKGM8BIjbqicRQ11LV9JvgRF5RMQdK28ffy0yhM3MVZMHR/8adMUkDRqx8=","MsgSignature":"b825818c1c205ee2f43d68d41701b1337f45453d","TimeStamp":"16000220","Nonce":"160009791697916"}
+  --> POST /?signature=eac2ab7960192232dd901f33992a1d2a153e23d4&timestamp=1600097911&nonce=2076494053&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=296050b31341022989a272111acd24c3b0c810e9 200 2ms 421b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,486ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  xxx POST /buildOrder 400 120s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  <-- POST /?signature=2b07bcf291efd69feb812ff4b496ead0e43a9559&timestamp=1600099711&nonce=1367227658&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=794e5927a22fe7fdaa33bab832ff6bb3725873f3
+  xxx POST /buildOrder 400 16s -
+  xxx POST /?signature=2b07bcf291efd69feb812ff4b496ead0e43a9559&timestamp=1600099711&nonce=1367227658&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=794e5927a22fe7fdaa33bab832ff6bb3725873f3 400 5,004ms -
+  <-- POST /?signature=2b07bcf291efd69feb812ff4b496ead0e43a9559&timestamp=1600099711&nonce=1367227658&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=794e5927a22fe7fdaa33bab832ff6bb3725873f3
+{"ToUserName":"gh_5907ea276845","Encrypt":"uyZOh63zTleFQWoHNkeWQJe+lelu0GoCsCWgj+yHmCdUkcnphleC76RGVaxOsuXH3ED8MoGsKB+xChtbXmIHB4N7l4RESgUSi/M2u0aX4d5Qhop7XqxbvpaSUIzMTr3zjK+wKNXAa7EImW+SMusK3kwsFfoKh+hQuhd6M1mEeL4O16JL1k9I0s0S4uuWGGW5apCn/1l0ui2vsWqsD9KWF8C/Q0a+2QLHdSy41GRjQwxoqom4xh+rg8m8xB0V0nfvIOvai+bHM5W0lxgDTFowJgZevv6hJVaB7o3OSCd4KVUJrmHr5cV0QgoZ0L4ePehIFkamVg34W8bXPVe9ru8R2A=="}
+{"ToUserName":"gh_5907ea276845","FromUserName":"oD5b_43kHtJU_zWJkE6fEggLVebI","CreateTime":1600099711,"MsgType":"event","Event":"kf_close_session","KfAccount":"kf2003@gh_5907ea276845","CloseType":"TIMEOUT"}
+回复的内容是: {"ToUserName":"oD5b_43kHtJU_zWJkE6fEggLVebI","FromUserName":"gh_5907ea276845","CreateTime":1600099717,"MsgType":"transfer_customer_service","Content":"","MsgId":null}
+{"Encrypt":"+2T858k0+K7gjTjivO+mivYH0uXWQt04twVXe+uEylGQ7896V794kRxNyelxhD9QJ/GHMHxK81fSvcOz9KuMguRbujqvPE1Ok6fAGKC/XvyXtKWFZeWGVfd4tlrQAy/xBCqXs1l7lUf25PUyzyVksJ6qzJQvrRdr/H3Gy/9RiVY9/1oTxTv6jrz8i5yUQ72I72NITGY26D5x9prYuSElfxCtvWzrQi5ybH6YfOPyTLlXjGGV+bL+mWLsHLt4vjSJXqqsMPN3KNXZkxr9XIZBAQfrpgqYlj2Yu/C/BSeoeyE=","MsgSignature":"97d4c39eec79db62986255dd9c66e457a1f2b1bd","TimeStamp":"16000418","Nonce":"160009971699716"}
+  --> POST /?signature=2b07bcf291efd69feb812ff4b496ead0e43a9559&timestamp=1600099711&nonce=1367227658&openid=oD5b_43kHtJU_zWJkE6fEggLVebI&encrypt_type=aes&msg_signature=794e5927a22fe7fdaa33bab832ff6bb3725873f3 200 2ms 421b
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,033ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,408ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,844ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,446ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,111ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- GET /
+  --> GET / 200 2ms 36b
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,166ms -
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,246ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  xxx POST /buildOrder 400 28s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,869ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,072ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,321ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,087ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 31s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,164ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 26s -
+  xxx POST /buildOrder 400 14s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  xxx POST /buildOrder 400 3,040ms -
+  xxx POST /buildOrder 400 19s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 5,033ms -
+  xxx POST /buildOrder 400 15s -
+  xxx POST /buildOrder 400 26s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,019ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,873ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,496ms -
+  xxx POST /buildOrder 400 11s -
+  xxx POST /buildOrder 400 13s -
+  xxx POST /buildOrder 400 17s -
+  xxx POST /buildOrder 400 24s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 6,789ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,640ms -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,139ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 18s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,523ms -
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  xxx POST /buildOrder 400 3,189ms -
+Your application is Listening on port 3002
+  <-- GET /
+  --> GET / 200 12ms 36b
+  <-- POST /buildOrder
+  <-- GET /
+  --> GET / 200 2ms 36b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  xxx POST /buildOrder 400 28s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 26s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 8,993ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 20s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 25s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 4,507ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 13s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 1,776ms -
+  <-- GET /
+  --> GET / 200 1ms 36b
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 7,154ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,360ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 17s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 15s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 10s -
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 9,833ms -
+  xxx POST /buildOrder 400 29s -
+  xxx POST /buildOrder 400 23s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 30s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 22s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 120s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 16s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 11s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 5,515ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 2,865ms -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 27s -
+  xxx POST /buildOrder 400 12s -
+  <-- POST /buildOrder
+  xxx POST /buildOrder 400 21s -

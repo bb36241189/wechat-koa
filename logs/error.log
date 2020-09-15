@@ -25107,3 +25107,1313 @@
     at randomBytes (internal/crypto/random.js:54:31)
     at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
     at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at /root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:89:13
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at sendWxPic (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:66:16)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at update (/root/work/simpleCode/research/node/koa/wechat-koa/app/utils/access-token.js:6:20)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at /root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:89:13
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at sendWxPic (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:66:16)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at update (/root/work/simpleCode/research/node/koa/wechat-koa/app/utils/access-token.js:6:20)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at /root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:89:13
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at sendWxPic (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:66:16)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at update (/root/work/simpleCode/research/node/koa/wechat-koa/app/utils/access-token.js:6:20)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at /root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:89:13
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at sendWxPic (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:66:16)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at update (/root/work/simpleCode/research/node/koa/wechat-koa/app/utils/access-token.js:6:20)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at /root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:89:13
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at sendWxPic (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:66:16)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at update (/root/work/simpleCode/research/node/koa/wechat-koa/app/utils/access-token.js:6:20)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:61:12
+    at /root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:89:13
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at nodeRNG (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/lib/rng.js:7:17)
+    at v4 (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_uuid@3.4.0@uuid/v4.js:13:52)
+    at Multipart (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/lib/multipart.js:10:19)
+    at Request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/request.js:124:21)
+    at request (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_request@2.88.2@request/index.js:53:10)
+    at sendWxPic (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/customerServiceMessage.js:66:16)
+{ errcode: 0, errmsg: 'ok' }
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+(node:4654) WARNING: Detected use of sync API
+    at randomBytes (internal/crypto/random.js:54:31)
+    at encrypt (/root/work/simpleCode/research/node/koa/wechat-koa/app/middleware/wxBizMsgCrypt.js:17:27)
+    at module.exports (/root/work/simpleCode/research/node/koa/wechat-koa/app/service/handler-reply.js:117:30)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+(node:11338) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at Module._findPath (internal/modules/cjs/loader.js:520:20)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at loadModule (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_negotiator@0.6.2@negotiator/index.js:108:16)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at Module._findPath (internal/modules/cjs/loader.js:520:20)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at loadModule (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_negotiator@0.6.2@negotiator/index.js:108:16)
+(node:11338) WARNING: Detected use of sync API
+    at openSync (fs.js:437:26)
+    at readFileSync (fs.js:342:35)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at loadModule (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_negotiator@0.6.2@negotiator/index.js:108:16)
+(node:11338) WARNING: Detected use of sync API
+    at tryStatSync (fs.js:304:25)
+    at readFileSync (fs.js:344:17)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at loadModule (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_negotiator@0.6.2@negotiator/index.js:108:16)
+(node:11338) WARNING: Detected use of sync API
+    at readSync (fs.js:504:26)
+    at tryReadSync (fs.js:331:20)
+    at readFileSync (fs.js:360:19)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at closeSync (fs.js:401:11)
+    at closeSync (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:74:20)
+    at readFileSync (fs.js:377:8)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at tryPackage (internal/modules/cjs/loader.js:286:12)
+    at Module._findPath (internal/modules/cjs/loader.js:528:18)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at tryPackage (internal/modules/cjs/loader.js:286:12)
+    at Module._findPath (internal/modules/cjs/loader.js:528:18)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at openSync (fs.js:437:26)
+    at readFileSync (fs.js:342:35)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at getCodec (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/lib/index.js:65:27)
+(node:11338) WARNING: Detected use of sync API
+    at tryStatSync (fs.js:304:25)
+    at readFileSync (fs.js:344:17)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at getCodec (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/lib/index.js:65:27)
+(node:11338) WARNING: Detected use of sync API
+    at readSync (fs.js:504:26)
+    at tryReadSync (fs.js:331:20)
+    at readFileSync (fs.js:360:19)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at closeSync (fs.js:401:11)
+    at closeSync (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:74:20)
+    at readFileSync (fs.js:377:8)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at Module._findPath (internal/modules/cjs/loader.js:520:20)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:6:5
+(node:11338) WARNING: Detected use of sync API
+    at openSync (fs.js:437:26)
+    at readFileSync (fs.js:342:35)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:6:5
+(node:11338) WARNING: Detected use of sync API
+    at tryStatSync (fs.js:304:25)
+    at readFileSync (fs.js:344:17)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:6:5
+(node:11338) WARNING: Detected use of sync API
+    at readSync (fs.js:504:26)
+    at tryReadSync (fs.js:331:20)
+    at readFileSync (fs.js:360:19)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at closeSync (fs.js:401:11)
+    at closeSync (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:74:20)
+    at readFileSync (fs.js:377:8)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at Module._findPath (internal/modules/cjs/loader.js:520:20)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:7:5
+(node:11338) WARNING: Detected use of sync API
+    at openSync (fs.js:437:26)
+    at readFileSync (fs.js:342:35)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:7:5
+(node:11338) WARNING: Detected use of sync API
+    at tryStatSync (fs.js:304:25)
+    at readFileSync (fs.js:344:17)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:7:5
+(node:11338) WARNING: Detected use of sync API
+    at readSync (fs.js:504:26)
+    at tryReadSync (fs.js:331:20)
+    at readFileSync (fs.js:360:19)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at closeSync (fs.js:401:11)
+    at closeSync (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:74:20)
+    at readFileSync (fs.js:377:8)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at Module._findPath (internal/modules/cjs/loader.js:520:20)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:8:5
+(node:11338) WARNING: Detected use of sync API
+    at openSync (fs.js:437:26)
+    at readFileSync (fs.js:342:35)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:8:5
+(node:11338) WARNING: Detected use of sync API
+    at tryStatSync (fs.js:304:25)
+    at readFileSync (fs.js:344:17)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:8:5
+(node:11338) WARNING: Detected use of sync API
+    at readSync (fs.js:504:26)
+    at tryReadSync (fs.js:331:20)
+    at readFileSync (fs.js:360:19)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at closeSync (fs.js:401:11)
+    at closeSync (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:74:20)
+    at readFileSync (fs.js:377:8)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at Module._findPath (internal/modules/cjs/loader.js:520:20)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:9:5
+(node:11338) WARNING: Detected use of sync API
+    at openSync (fs.js:437:26)
+    at readFileSync (fs.js:342:35)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:9:5
+(node:11338) WARNING: Detected use of sync API
+    at tryStatSync (fs.js:304:25)
+    at readFileSync (fs.js:344:17)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:9:5
+(node:11338) WARNING: Detected use of sync API
+    at readSync (fs.js:504:26)
+    at tryReadSync (fs.js:331:20)
+    at readFileSync (fs.js:360:19)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at closeSync (fs.js:401:11)
+    at closeSync (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:74:20)
+    at readFileSync (fs.js:377:8)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at Module._findPath (internal/modules/cjs/loader.js:520:20)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:10:5
+(node:11338) WARNING: Detected use of sync API
+    at openSync (fs.js:437:26)
+    at readFileSync (fs.js:342:35)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:10:5
+(node:11338) WARNING: Detected use of sync API
+    at tryStatSync (fs.js:304:25)
+    at readFileSync (fs.js:344:17)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:10:5
+(node:11338) WARNING: Detected use of sync API
+    at readSync (fs.js:504:26)
+    at tryReadSync (fs.js:331:20)
+    at readFileSync (fs.js:360:19)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at closeSync (fs.js:401:11)
+    at closeSync (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:74:20)
+    at readFileSync (fs.js:377:8)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at Module._findPath (internal/modules/cjs/loader.js:520:20)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:11:5
+(node:11338) WARNING: Detected use of sync API
+    at openSync (fs.js:437:26)
+    at readFileSync (fs.js:342:35)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:11:5
+(node:11338) WARNING: Detected use of sync API
+    at tryStatSync (fs.js:304:25)
+    at readFileSync (fs.js:344:17)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:11:5
+(node:11338) WARNING: Detected use of sync API
+    at readSync (fs.js:504:26)
+    at tryReadSync (fs.js:331:20)
+    at readFileSync (fs.js:360:19)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at closeSync (fs.js:401:11)
+    at closeSync (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:74:20)
+    at readFileSync (fs.js:377:8)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at Module._findPath (internal/modules/cjs/loader.js:520:20)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:12:5
+(node:11338) WARNING: Detected use of sync API
+    at openSync (fs.js:437:26)
+    at readFileSync (fs.js:342:35)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:12:5
+(node:11338) WARNING: Detected use of sync API
+    at tryStatSync (fs.js:304:25)
+    at readFileSync (fs.js:344:17)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:12:5
+(node:11338) WARNING: Detected use of sync API
+    at readSync (fs.js:504:26)
+    at tryReadSync (fs.js:331:20)
+    at readFileSync (fs.js:360:19)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at closeSync (fs.js:401:11)
+    at closeSync (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:74:20)
+    at readFileSync (fs.js:377:8)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at realpathSync (fs.js:1528:29)
+    at toRealPath (internal/modules/cjs/loader.js:337:13)
+    at tryFile (internal/modules/cjs/loader.js:333:22)
+    at tryExtensions (internal/modules/cjs/loader.js:345:22)
+    at Module._findPath (internal/modules/cjs/loader.js:520:20)
+    at Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:13:5
+(node:11338) WARNING: Detected use of sync API
+    at openSync (fs.js:437:26)
+    at readFileSync (fs.js:342:35)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:13:5
+(node:11338) WARNING: Detected use of sync API
+    at tryStatSync (fs.js:304:25)
+    at readFileSync (fs.js:344:17)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_iconv-lite@0.4.24@iconv-lite/encodings/index.js:13:5
+(node:11338) WARNING: Detected use of sync API
+    at readSync (fs.js:504:26)
+    at tryReadSync (fs.js:331:20)
+    at readFileSync (fs.js:360:19)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+(node:11338) WARNING: Detected use of sync API
+    at closeSync (fs.js:401:11)
+    at closeSync (/root/work/simpleCode/research/node/koa/wechat-koa/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:74:20)
+    at readFileSync (fs.js:377:8)
+    at Module._extensions..js (internal/modules/cjs/loader.js:990:22)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:74:18)
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
+
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:200:27)
+
